@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/aura/static/css/main.2cce8147.chunk.css",
-    "main.js": "/aura/static/js/main.023ddc00.chunk.js",
-    "main.js.map": "/aura/static/js/main.023ddc00.chunk.js.map",
+    "main.css": "/aura/static/css/main.6b4bcd4c.chunk.css",
+    "main.js": "/aura/static/js/main.f80c6447.chunk.js",
+    "main.js.map": "/aura/static/js/main.f80c6447.chunk.js.map",
     "runtime~main.js": "/aura/static/js/runtime~main.5b5ad949.js",
     "runtime~main.js.map": "/aura/static/js/runtime~main.5b5ad949.js.map",
-    "static/js/2.b41502e9.chunk.js": "/aura/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/aura/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.13ababfe.chunk.js": "/aura/static/js/2.13ababfe.chunk.js",
+    "static/js/2.13ababfe.chunk.js.map": "/aura/static/js/2.13ababfe.chunk.js.map",
     "index.html": "/aura/index.html",
-    "precache-manifest.83e14cedd74c138eb01f4e3a3c0bf28c.js": "/aura/precache-manifest.83e14cedd74c138eb01f4e3a3c0bf28c.js",
+    "precache-manifest.2628e9eaaeae833f0698f13a8b46aac6.js": "/aura/precache-manifest.2628e9eaaeae833f0698f13a8b46aac6.js",
     "service-worker.js": "/aura/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/aura/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/aura/static/media/logo.5d5d9eef.svg"
+    "static/css/main.6b4bcd4c.chunk.css.map": "/aura/static/css/main.6b4bcd4c.chunk.css.map",
+    "static/media/fb.svg": "/aura/static/media/fb.8636de95.svg",
+    "static/media/ig.svg": "/aura/static/media/ig.cc5e92b0.svg",
+    "static/media/viber.svg": "/aura/static/media/viber.708888ea.svg",
+    "static/media/yt.svg": "/aura/static/media/yt.00c96fb0.svg"
   }
 }
