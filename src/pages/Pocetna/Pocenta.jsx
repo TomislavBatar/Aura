@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import TopNav from '../../components/TopNav/TopNav';
 
 export default class Pocenta extends Component {
 	render() {
 		return (
-			<div>
-				<p>Početna</p>
-			</div>
+			<React.Fragment>
+				<TopNav />
+			</React.Fragment>
 		);
 	}
 }
