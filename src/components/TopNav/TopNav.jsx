@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Container, InputGroup, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Container } from 'react-bootstrap';
 import './TopNav.css';
 
 import ViberIcon from './imgTopNav/viber.svg';
