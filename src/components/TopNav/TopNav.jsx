@@ -33,7 +33,7 @@ export default class TopNav extends Component {
 							<a
 								target="_blank"
 								href="https://www.youtube.com/channel/UC22Sjor-ktC_H0dkK7THsNg"
-								className="mr-0"
+								className=""
 							>
 								<img src={YtIcon} height="20" alt="yt icon" />
 							</a>
