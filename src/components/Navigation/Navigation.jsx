@@ -21,7 +21,7 @@ export default class Navigation extends Component {
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav className="mr-auto">
-								<Nav.Link className="NavigationLinks pl-0" href="#1">
+								<Nav.Link className="NavigationLinks " href="#1">
 									Početna
 								</Nav.Link>
 								<Nav.Link className="NavigationLinks" href="#2">
@@ -55,7 +55,7 @@ export default class Navigation extends Component {
 								<Nav.Link className="NavigationLinks" href="#8">
 									Kontakt
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks pr-0" href="#9">
+								<Nav.Link className="NavigationLinks" href="#9">
 									<img src={SearchImg} className="searchIcon" alt="search" />
 								</Nav.Link>
 							</Nav>
