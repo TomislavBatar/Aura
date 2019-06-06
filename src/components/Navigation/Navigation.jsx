@@ -3,12 +3,13 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import './Navigation.css';
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
+import SearchImg from './imgNavigation/search.svg';
 export default class Navigation extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar sticky="top" className="Navigation" expand="lg">
-					<Container>
+				<Navbar sticky="top" className="Navigation navbar-height" expand="lg">
+					<Container className="pr-0 pl-0">
 						<Navbar.Brand href="#home" className="sm-logo-media">
 							<img
 								src={AuraLogo}
@@ -20,34 +21,42 @@ export default class Navigation extends Component {
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav className="mr-auto">
-								<Nav.Link className="NavigationLinks" href="#home">
+								<Nav.Link className="NavigationLinks pl-0" href="#1">
 									Početna
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#features">
+								<Nav.Link className="NavigationLinks" href="#2">
 									Proizvodi
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#pricing">
+								<Nav.Link className="NavigationLinks" href="#3">
 									Prijava štete
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#pricing">
+								<Nav.Link className="NavigationLinks" href="#4">
 									Online polisa
 								</Nav.Link>
 							</Nav>
 							<Navbar.Brand href="#home" className="lg-logo-media">
-								<img className="d-inline-block AuraLogoLgSvg" src={AuraLogoLg} height="145" alt="React Bootstrap logo" />
+								<img
+									className="d-inline-block AuraLogoLgSvg"
+									src={AuraLogoLg}
+									height="145"
+									alt="React Bootstrap logo"
+								/>
 							</Navbar.Brand>
 							<Nav className="ml-auto">
-								<Nav.Link className="NavigationLinks" href="#home">
+								<Nav.Link className="NavigationLinks" href="#5">
 									O nama
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#features">
+								<Nav.Link className="NavigationLinks" href="#6">
 									Poslovnice
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#pricing">
+								<Nav.Link className="NavigationLinks" href="#7">
 									Vijesti
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#pricing">
+								<Nav.Link className="NavigationLinks" href="#8">
 									Kontakt
+								</Nav.Link>
+								<Nav.Link className="NavigationLinks pr-0" href="#9">
+									<img src={SearchImg} className="searchIcon" alt="search" />
 								</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
