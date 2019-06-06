@@ -22,7 +22,7 @@
 		max-height: 100px;
 	}
 }
-
+/* izmjena bootstrapa */
 @media (min-width: 992px) {
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 18px;

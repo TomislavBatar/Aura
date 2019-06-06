@@ -20,11 +20,17 @@ export default class TopNav extends Component {
 							<span className="textTopNavLeft">*Besplatni info telefon</span>
 						</Navbar.Text>
 						<Navbar.Text className="textTopNavRight" inline>
-							<a target="_blank" href="https://www.facebook.com/osiguranjeaura/" className="mr-5">
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href="https://www.facebook.com/osiguranjeaura/"
+								className="mr-5"
+							>
 								<img src={FbIcon} height="20" alt="fb icon" />
 							</a>
 							<a
 								target="_blank"
+								rel="noopener noreferrer"
 								href="https://www.instagram.com/osiguranje_aura_official/"
 								className="mr-5"
 							>
@@ -32,6 +38,7 @@ export default class TopNav extends Component {
 							</a>
 							<a
 								target="_blank"
+								rel="noopener noreferrer"
 								href="https://www.youtube.com/channel/UC22Sjor-ktC_H0dkK7THsNg"
 								className=""
 							>

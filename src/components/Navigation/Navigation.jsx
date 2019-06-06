@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import SearchModal from '../../components/SearchModal/SearchModal';
 import './Navigation.css';
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
-import SearchImg from './imgNavigation/search.svg';
 export default class Navigation extends Component {
 	render() {
 		return (
@@ -55,9 +55,7 @@ export default class Navigation extends Component {
 								<Nav.Link className="NavigationLinks" href="#8">
 									Kontakt
 								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#9">
-									<img src={SearchImg} className="searchIcon" alt="search" />
-								</Nav.Link>
+								<SearchModal />
 							</Nav>
 						</Navbar.Collapse>
 					</Container>
