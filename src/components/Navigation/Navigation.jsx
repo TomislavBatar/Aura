@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import SearchModal from '../../components/SearchModal/SearchModal';
 import './Navigation.css';
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
@@ -10,31 +11,33 @@ export default class Navigation extends Component {
 			<React.Fragment>
 				<Navbar sticky="top" className="Navigation navbar-height" expand="lg">
 					<Container className="pr-0 pl-0">
-						<Navbar.Brand href="#home" className="sm-logo-media">
+						<Navbar.Brand href="/" className="sm-logo-media">
 							<img
 								src={AuraLogo}
 								height="45"
 								className="d-inline-block align-top"
-								alt="React Bootstrap logo"
+								alt="Aura Osiguranje logo"
 							/>
 						</Navbar.Brand>
+
 						<Navbar.Toggle aria-controls="basic-navbar-nav" />
 						<Navbar.Collapse id="basic-navbar-nav">
 							<Nav className="mr-auto">
-								<Nav.Link className="NavigationLinks " href="#1">
-									Početna
-								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#2">
-									Proizvodi
-								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#3">
-									Prijava štete
-								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#4">
-									Online polisa
-								</Nav.Link>
+								<LinkContainer exact to="/">
+									<Nav.Link className="NavigationLinks">Početna</Nav.Link>
+								</LinkContainer>
+								<LinkContainer to="/proizvodi">
+									<Nav.Link className="NavigationLinks">Proizvodi</Nav.Link>
+								</LinkContainer>
+								<LinkContainer to="/prijava-stete">
+									<Nav.Link className="NavigationLinks">Prijava štete</Nav.Link>
+								</LinkContainer>
+								<LinkContainer to="/online-polisa">
+									<Nav.Link className="NavigationLinks">Online polisa</Nav.Link>
+								</LinkContainer>
 							</Nav>
-							<Navbar.Brand href="#home" className="lg-logo-media">
+
+							<Navbar.Brand href="/" className="lg-logo-media">
 								<img
 									className="d-inline-block AuraLogoLgSvg"
 									src={AuraLogoLg}
@@ -42,19 +45,20 @@ export default class Navigation extends Component {
 									alt="React Bootstrap logo"
 								/>
 							</Navbar.Brand>
+
 							<Nav className="ml-auto">
-								<Nav.Link className="NavigationLinks" href="#5">
-									O nama
-								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#6">
-									Poslovnice
-								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#7">
-									Vijesti
-								</Nav.Link>
-								<Nav.Link className="NavigationLinks" href="#8">
-									Kontakt
-								</Nav.Link>
+								<LinkContainer to="/o-nama">
+									<Nav.Link className="NavigationLinks">O nama</Nav.Link>
+								</LinkContainer>
+								<LinkContainer to="/poslovnice">
+									<Nav.Link className="NavigationLinks">Poslovnice</Nav.Link>
+								</LinkContainer>
+								<LinkContainer to="/vijesti">
+									<Nav.Link className="NavigationLinks">Vijesti</Nav.Link>
+								</LinkContainer>
+								<LinkContainer to="/kontakt">
+									<Nav.Link className="NavigationLinks">Kontakt</Nav.Link>
+								</LinkContainer>
 								<SearchModal />
 							</Nav>
 						</Navbar.Collapse>
