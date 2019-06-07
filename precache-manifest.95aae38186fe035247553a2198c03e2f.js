@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "950ccf2a92c9ed243e2e92ed1d98940a",
+    "revision": "d7564f016a8addcd42dd327552913196",
     "url": "/aura/index.html"
   },
   {
-    "revision": "327fad75bff91da5f1e7",
-    "url": "/aura/static/css/main.7f729112.chunk.css"
+    "revision": "7a761f7b0667278a880e",
+    "url": "/aura/static/css/main.f8885cf6.chunk.css"
   },
   {
-    "revision": "67c84d353ca5b361ff80",
-    "url": "/aura/static/js/2.9602089f.chunk.js"
+    "revision": "4348c3c509f5e7756140",
+    "url": "/aura/static/js/2.485bf43d.chunk.js"
   },
   {
-    "revision": "327fad75bff91da5f1e7",
-    "url": "/aura/static/js/main.a11ada61.chunk.js"
+    "revision": "7a761f7b0667278a880e",
+    "url": "/aura/static/js/main.a5d81524.chunk.js"
   },
   {
     "revision": "16149dacf6810533958d",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3077ff468fc213a6c681545c8d7393ed",
     "url": "/aura/static/media/logo-aura-osiguranje.3077ff46.svg"
+  },
+  {
+    "revision": "a1cd80651e2dd63eb80f0c28fcca4e76",
+    "url": "/aura/static/media/open.a1cd8065.svg"
   },
   {
     "revision": "bfea3f497c3d9434b49b75c9414a7bc5",
