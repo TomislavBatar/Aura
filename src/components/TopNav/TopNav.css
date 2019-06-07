@@ -22,3 +22,10 @@
 .telefonTopNav:hover {
 	text-decoration: none;
 }
+
+/* izmjena bootstrapa  */
+@media (max-width: 576px) {
+	.besplatniBroj {
+		display: none;
+	}
+}

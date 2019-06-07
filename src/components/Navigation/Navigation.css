@@ -1,10 +1,36 @@
-/*logo center and left */
-@media (min-width: 0px) and (max-width: 992px) {
-	.sm-logo-media {
-		display: block;
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
 	}
-	.lg-logo-media {
-		display: none;
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
 	}
 }
 
@@ -53,64 +79,63 @@
 .searchIcon {
 	height: 18px;
 }
-
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-	border-radius: 100px;
-
-	color: #fff;
-	background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
-	border-radius: 100px;
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
-	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-	color: #fff;
-	background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
-	border-radius: 100px;
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
-	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;
-}
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%;
+@media (min-width: 992px) {
+	.navbar-light .navbar-nav .active > .nav-link,
+	.navbar-light .navbar-nav .nav-link.active,
+	.navbar-light .navbar-nav .nav-link.show,
+	.navbar-light .navbar-nav .show > .nav-link {
+		border-radius: 100px;
+		color: #fff;
+		background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
+		border-radius: 100px;
+		background-size: 400% 400%;
+		-webkit-animation: Gradient 10s ease infinite;
+		-moz-animation: Gradient 10s ease infinite;
+		animation: Gradient 10s ease infinite;
 	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
+
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: #fff;
+		background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
+		border-radius: 100px;
+		background-size: 400% 400%;
+		-webkit-animation: Gradient 10s ease infinite;
+		-moz-animation: Gradient 10s ease infinite;
+		animation: Gradient 10s ease infinite;
 	}
 }
 
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%;
+/*logo center and left */
+@media (min-width: 0px) and (max-width: 992px) {
+	.sm-logo-media {
+		display: block;
 	}
-	50% {
-		background-position: 100% 50%;
+
+	.lg-logo-media {
+		display: none;
 	}
-	100% {
-		background-position: 0% 50%;
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		/* border-bottom: 1px solid #f5f5f5; */
 	}
 }
 
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%;
+@media (min-width: 0px) and (max-width: 992px) {
+	.sm-logo-media {
+		display: block;
 	}
-	50% {
-		background-position: 100% 50%;
+
+	.lg-logo-media {
+		display: none;
 	}
-	100% {
-		background-position: 0% 50%;
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		/* border-bottom: 1px solid #f5f5f5; */
 	}
 }

@@ -54,3 +54,10 @@
 		margin-top: 11.75rem;
 	}
 }
+
+/* izmjena bootstrapa  */
+@media (max-width: 576px) {
+	.ModalTopMargin {
+		margin-top: 100px;
+	}
+}
