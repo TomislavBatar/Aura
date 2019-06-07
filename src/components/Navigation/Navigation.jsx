@@ -20,8 +20,9 @@ export default class Navigation extends Component {
 							/>
 						</Navbar.Brand>
 
-						<Navbar.Toggle aria-controls="basic-navbar-nav" />
-						<Navbar.Collapse id="basic-navbar-nav">
+						<Navbar.Toggle aria-controls="basic-navbar-nav" aria-expanded="false" />
+						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
+							{/* aria-controls="basic-navbar-nav" aria-expanded="false" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon" */}
 							<Nav className="mr-auto">
 								<LinkContainer exact to="/">
 									<Nav.Link className="NavigationLinks">Početna</Nav.Link>
