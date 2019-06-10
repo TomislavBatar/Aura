@@ -6,6 +6,9 @@ import './Navigation.css';
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
 export default class Navigation extends Component {
+	state = {
+		otvoreno: true
+	};
 	render() {
 		return (
 			<React.Fragment>
@@ -20,7 +23,11 @@ export default class Navigation extends Component {
 							/>
 						</Navbar.Brand>
 
-						<Navbar.Toggle aria-controls="basic-navbar-nav" aria-expanded="false" />
+						<Navbar.Toggle
+							className={this.state.otvoreno ? 'openMenu' : 'closeMenu'}
+							onClick={() => this.setState({ otvoreno: !this.state.otvoreno })}
+						/>
+
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
 							<Nav className="mr-auto">
 								<LinkContainer exact to="/">
