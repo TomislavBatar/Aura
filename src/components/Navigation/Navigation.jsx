@@ -3,7 +3,11 @@ import { Navbar, Nav, Row, Col, Container, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import SearchModal from '../../components/SearchModal/SearchModal';
 import './Navigation.css';
-import Automobili from './imgNavigation/automobili.svg';
+import Automobili from './imgNavigation/automobili.png';
+import Imovina from './imgNavigation/imovina.png';
+import Putovanja from './imgNavigation/putovanja.png';
+import Ostalo from './imgNavigation/ostalo.png';
+
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
@@ -41,7 +45,7 @@ export default class Navigation extends Component {
 								<NavDropdown title="Pro" className="NavigationLinks" id="basic-nav-dropdown">
 									<div className="container">
 										<Row>
-											<Col className="	col-dropdown">
+											<Col className="col-dropdown">
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
 													<li className="li-dorpdown">
@@ -69,9 +73,108 @@ export default class Navigation extends Component {
 													</li>
 												</ul>
 											</Col>
-											<Col className="bg-info 	col-dropdown">2 of 3</Col>
-											<Col className="bg-primary 	col-dropdown">3 of 3</Col>
-											<Col className="bg-warning 	col-dropdown">2 of 2</Col>
+
+											{/* col 2 */}
+											<Col className="col-dropdown">
+												<h2 className="col-dropdown-title">Imovina</h2>
+												<ul className="list-unstyled">
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">
+															Osiguranje kuće ili stana
+														</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur
+														</p>
+													</li>
+
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">Osiguranje preduzetnika</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur
+														</p>
+													</li>
+													{/* to do izbrisati kasnije tacke  */}
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">
+															<span className="text-white">.</span>
+														</h3>
+														<p className="p-dropdown">
+															<span className="text-white">.</span>
+														</p>
+													</li>
+													<li className="li-dorpdown">
+														<img src={Imovina} height="141" alt="Automobili" />
+													</li>
+												</ul>
+											</Col>
+
+											{/* col 3 */}
+											<Col className="col-dropdown">
+												<h2 className="col-dropdown-title">Putovanja</h2>
+												<ul className="list-unstyled">
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">putno zdravstveno osig.</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur
+														</p>
+													</li>
+
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">
+															Osig. od otkaza putovanja
+														</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur
+														</p>
+													</li>
+													{/* to do izbrisati kasnije tacke  */}
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">
+															<span className="text-white">.</span>
+														</h3>
+														<p className="p-dropdown">
+															<span className="text-white">.</span>
+														</p>
+													</li>
+													<li className="li-dorpdown">
+														<img src={Putovanja} height="141" alt="Automobili" />
+													</li>
+												</ul>
+											</Col>
+
+											{/* col 4 */}
+											<Col className="col-dropdown">
+												<h2 className="col-dropdown-title">Ostalo</h2>
+												<ul className="list-unstyled">
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">
+															Osiguranje robe u transportu
+														</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur
+														</p>
+													</li>
+
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">osiguranje od nezgoda</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur
+														</p>
+													</li>
+													{/* to do izbrisati kasnije tacke  */}
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">
+															<span className="text-white">.</span>
+														</h3>
+														<p className="p-dropdown">
+															<span className="text-white">.</span>
+														</p>
+													</li>
+													<li className="li-dorpdown">
+														<img src={Ostalo} height="141" alt="Automobili" />
+													</li>
+												</ul>
+											</Col>
 										</Row>
 									</div>
 								</NavDropdown>
