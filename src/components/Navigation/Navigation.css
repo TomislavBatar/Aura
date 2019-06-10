@@ -120,6 +120,11 @@
 	.sm-logo-media {
 		display: block;
 	}
+	/* za tel dropdown */
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
 
 	.lg-logo-media {
 		display: none;
@@ -190,7 +195,7 @@
 	.nav-link.active .bgSpanSm {
 		color: #3d0338;
 		background: linear-gradient(#c7991900, #c7991900, #c7991900, #c7991900, #f7c742, #f7c742);
-		border-radius: 3px;
+		border-radius: 2px;
 	}
 
 	.navbar-light .navbar-nav .nav-link:hover {
@@ -212,9 +217,6 @@
 		font-family: "Ubuntu";
 		color: rgb(255, 255, 255);
 	}
-}
-
-@media (min-width: 993px) {
 }
 
 @keyframes spinning {
@@ -241,4 +243,84 @@
 	background-size: contain;
 	background-position: center;
 	animation: .5s spinning forwards;
+}
+
+/* adds some margin below the link sets  */
+/* .navbar .dropdown-menu div[class*="col"] {
+	margin-bottom: 1rem;
+} */
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+	/* remove the padding from the navbar so the dropdown hover state is not broken */
+	/* .navbar {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	} */
+
+	/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+	/* .navbar .nav-item {
+		padding: .5rem .5rem;
+		margin: 0 .25rem;
+	} */
+
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		/*  height of nav-item  */
+		top: 98px;
+	}
+
+	/* shows the dropdown menu on hover */
+
+	/* .navbar .dropdown:hover .dropdown-menu,
+	.navbar .dropdown .dropdown-menu:hover {
+		display: block !important;
+	} */
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-top: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown {
+		/* height: 500px; */
+		border-right: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 40px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu Medium";
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+	}
 }

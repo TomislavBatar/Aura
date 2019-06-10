@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Row, Col, Container, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import SearchModal from '../../components/SearchModal/SearchModal';
 import './Navigation.css';
+import Automobili from './imgNavigation/automobili.svg';
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
+
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
 export default class Navigation extends Component {
 	state = {
@@ -35,11 +37,47 @@ export default class Navigation extends Component {
 										<span className="bgSpanSm">Početna</span>
 									</Nav.Link>
 								</LinkContainer>
-								<LinkContainer to="/proizvodi">
-									<Nav.Link className="NavigationLinks">
-										<span className="bgSpanSm">Proizvodi</span>
-									</Nav.Link>
-								</LinkContainer>
+
+								<NavDropdown title="Pro" className="NavigationLinks" id="basic-nav-dropdown">
+									<div className="container">
+										<Row>
+											<Col className="	col-dropdown">
+												<h2 className="col-dropdown-title">Automobili</h2>
+												<ul className="list-unstyled">
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">Autoodgovornost</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur{' '}
+														</p>
+													</li>
+
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur{' '}
+														</p>
+													</li>
+
+													<li className="li-dorpdown">
+														<h3 className="sub-title-dropdown">Registracija na rate</h3>
+														<p className="p-dropdown">
+															Lorem ipsum dolor sit amet, consectetur{' '}
+														</p>
+													</li>
+													<li className="li-dorpdown">
+														<img src={Automobili} height="141" alt="Automobili" />
+													</li>
+												</ul>
+											</Col>
+											<Col className="bg-info 	col-dropdown">2 of 3</Col>
+											<Col className="bg-primary 	col-dropdown">3 of 3</Col>
+											<Col className="bg-warning 	col-dropdown">2 of 2</Col>
+										</Row>
+									</div>
+								</NavDropdown>
+
+								{/* <span className="bgSpanSm">Proizvodi</span> */}
+
 								<LinkContainer to="/prijava-stete">
 									<Nav.Link className="NavigationLinks">
 										<span className="bgSpanSm">Prijava štete</span>
