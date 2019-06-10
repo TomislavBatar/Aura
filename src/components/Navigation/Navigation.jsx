@@ -22,19 +22,26 @@ export default class Navigation extends Component {
 
 						<Navbar.Toggle aria-controls="basic-navbar-nav" aria-expanded="false" />
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
-							{/* aria-controls="basic-navbar-nav" aria-expanded="false" type="button" aria-label="Toggle navigation" class="navbar-toggler collapsed"><span class="navbar-toggler-icon" */}
 							<Nav className="mr-auto">
 								<LinkContainer exact to="/">
-									<Nav.Link className="NavigationLinks">Početna</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Početna</span>
+									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/proizvodi">
-									<Nav.Link className="NavigationLinks">Proizvodi</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Proizvodi</span>
+									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/prijava-stete">
-									<Nav.Link className="NavigationLinks">Prijava štete</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Prijava štete</span>
+									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/online-polisa">
-									<Nav.Link className="NavigationLinks">Online polisa</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Online polisa</span>
+									</Nav.Link>
 								</LinkContainer>
 							</Nav>
 
@@ -49,16 +56,24 @@ export default class Navigation extends Component {
 
 							<Nav className="ml-auto">
 								<LinkContainer to="/o-nama">
-									<Nav.Link className="NavigationLinks">O nama</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">O nama</span>
+									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/poslovnice">
-									<Nav.Link className="NavigationLinks">Poslovnice</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Poslovnice</span>
+									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/vijesti">
-									<Nav.Link className="NavigationLinks">Vijesti</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Vijesti</span>
+									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/kontakt">
-									<Nav.Link className="NavigationLinks">Kontakt</Nav.Link>
+									<Nav.Link className="NavigationLinks">
+										<span className="bgSpanSm">Kontakt</span>
+									</Nav.Link>
 								</LinkContainer>
 								<SearchModal />
 							</Nav>
