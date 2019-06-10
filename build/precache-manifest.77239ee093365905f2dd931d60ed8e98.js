@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7564f016a8addcd42dd327552913196",
+    "revision": "4095d31e5282e1e4dc42405bdb875d62",
     "url": "/aura/index.html"
   },
   {
-    "revision": "7a761f7b0667278a880e",
-    "url": "/aura/static/css/main.f8885cf6.chunk.css"
+    "revision": "53ab779e0c5c3ff07a17",
+    "url": "/aura/static/css/main.8eb81b86.chunk.css"
   },
   {
     "revision": "4348c3c509f5e7756140",
     "url": "/aura/static/js/2.485bf43d.chunk.js"
   },
   {
-    "revision": "7a761f7b0667278a880e",
-    "url": "/aura/static/js/main.a5d81524.chunk.js"
+    "revision": "53ab779e0c5c3ff07a17",
+    "url": "/aura/static/js/main.af788fb7.chunk.js"
   },
   {
     "revision": "16149dacf6810533958d",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f1fe09b8a41a223aacc4b41ca4c6a504",
     "url": "/aura/static/media/aura-logo-web.f1fe09b8.svg"
+  },
+  {
+    "revision": "21fc980d99390a5a0606e5f392940148",
+    "url": "/aura/static/media/close.21fc980d.svg"
   },
   {
     "revision": "8636de957977dedc67d4472a12cb9084",
