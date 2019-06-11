@@ -73,6 +73,7 @@
 	}
 	.lg-logo-media {
 		display: block;
+		z-index: 2;
 	}
 }
 
@@ -104,7 +105,21 @@
 		animation: Gradient 10s ease infinite;
 	}
 
+	.navbar-light .navbar-nav .nav-link {
+		transition: all .3s;
+	}
+
 	.navbar-light .navbar-nav .nav-link:hover {
+		color: #8f2086;
+		background: none;
+		border-radius: 100px;
+		background-size: 400% 400%;
+		-webkit-animation: Gradient 10s ease infinite;
+		-moz-animation: Gradient 10s ease infinite;
+		animation: Gradient 10s ease infinite;
+	}
+	.navbar-light .navbar-nav .nav-link:focus {
+		border-radius: 100px;
 		color: #fff;
 		background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
 		border-radius: 100px;
@@ -126,10 +141,6 @@
 		background-color: #fff !important;
 	}
 
-	.lg-logo-media {
-		display: none;
-	}
-
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
@@ -141,9 +152,11 @@
 		border: none !important;
 		outline: none !important;
 		outline-color: none !important;
-		padding-right: 0;
-		padding-left: 20px;
+		/* padding-right: 0;
+		padding-left: 20px; */
+		padding: 14px 0px;
 	}
+
 	.navbar-light .navbar-toggler:focus {
 		border: none !important;
 		outline: none !important;
@@ -236,6 +249,7 @@
 	background-size: contain;
 	background-position: center;
 	transition: all .05s;
+	height: 27px;
 }
 .closeMenu {
 	background-image: url(./imgNavigation/close.svg) !important;
@@ -243,6 +257,7 @@
 	background-size: contain;
 	background-position: center;
 	animation: .5s spinning forwards;
+	height: 27px;
 }
 
 /* adds some margin below the link sets  */
@@ -267,6 +282,7 @@
 	/* makes the dropdown full width  */
 	.navbar .dropdown {
 		position: static;
+		z-index: 1;
 	}
 
 	.navbar .dropdown-menu {
@@ -303,7 +319,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 40px 0px;
+		padding: 15px 0px 30px 0px;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -323,5 +339,8 @@
 
 	.li-dorpdown {
 		padding-bottom: 20px;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
 	}
 }

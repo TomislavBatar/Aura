@@ -44,7 +44,7 @@ export default class Navigation extends Component {
 
 								<NavDropdown title="Pro" className="NavigationLinks" id="basic-nav-dropdown">
 									<div className="container">
-										<Row>
+										<Row className="row-dropdown">
 											<Col className="col-dropdown">
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
