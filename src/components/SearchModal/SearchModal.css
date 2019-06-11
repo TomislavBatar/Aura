@@ -65,3 +65,6 @@
 .navbar-light .navbar-nav .nav-link.hoverSearchIcon:hover {
 	background: transparent !important;
 }
+.navbar-light .navbar-nav .nav-link.hoverSearchIcon:focus {
+	background: transparent !important;
+}

@@ -45,105 +45,130 @@ export default class Navigation extends Component {
 								<NavDropdown title="Pro" className="NavigationLinks" id="basic-nav-dropdown">
 									<div className="container">
 										<Row className="row-dropdown">
-											<Col className="col-dropdown">
+											<Col className="col-dropdown-border-right">
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">Autoodgovornost</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur{' '}
-														</p>
-													</li>
-
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur{' '}
-														</p>
-													</li>
-
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">Registracija na rate</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur{' '}
-														</p>
-													</li>
-													<li className="li-dorpdown">
-														<img src={Automobili} height="141" alt="Automobili" />
-													</li>
+													{/* TO DO add a page to="?" */}
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">Autoodgovornost</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur{' '}
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur{' '}
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">Registracija na rate</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur{' '}
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<img src={Automobili} height="141" alt="Automobili" />
+														</li>
+													</LinkContainer>
 												</ul>
 											</Col>
 
 											{/* col 2 */}
-											<Col className="col-dropdown">
+											<Col className="col-dropdown-border-right">
 												<h2 className="col-dropdown-title">Imovina</h2>
 												<ul className="list-unstyled">
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">
-															Osiguranje kuće ili stana
-														</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur
-														</p>
-													</li>
-
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">Osiguranje preduzetnika</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur
-														</p>
-													</li>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																Osiguranje kuće ili stana
+															</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																Osiguranje preduzetnika
+															</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur
+															</p>
+														</li>
+													</LinkContainer>
 													{/* to do izbrisati kasnije tacke  */}
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">
-															<span className="text-white">.</span>
-														</h3>
-														<p className="p-dropdown">
-															<span className="text-white">.</span>
-														</p>
-													</li>
-													<li className="li-dorpdown">
-														<img src={Imovina} height="141" alt="Automobili" />
-													</li>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																<span className="text-white">.</span>
+															</h3>
+															<p className="p-dropdown">
+																<span className="text-white">.</span>
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<img src={Imovina} height="141" alt="Automobili" />
+														</li>
+													</LinkContainer>
 												</ul>
 											</Col>
 
 											{/* col 3 */}
-											<Col className="col-dropdown">
+											<Col className="col-dropdown-border-right">
 												<h2 className="col-dropdown-title">Putovanja</h2>
 												<ul className="list-unstyled">
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">putno zdravstveno osig.</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur
-														</p>
-													</li>
-
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">
-															Osig. od otkaza putovanja
-														</h3>
-														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur
-														</p>
-													</li>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																putno zdravstveno osig.
+															</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																Osig. od otkaza putovanja
+															</h3>
+															<p className="p-dropdown">
+																Lorem ipsum dolor sit amet, consectetur
+															</p>
+														</li>
+													</LinkContainer>
 													{/* to do izbrisati kasnije tacke  */}
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">
-															<span className="text-white">.</span>
-														</h3>
-														<p className="p-dropdown">
-															<span className="text-white">.</span>
-														</p>
-													</li>
-													<li className="li-dorpdown">
-														<img src={Putovanja} height="141" alt="Automobili" />
-													</li>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																<span className="text-white">.</span>
+															</h3>
+															<p className="p-dropdown">
+																<span className="text-white">.</span>
+															</p>
+														</li>
+													</LinkContainer>
+													<LinkContainer to="/">
+														<li className="li-dorpdown">
+															<img src={Putovanja} height="141" alt="Automobili" />
+														</li>
+													</LinkContainer>
 												</ul>
 											</Col>
 
 											{/* col 4 */}
-											<Col className="col-dropdown">
+											<Col className="">
 												<h2 className="col-dropdown-title">Ostalo</h2>
 												<ul className="list-unstyled">
 													<li className="li-dorpdown">
@@ -228,6 +253,111 @@ export default class Navigation extends Component {
 						</Navbar.Collapse>
 					</Container>
 				</Navbar>
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
 			</React.Fragment>
 		);
 	}
