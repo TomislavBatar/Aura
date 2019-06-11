@@ -1,0 +1,4 @@
+.img-slide-dimension {
+	height: calc(100vh - 150px);
+	/* min-width: 100%; */
+}

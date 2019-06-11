@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import HomeSlider from '../../components/HomeSlider/HomeSlider';
 export default class Pocetna extends Component {
 	render() {
 		return (
-			<div>
-				<br />
-				<p>Pocetna</p>
-			</div>
+			<React.Fragment>
+				<HomeSlider />
+			</React.Fragment>
 		);
 	}
 }
