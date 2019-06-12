@@ -28,12 +28,10 @@ export default class Navigation extends Component {
 								alt="Aura Osiguranje logo"
 							/>
 						</Navbar.Brand>
-
 						<Navbar.Toggle
 							className={this.state.otvoreno ? 'openMenu' : 'closeMenu'}
 							onClick={() => this.setState({ otvoreno: !this.state.otvoreno })}
 						/>
-
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
 							<Nav className="mr-auto">
 								<LinkContainer exact to="/">
@@ -41,7 +39,6 @@ export default class Navigation extends Component {
 										<span className="bgSpanSm">Početna</span>
 									</Nav.Link>
 								</LinkContainer>
-
 								<NavDropdown
 									title="Proizvodi"
 									className="NavigationLinks margin-navItems-lg"
