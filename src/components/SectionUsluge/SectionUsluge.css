@@ -4,3 +4,17 @@
 	margin-top: -6px;
 	margin-bottom: 0px;
 }
+.section-padding {
+	padding: 80px 0px;
+}
+.usluge-title {
+	font-size: 67px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+}
+.hr-style {
+	border: 2px solid rgb(245, 211, 103);
+	width: 150px;
+	float: left;
+}
