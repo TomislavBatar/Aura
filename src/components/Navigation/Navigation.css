@@ -350,3 +350,14 @@
 		padding: 40px 0px !important;
 	}
 }
+
+/* prosirenje containera */
+
+@media (min-width: 1441px) {
+	.container {
+		max-width: 1400px;
+	}
+	.margin-navItems-lg {
+		margin-right: 20px;
+	}
+}

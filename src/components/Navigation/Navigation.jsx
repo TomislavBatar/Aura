@@ -37,12 +37,16 @@ export default class Navigation extends Component {
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
 							<Nav className="mr-auto">
 								<LinkContainer exact to="/">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Početna</span>
 									</Nav.Link>
 								</LinkContainer>
 
-								<NavDropdown title="Pro" className="NavigationLinks" id="basic-nav-dropdown">
+								<NavDropdown
+									title="Proizvodi"
+									className="NavigationLinks margin-navItems-lg"
+									id="basic-nav-dropdown"
+								>
 									<div className="container">
 										<Row className="row-dropdown">
 											<Col className="col-dropdown-border-right">
@@ -207,12 +211,12 @@ export default class Navigation extends Component {
 								{/* <span className="bgSpanSm">Proizvodi</span> */}
 
 								<LinkContainer to="/prijava-stete">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Prijava štete</span>
 									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/online-polisa">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Online polisa</span>
 									</Nav.Link>
 								</LinkContainer>
@@ -229,22 +233,22 @@ export default class Navigation extends Component {
 
 							<Nav className="ml-auto">
 								<LinkContainer to="/o-nama">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">O nama</span>
 									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/poslovnice">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Poslovnice</span>
 									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/vijesti">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Vijesti</span>
 									</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to="/kontakt">
-									<Nav.Link className="NavigationLinks">
+									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Kontakt</span>
 									</Nav.Link>
 								</LinkContainer>
