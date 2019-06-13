@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './SearchModal.css';
 
-import { ButtonToolbar, Modal, Nav, Form } from 'react-bootstrap';
+import { Modal, Nav, Form } from 'react-bootstrap';
 import SearchImg from './imgSearchModal/search.svg';
 
 export default class SearchModal extends Component {

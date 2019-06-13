@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image, Card, CardGroup } from 'react-bootstrap';
-import './SectionUsluge.css';
+import './Usluge.css';
 
-import imgGrafikUsluge from './imgSectionUsluge/GrafikUsluge.png';
+import imgGrafikUsluge from './imgUsluge/GrafikUsluge.png';
 
-import imgAutoodgovornost from './imgSectionUsluge/Autoodgovornost.png';
-import imgKaskoOsiguranje from './imgSectionUsluge/Kasko-osiguranje.png';
-import imgOsiguranjeImovine from './imgSectionUsluge/Osiguranje-imovine.png';
-import imgPutnoZdravstvenoOsiguranje from './imgSectionUsluge/Putno-zdravstveno-osiguranje.png';
-import imgOsiguranjeOdNezgode from './imgSectionUsluge/Osiguranje-od-nezgode.png';
-import imgOsiguranjekorisnikaKredita from './imgSectionUsluge/Osiguranje-korisnika-kredita.png';
+import imgAutoodgovornost from './imgUsluge/Autoodgovornost.png';
+import imgKaskoOsiguranje from './imgUsluge/Kasko-osiguranje.png';
+import imgOsiguranjeImovine from './imgUsluge/Osiguranje-imovine.png';
+import imgPutnoZdravstvenoOsiguranje from './imgUsluge/Putno-zdravstveno-osiguranje.png';
+import imgOsiguranjeOdNezgode from './imgUsluge/Osiguranje-od-nezgode.png';
+import imgOsiguranjekorisnikaKredita from './imgUsluge/Osiguranje-korisnika-kredita.png';
 
-export default class SectionUsluge extends Component {
+export default class Usluge extends Component {
 	render() {
 		return (
 			<React.Fragment>
@@ -20,7 +20,7 @@ export default class SectionUsluge extends Component {
 						<Row>
 							<Col lg={12}>
 								<h2 className="usluge-title">Neka Vas čuva Vaša Aura</h2>
-								<span className="hr-style" /> <br />
+								<hr className="hr-style" /> <br />
 							</Col>
 							<Col lg={9}>
 								<p className="p-title-usluge">
