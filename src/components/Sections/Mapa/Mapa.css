@@ -14,6 +14,7 @@
 	border-color: rgb(237, 191, 62);
 	border-style: solid;
 	background-color: rgb(255, 255, 255);
+	transition: all .5s;
 }
 
 .input-mapa:focus {
@@ -35,8 +36,8 @@
 }
 .button-search-mapa {
 	border-radius: 100px;
-	background-color: rgb(216, 171, 46);
-	background: rgb(216, 171, 46);
+	background-color: rgb(237, 191, 62);
+	background: rgb(237, 191, 62);
 	border: none;
 	outline: none;
 	box-shadow: none;
@@ -45,6 +46,7 @@
 	width: 73px;
 	margin-left: -77px;
 	margin-top: 4px;
+	transition: all .5s;
 }
 
 .button-search-mapa:focus {
@@ -62,4 +64,7 @@
 	border: none;
 	outline: none;
 	box-shadow: none;
+}
+.svg-pretraga-poslovnica {
+	height: 30px;
 }
