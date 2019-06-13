@@ -7,10 +7,6 @@ import imgAurisLogo from './imgPartneri/auris-logo.png';
 import imgAcAlfaLogo from './imgPartneri/ac-afla-logo.png';
 import imgCofusLogo from './imgPartneri/cofus-logo.png';
 
-// import imgKonstantanRast from './imgZastoIzabratiNas/konstantan-rast.png';
-// import imgUnapredjivanjeUsluga from './imgZastoIzabratiNas/unapredjivanje-usluga.png';
-// import imgZadovoljniKlijenti from './imgZastoIzabratiNas/zadovoljni-klijenti.png';
-
 export default class Partneri extends Component {
 	render() {
 		return (
@@ -22,8 +18,7 @@ export default class Partneri extends Component {
 								<h2 className="partneri-title padd-title-partneri">Naši partneri</h2>
 							</Col>
 						</Row>
-						<Row className="row text-center d-flex justify-content-center align-items-center">
-							<Col lg={1} />
+						<Row className="row d-flex justify-content-center align-items-center">
 							<Col lg={3}>
 								<Image className="" src={imgAurisLogo} fluid alt="Aura osiguranje grafik" />
 							</Col>
@@ -33,7 +28,6 @@ export default class Partneri extends Component {
 							<Col lg={3}>
 								<Image className="" src={imgCofusLogo} fluid alt="Aura osiguranje grafik" />
 							</Col>
-							<Col lg={1} />
 						</Row>
 					</Container>
 				</dir>
