@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import HomeSlider from '../../components/HomeSlider/HomeSlider';
 import Usluge from '../../components/Sections/Usluge/Usluge';
 import ZastoIzabratiNas from '../../components/Sections/ZastoIzabratiNas/ZastoIzabratiNas';
+import Partneri from '../../components/Sections/Partneri/Partneri';
+
 export default class Pocetna extends Component {
 	render() {
 		return (
@@ -9,6 +11,7 @@ export default class Pocetna extends Component {
 				<HomeSlider />
 				<Usluge />
 				<ZastoIzabratiNas />
+				<Partneri />
 			</React.Fragment>
 		);
 	}
