@@ -3,8 +3,8 @@ import { Row, Col, Container, Image, Form, InputGroup, Button } from 'react-boot
 import './Mapa.css';
 
 import imgSearchPartneri from './imgMapa/search.svg';
-// import imgAcAlfaLogo from './imgPartneri/ac-afla-logo.png';
-// import imgCofusLogo from './imgPartneri/cofus-logo.png';
+import imgMapaBih from './imgMapa/mapa-bih.png';
+
 export default class Mapa extends Component {
 	render() {
 		return (
@@ -25,6 +25,10 @@ export default class Mapa extends Component {
 								</Form>
 							</Col>
 						</Row>
+					</Container>
+
+					<Container fluid>
+						<Image className="mapa-bih" fluid src={imgMapaBih} alt="Pretraga poslovnica" />
 					</Container>
 				</div>
 			</React.Fragment>

@@ -1,0 +1,110 @@
+.bg-newsletter {
+	background-color: rgb(237, 237, 237);
+	/* height: 450px; */
+}
+.section-padding-newsletter {
+	padding: 40px 0px;
+}
+
+.input-newsletter {
+	height: 59px;
+	border-width: 3px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	border-radius: 100px;
+	background-color: rgb(255, 255, 255);
+	transition: all .5s;
+	font-family: "Ubuntu";
+	font-weight: 600;
+	padding-left: 30px;
+}
+
+.input-newsletter:focus {
+	color: rgb(95, 21, 89);
+	font-family: "Ubuntu";
+	font-weight: 600;
+	box-shadow: none !important;
+	outline: none !important;
+	border-width: 3px;
+	border-color: rgb(143, 32, 134);
+	padding-left: 50px;
+}
+.input-newsletter::placeholder {
+	color: rgb(95, 21, 89);
+	font-family: "Ubuntu";
+	font-weight: 600;
+	box-shadow: none !important;
+	outline: none !important;
+	border-width: 3px;
+	border-color: rgb(143, 32, 134);
+}
+
+.newsletter-title {
+	font-size: 47px;
+	font-family: "Ubuntu";
+	color: rgb(95, 21, 89);
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.button-newsletter {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	background-color: rgb(143, 32, 134);
+	height: 57px;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin: 40px 0px;
+}
+.button-newsletter:hover {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	background-color: rgb(143, 32, 134);
+	height: 57px;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin: 40px 0px;
+}
+.button-newsletter:focus {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	background-color: rgb(143, 32, 134);
+	height: 57px;
+	border-radius: 100px;
+	font-size: 18px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin: 40px 0px;
+}
+
+.text-center-button-newsletter {
+	text-align: center;
+}
+
+.newsletter-svg {
+	float: right;
+	padding-right: 30px;
+}
+.arrow-right-svg {
+	margin-left: 20px;
+}
