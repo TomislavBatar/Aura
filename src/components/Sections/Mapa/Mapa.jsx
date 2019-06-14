@@ -9,7 +9,7 @@ export default class Mapa extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<dir className="section-padding-mapa bg-section-mapa">
+				<div className="section-padding-mapa bg-section-mapa">
 					<Container>
 						<Row className="justify-content-center">
 							<Col lg={8}>
@@ -26,7 +26,7 @@ export default class Mapa extends Component {
 							</Col>
 						</Row>
 					</Container>
-				</dir>
+				</div>
 			</React.Fragment>
 		);
 	}

@@ -11,7 +11,7 @@ export default class Partneri extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<dir className="section-padding-partneri bg-partneri-section">
+				<div className="section-padding-partneri bg-partneri-section">
 					<Container>
 						<Row>
 							<Col lg={12}>
@@ -30,7 +30,7 @@ export default class Partneri extends Component {
 							</Col>
 						</Row>
 					</Container>
-				</dir>
+				</div>
 			</React.Fragment>
 		);
 	}
