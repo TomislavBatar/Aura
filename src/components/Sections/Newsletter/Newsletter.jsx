@@ -24,11 +24,7 @@ export default class Newsletter extends Component {
 								<div className="text-center-button-newsletter">
 									<Button className="button-newsletter">
 										Prijavi se
-										<Image
-											className="arrow-right-svg justify-content-end"
-											src={imgArrowRight}
-											alt="newsletter"
-										/>
+										<Image className="arrow-right-svg" src={imgArrowRight} alt="newsletter" />
 									</Button>
 								</div>
 							</Col>

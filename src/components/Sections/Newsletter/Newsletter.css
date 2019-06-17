@@ -60,41 +60,25 @@
 	color: rgb(255, 255, 255);
 	font-weight: 600;
 	text-transform: uppercase;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 70px;
+	padding-right: 80px;
 	margin: 40px 0px;
+	position: relative;
 }
 .button-newsletter:hover {
 	border-width: 4px;
 	border-color: rgb(143, 32, 134);
 	border-style: solid;
 	background-color: rgb(143, 32, 134);
-	height: 57px;
-	border-radius: 100px;
-	font-size: 18px;
-	font-family: "Ubuntu";
 	color: rgb(255, 255, 255);
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-left: 60px;
-	padding-right: 60px;
-	margin: 40px 0px;
 }
 .button-newsletter:focus {
 	border-width: 4px;
-	border-color: rgb(143, 32, 134);
+	border-color: rgb(143, 32, 134) !important;
 	border-style: solid;
-	background-color: rgb(143, 32, 134);
-	height: 57px;
-	border-radius: 100px;
-	font-size: 18px;
-	font-family: "Ubuntu";
+	background-color: rgb(143, 32, 134) !important;
 	color: rgb(255, 255, 255);
-	font-weight: 600;
-	text-transform: uppercase;
-	padding-left: 60px;
-	padding-right: 60px;
-	margin: 40px 0px;
+	box-shadow: none !important;
 }
 
 .text-center-button-newsletter {
@@ -106,5 +90,7 @@
 	padding-right: 30px;
 }
 .arrow-right-svg {
-	margin-left: 20px;
+	position: absolute;
+	right: 40px;
+	top: 17px;
 }
