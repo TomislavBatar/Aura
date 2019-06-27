@@ -1,0 +1,32 @@
+.img-slide-dimension {
+	height: calc(100vh - 150px);
+	min-width: 100%;
+}
+.position-rel {
+	position: relative;
+}
+.position-abs {
+	position: absolute;
+	top: 30%;
+}
+
+.title-slider {
+	font-size: 67px;
+	font-family: "Ubuntu";
+	color: rgb(143, 32, 134);
+	font-weight: 600;
+}
+
+.slider-p {
+	font-size: 18px;
+	font-family: "Ubuntu";
+	color: rgb(143, 32, 134);
+	max-width: 450px;
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+	.img-slide-dimension {
+		height: calc(100vh - 121px);
+		min-width: 100%;
+	}
+}

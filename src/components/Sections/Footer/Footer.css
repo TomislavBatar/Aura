@@ -1,0 +1,47 @@
+.bg-position-footer {
+	background-color: rgb(143, 32, 134);
+	padding: 80px 0px;
+}
+.title-footer {
+	font-size: 20px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255) !important;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.logo-footer {
+	max-height: 200px;
+}
+.li-footer {
+	font-size: 16px;
+	font-family: "Ubuntu";
+	color: #d47fcd;
+	line-height: 3.398;
+	cursor: pointer;
+}
+.ul-footer {
+	padding-top: 50px;
+}
+.footer-logo-text {
+	font-size: 16px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255);
+	padding: 40px 40px 40px 0px;
+}
+
+.sub-footer {
+	background-color: rgb(78, 17, 73);
+}
+.copy-text-sub-footer {
+	font-size: 16px;
+	font-family: "Ubuntu";
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	line-height: 3.02;
+}
+.link-omnia {
+	color: rgb(255, 255, 255);
+}
+.link-omnia:hover {
+	color: rgb(255, 255, 255);
+}

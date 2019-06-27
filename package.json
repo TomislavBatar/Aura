@@ -1,7 +1,7 @@
 {
 	"name": "aura",
 	"version": "0.1.0",
-	"homepage": "https://tomislavbatar.github.io/aura",
+	"homepage": "",
 	"private": true,
 	"dependencies": {
 		"bootstrap": "^4.3.1",
@@ -13,6 +13,7 @@
 		"react-router-dom": "^5.0.1",
 		"react-scripts": "3.0.1",
 		"react-slick": "^0.24.0",
+		"serve": "^11.0.2",
 		"slick-carousel": "^1.8.1"
 	},
 	"scripts": {
@@ -27,15 +28,7 @@
 		"extends": "react-app"
 	},
 	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
+		"production": [ ">0.2%", "not dead", "not op_mini all" ],
+		"development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
 	}
 }

@@ -5,6 +5,7 @@ import ZastoIzabratiNas from '../../components/Sections/ZastoIzabratiNas/ZastoIz
 import Partneri from '../../components/Sections/Partneri/Partneri';
 import Mapa from '../../components/Sections/Mapa/Mapa';
 import Newsletter from '../../components/Sections/Newsletter/Newsletter';
+import Footer from '../../components/Sections/Footer/Footer';
 
 export default class Pocetna extends Component {
 	render() {
@@ -16,6 +17,7 @@ export default class Pocetna extends Component {
 				<Partneri />
 				<Mapa />
 				<Newsletter />
+				<Footer />
 			</React.Fragment>
 		);
 	}
