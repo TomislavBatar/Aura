@@ -30,3 +30,47 @@
 		min-width: 100%;
 	}
 }
+
+.slajd-1 {
+	background-image: url("https://download.bitdefender.com/resources/themes/draco/images/business/bitdefender_business_mobile.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.slajd-2 {
+	background-image: url("https://www.investhk.gov.hk/sites/default/files/whyHK_OpenBusiness.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slajd-3 {
+	background-image: url("https://onlinestudyaustralia.com/courses/wp-content/uploads/business-manager-online-working.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slajd-4 {
+	background-image: url("https://www.essoft.com/wp-content/uploads/2014/12/erp-software-solutions-vancouver-slider.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.dugme-slajder {
+	background-image: linear-gradient(-180deg, rgb(245, 211, 103) 0%, rgb(232, 179, 35) 100%);
+	height: 60px;
+	padding-left: 70px;
+	padding-right: 70px;
+	font-size: 14px;
+	font-family: "Ubuntu";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 200px;
+	outline: none;
+	border: none;
+	position: relative;
+}
+.strelica-pozicija {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

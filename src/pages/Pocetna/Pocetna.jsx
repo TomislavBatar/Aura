@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import HomeSlider from '../../components/HomeSlider/HomeSlider';
-import Usluge from '../../components/Sections/Usluge/Usluge';
-import ZastoIzabratiNas from '../../components/Sections/ZastoIzabratiNas/ZastoIzabratiNas';
-import Partneri from '../../components/Sections/Partneri/Partneri';
-import Mapa from '../../components/Sections/Mapa/Mapa';
-import Newsletter from '../../components/Sections/Newsletter/Newsletter';
-import Footer from '../../components/Sections/Footer/Footer';
+import Usluge from '../../sections/sectionsPocetna/Usluge/Usluge';
+import ZastoIzabratiNas from '../../sections/sectionsPocetna/ZastoIzabratiNas/ZastoIzabratiNas';
+import Partneri from '../../sections/sectionsPocetna/Partneri/Partneri';
+import Mapa from '../../sections/sectionsPocetna/Mapa/Mapa';
+import Newsletter from '../../sections/sectionsPocetna/Newsletter/Newsletter';
+import Footer from '../../components/Footer/Footer';
 
 export default class Pocetna extends Component {
 	render() {

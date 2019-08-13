@@ -33,7 +33,7 @@ export default class Navigation extends Component {
 							onClick={() => this.setState({ otvoreno: !this.state.otvoreno })}
 						/>
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
-							<Nav className="mr-auto">
+							<Nav>
 								<LinkContainer exact to="/">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Početna</span>
@@ -217,18 +217,7 @@ export default class Navigation extends Component {
 										<span className="bgSpanSm">Online polisa</span>
 									</Nav.Link>
 								</LinkContainer>
-							</Nav>
 
-							<Navbar.Brand href="/" className="lg-logo-media">
-								<img
-									className="d-inline-block AuraLogoLgSvg"
-									src={AuraLogoLg}
-									height="145"
-									alt="React Bootstrap logo"
-								/>
-							</Navbar.Brand>
-
-							<Nav className="ml-auto">
 								<LinkContainer to="/o-nama">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">O nama</span>
@@ -249,6 +238,8 @@ export default class Navigation extends Component {
 										<span className="bgSpanSm">Kontakt</span>
 									</Nav.Link>
 								</LinkContainer>
+							</Nav>
+							<Nav className="ml-auto">
 								<SearchModal />
 							</Nav>
 						</Navbar.Collapse>

@@ -44,25 +44,28 @@
 }
 
 .Navigation {
-	background-color: rgb(255, 255, 255);
-	min-height: 100px !important;
+	background-color: #8f2086;
+	min-height: 60px !important;
 	box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
 	/* border-bottom: 1px solid #f5f5f5; */
 }
 
 /* dopuna bootstrapa uz NavigationLinks */
 .navbar-light .navbar-nav .nav-link {
-	color: #8f2086;
+	color: #fff;
 }
+
 .NavigationLinks {
 	font-size: 14px;
 	font-family: "Ubuntu";
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.AuraLogoLgSvg {
+
+/* .AuraLogoLgSvg {
 	margin-bottom: -45px;
-}
+} */
+
 .searchIcon {
 	height: 18px;
 }
@@ -87,46 +90,30 @@
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 18px;
 		padding-left: 18px;
+		color: #fff !important;
 	}
 }
 
 @media (min-width: 992px) {
-	.navbar-light .navbar-nav .active > .nav-link,
-	.navbar-light .navbar-nav .nav-link.active,
-	.navbar-light .navbar-nav .nav-link.show,
-	.navbar-light .navbar-nav .show > .nav-link {
-		border-radius: 100px;
-		color: #fff;
-		background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
-		border-radius: 100px;
-		background-size: 400% 400%;
-		-webkit-animation: Gradient 10s ease infinite;
-		-moz-animation: Gradient 10s ease infinite;
-		animation: Gradient 10s ease infinite;
+	.navbar-light .navbar-nav .active > .nav-link > span,
+	.navbar-light .navbar-nav .nav-link.active > span,
+	.navbar-light .navbar-nav .nav-link.show > span,
+	.navbar-light .navbar-nav .show > .nav-link > span {
+		color: #fff !important;
+		border-bottom: 2.5px solid #f9d761;
 	}
 
 	.navbar-light .navbar-nav .nav-link {
 		transition: all .3s;
 	}
 
-	.navbar-light .navbar-nav .nav-link:hover {
-		color: #8f2086;
-		background: none;
-		border-radius: 100px;
-		background-size: 400% 400%;
-		-webkit-animation: Gradient 10s ease infinite;
-		-moz-animation: Gradient 10s ease infinite;
-		animation: Gradient 10s ease infinite;
+	.navbar-light .navbar-nav .nav-link > span:hover {
+		color: #fff !important;
+		border-bottom: 2.5px solid #f9d761;
 	}
-	.navbar-light .navbar-nav .nav-link:focus {
-		border-radius: 100px;
-		color: #fff;
-		background: linear-gradient(-120deg, #c79819, #d3a118, #e8b323, #e8b323, #c79819, #f7c742);
-		border-radius: 100px;
-		background-size: 400% 400%;
-		-webkit-animation: Gradient 10s ease infinite;
-		-moz-animation: Gradient 10s ease infinite;
-		animation: Gradient 10s ease infinite;
+	.navbar-light .navbar-nav .nav-link > span:focus {
+		color: #fff !important;
+		border-bottom: 2.5px solid #f9d761;
 	}
 }
 
@@ -290,7 +277,7 @@
 		left: 0;
 		right: 0;
 		/*  height of nav-item  */
-		top: 98px;
+		top: 58px;
 	}
 
 	/* shows the dropdown menu on hover */
@@ -306,7 +293,6 @@
 	}
 
 	.navbar .dropdown-menu {
-		border-top: 1px solid #e1e1e1;
 		border-bottom: 1px solid #e1e1e1;
 	}
 
