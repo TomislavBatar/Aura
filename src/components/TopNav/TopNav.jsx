@@ -23,7 +23,7 @@ export default class TopNav extends Component {
 						</Navbar.Brand>
 
 						{/* <Navbar.Text className="textTopNavLeft" inline /> */}
-						<Navbar.Text className="textTopNavRight" inline>
+						<Navbar.Text className="textTopNavRight" >
 							<a className="ttextTopNavLeft mr-4 telefonTopNav" href="viber://chat?number=12345678">
 								<img className="mr-3" src={ViberIcon} alt="viber icon" />0800 51 055
 							</a>

@@ -100,6 +100,7 @@
 	top: -50px;
 	left: 0;
 	right: 0;
+	height: 100px;
 }
 .grafik-1-tekst {
 	position: absolute;
@@ -117,6 +118,7 @@
 	top: -80px;
 	left: 0;
 	right: 0;
+	height: 130px;
 }
 .grafik-2-tekst {
 	position: absolute;
@@ -133,6 +135,7 @@
 	top: -100px;
 	left: 0;
 	right: 0;
+	height: 150px;
 }
 .grafik-3-tekst {
 	position: absolute;
@@ -150,6 +153,7 @@
 	top: -50px;
 	left: 0;
 	right: 0;
+	height: 120px;
 }
 .grafik-4-tekst {
 	position: absolute;
@@ -166,6 +170,7 @@
 	top: -50px;
 	left: 0;
 	right: 0;
+	height: 160px;
 }
 .grafik-5-tekst {
 	position: absolute;
@@ -183,6 +188,7 @@
 	top: -50px;
 	left: 0;
 	right: 0;
+	height: 150px;
 }
 .grafik-6-tekst {
 	position: absolute;
@@ -191,4 +197,45 @@
 	margin-right: 0;
 	left: 0;
 	right: 0;
+}
+
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity:.5; }
+  20% {opacity: 1;}
+  30% {opacity: .5;}
+  40% {opacity: 1;}
+  50% {opacity: .5;}
+  60% {opacity: 1;}
+  70% {opacity: .5;}
+  80% {opacity: 1;}
+  90% {opacity: .5;}
+  100% {opacity: 1;}
+} 
+
+@keyframes farovi {
+  0% { 
+	  	opacity: 1;
+		fill:#ffd148
+	 }
+  50% { 
+	  opacity:.1;
+	  fill:#ffd148;
+	 }
+  100% {	
+	  	opacity: 1;
+		fill:#ffd148
+	}
+  
+} 
+
+
+.prefix__cls-3 {
+    animation: hideshow 10s infinite linear ;
+}
+
+
+
+.prefix__cls-5{
+    animation: farovi .6s infinite linear ;
 }
