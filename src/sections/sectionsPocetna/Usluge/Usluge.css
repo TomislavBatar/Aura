@@ -239,3 +239,27 @@
 .prefix__cls-5{
     animation: farovi .6s infinite linear ;
 }
+
+
+@keyframes float {
+	0% {
+		
+		transform: translate(0px, 0px);
+		
+	}
+	50% {
+		
+		transform: translate(10px,2px);
+	}
+	80% {
+		transform: translate(3px, 6px);
+		
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+.grafik-usluge-4{
+	animation: float 5s infinite linear ;
+}
