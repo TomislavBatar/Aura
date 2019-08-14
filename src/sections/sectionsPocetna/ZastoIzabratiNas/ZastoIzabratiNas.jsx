@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Row, Col, Container, Image, Card, CardGroup } from 'react-bootstrap';
 import './ZastoIzabratiNas.css';
 
-import imgSrtucanTim from './imgZastoIzabratiNas/strucan-tim.png';
-import imgKonstantanRast from './imgZastoIzabratiNas/konstantan-rast.png';
-import imgUnapredjivanjeUsluga from './imgZastoIzabratiNas/unapredjivanje-usluga.png';
-import imgZadovoljniKlijenti from './imgZastoIzabratiNas/zadovoljni-klijenti.png';
+import imgSrtucanTim from './imgZastoIzabratiNas/strucan-tim.svg';
+import imgKonstantanRast from './imgZastoIzabratiNas/konstantan-rast.svg';
+import imgUnapredjivanjeUsluga from './imgZastoIzabratiNas/unapredjivanje-usluga.svg';
+import imgZadovoljniKlijenti from './imgZastoIzabratiNas/zadovoljni-klijenti.svg';
 
 export default class ZastoIzabratiNas extends Component {
 	render() {
@@ -131,7 +131,6 @@ export default class ZastoIzabratiNas extends Component {
 					</Container>
 				</dir>
 			</React.Fragment>
-		
 		);
 	}
 }

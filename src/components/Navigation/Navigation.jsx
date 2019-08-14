@@ -3,14 +3,14 @@ import { Navbar, Nav, Row, Col, Container, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import SearchModal from '../../components/SearchModal/SearchModal';
 import './Navigation.css';
-import Automobili from './imgNavigation/automobili.png';
-import Imovina from './imgNavigation/imovina.png';
-import Putovanja from './imgNavigation/putovanja.png';
-import Ostalo from './imgNavigation/ostalo.png';
+import Automobili from './imgNavigation/automobili.svg';
+import Imovina from './imgNavigation/imovina.svg';
+import Putovanja from './imgNavigation/putovanja.svg';
+import Ostalo from './imgNavigation/ostalo.svg';
 
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 
-import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
+// import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
 export default class Navigation extends Component {
 	state = {
 		otvoreno: true

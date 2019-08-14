@@ -5,11 +5,11 @@ import './Usluge.css';
 import imgGrafikUsluge from './imgUsluge/GrafikUsluge.png';
 
 import imgAutoodgovornost from './imgUsluge/Autoodgovornost.png';
-import imgKaskoOsiguranje from './imgUsluge/Kasko-osiguranje.png';
+import imgKaskoOsiguranje from './imgUsluge/kasko.svg';
 import imgOsiguranjeImovine from './imgUsluge/Osiguranje-imovine.png';
-import imgPutnoZdravstvenoOsiguranje from './imgUsluge/Putno-zdravstveno-osiguranje.png';
-import imgOsiguranjeOdNezgode from './imgUsluge/Osiguranje-od-nezgode.png';
-import imgOsiguranjekorisnikaKredita from './imgUsluge/Osiguranje-korisnika-kredita.png';
+import imgPutnoZdravstvenoOsiguranje from './imgUsluge/putno.svg';
+import imgOsiguranjeOdNezgode from './imgUsluge/nezgoda.svg';
+import imgOsiguranjekorisnikaKredita from './imgUsluge/kredit.svg';
 
 export default class Usluge extends Component {
 	render() {
@@ -70,7 +70,7 @@ export default class Usluge extends Component {
 													alt="Aura osiguranje grafik"
 												/>
 												<Card.Title className="card-title-grafik-usluge grafik-2-tekst">
-													osiguranje od autoodgovornosti
+													kasko osiguranje
 												</Card.Title>
 											</Card.Body>
 										</Card>
@@ -83,7 +83,7 @@ export default class Usluge extends Component {
 													alt="Aura osiguranje grafik"
 												/>
 												<Card.Title className="card-title-grafik-usluge grafik-3-tekst">
-													osiguranje od autoodgovornosti
+													osiguranje imovine
 												</Card.Title>
 											</Card.Body>
 										</Card>
@@ -98,7 +98,7 @@ export default class Usluge extends Component {
 													alt="Aura osiguranje grafik"
 												/>
 												<Card.Title className="card-title-grafik-usluge grafik-4-tekst">
-													osiguranje od autoodgovornosti
+													putno zdravstveno osiguranje
 												</Card.Title>
 											</Card.Body>
 										</Card>
@@ -111,7 +111,7 @@ export default class Usluge extends Component {
 													alt="Aura osiguranje grafik"
 												/>
 												<Card.Title className="card-title-grafik-usluge grafik-5-tekst">
-													osiguranje od autoodgovornosti
+													osiguranje od nezgoda
 												</Card.Title>
 											</Card.Body>
 										</Card>
@@ -124,7 +124,7 @@ export default class Usluge extends Component {
 													alt="Aura osiguranje grafik"
 												/>
 												<Card.Title className="card-title-grafik-usluge grafik-6-tekst">
-													osiguranje od autoodgovornosti
+													osiguranje korisnika kredita
 												</Card.Title>
 											</Card.Body>
 										</Card>

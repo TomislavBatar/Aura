@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Container, Image, Form, InputGroup, Button } from 'react-bootstrap';
 import './Newsletter.css';
 
-import imgNewsletter from './imgNewsletter/newsletter.png';
+import imgNewsletter from './imgNewsletter/newsletter.svg';
 import imgArrowRight from './imgNewsletter/arrow-right.svg';
 
 export default class Newsletter extends Component {
