@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image, Card, CardGroup } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
+import ReactTooltip from 'react-tooltip';
 
 import './Usluge.css';
 
@@ -29,6 +30,9 @@ export default class Usluge extends Component {
 	render() {
 		return (
 			<React.Fragment>
+				<ReactTooltip delayShow={500} id="auto" type="info" effect="solid">
+					<span>Klik za više...</span>
+				</ReactTooltip>
 				<dir className="bg-purple section-padding">
 					<Container>
 						<Row>
@@ -37,7 +41,7 @@ export default class Usluge extends Component {
 								<hr className="hr-style" /> <br />
 							</Col>
 							<Col lg={9}>
-								<p className="p-title-usluge">
+								<p data-tip="hello world" className="p-title-usluge">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
 									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
 									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -62,9 +66,11 @@ export default class Usluge extends Component {
 							<Col lg={12}>
 								<div className="card-grafik-usluge-padding">
 									<CardGroup className="card-group-1">
-										<Card className="card-grafik-usluge-1 card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center">
+										<Card className="card-grafik-usluge-1 card-grafik-usluge-top-left-radius  text-center">
 											<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 												<Card
+													data-tip
+													data-for="auto"
 													onClick={this.handleClick}
 													key="front"
 													className="card-grafik-usluge card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center"
@@ -292,10 +298,11 @@ export default class Usluge extends Component {
 															Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 															sed do eiusmod tempor incididunt ut labore et dolore magna
 															aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-															ullamco laboris nisi ut aliquip ex ea commodo consequat.
-															Duis aute irure dolor in reprehenderit in voluptate velit
-															esse cillum dolore eu fugiat nulla pariatur.
+															ullamco laboris nisi ut consequat.
 														</p>
+														<a className="link-kartica-usluge" href="/aa">
+															Prikaži još detalja...
+														</a>
 													</Card.Body>
 												</Card>
 											</ReactCardFlip>

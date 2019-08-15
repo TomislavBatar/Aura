@@ -317,3 +317,23 @@
 	user-select: none;
 	-o-user-select: none;
 }
+.__react_component_tooltip.type-info {
+	color: #fff;
+	background-color: #701068;
+}
+.__react_component_tooltip.type-info.place-top:after {
+	border-top-color: #701068;
+	border-top-style: solid;
+	border-top-width: 6px;
+}
+.link-kartica-usluge {
+	padding-top: 20px;
+	color: #701068;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: color .3s;
+}
+.link-kartica-usluge:hover {
+	color: #701068;
+}
