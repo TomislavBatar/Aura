@@ -300,7 +300,7 @@ export default class Usluge extends Component {
 															aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 															ullamco laboris nisi ut consequat.
 														</p>
-														<a className="link-kartica-usluge" href="/aa">
+														<a className="link-kartica-usluge no-copy" href="/aa">
 															Prikaži još detalja...
 														</a>
 													</Card.Body>
