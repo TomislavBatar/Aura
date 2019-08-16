@@ -48,6 +48,7 @@ export default class HomeSlider extends Component {
 					</div>
 
 					<div className="position-rel">
+						<div className="box" />
 						<div className="img-slide-dimension slajd-2" />
 						<Container>
 							<div className="position-abs">
@@ -67,6 +68,7 @@ export default class HomeSlider extends Component {
 						</Container>
 					</div>
 					<div className="position-rel">
+						<div className="box" />
 						<div className="img-slide-dimension slajd-3" />
 						<Container>
 							<div className="position-abs">
@@ -90,6 +92,7 @@ export default class HomeSlider extends Component {
 						</Container>
 					</div>
 					<div className="position-rel">
+						<div className="box" />
 						<div className="img-slide-dimension slajd-4" />
 						<Container>
 							<div className="position-abs">
