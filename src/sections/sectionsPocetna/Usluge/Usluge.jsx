@@ -42,11 +42,11 @@ export default class Usluge extends Component {
 							</Col>
 							<Col lg={9}>
 								<p data-tip="hello world" className="p-title-usluge">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-									exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-									irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-									pariatur.
+									Osiguranje Aura AD Banja Luka je domaće osiguravajuće društvo, registrovano za
+									pružanje usluga neživotnog osiguranja, koje, pored obaveznog osiguranja od
+									autoodgovornosti i kasko osiguranja, pruža i usluge osiguranja imovine, putničkog
+									zdravstvenog osiguranja, osiguranja robe u transportu te osiguranja od nezgode i
+									opšte građanske odgovornosti.
 								</p>
 							</Col>
 							<Col lg={12}>
@@ -295,10 +295,11 @@ export default class Usluge extends Component {
 												>
 													<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 														<p className="card-grafik-usluge-back-tekst no-copy">
-															Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-															sed do eiusmod tempor incididunt ut labore et dolore magna
-															aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-															ullamco laboris nisi ut consequat.
+															Osiguranje od auto-odgovornosti je zakonski obavezno
+															osiguranje koje se zaključuje prilikom registracije motornih
+															vozila. Ovim osiguranjem je pokrivena odgovornost vlasnika,
+															odnosno korisnika, kada upotrebom motornog vozila pričini
+															štetu trećim licima.
 														</p>
 														<a className="link-kartica-usluge no-copy" href="/aa">
 															Prikaži još detalja...

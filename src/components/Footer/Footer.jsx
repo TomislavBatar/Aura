@@ -3,7 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 import './Footer.css';
-import imgLogoFooter from './imgFooter/logo-footer.png';
+import imgLogoFooter from './imgFooter/logo-aura-osiguranje.svg';
 
 export default class Footer extends Component {
 	render() {
@@ -15,7 +15,7 @@ export default class Footer extends Component {
 							<Col lg={3}>
 								<LinkContainer to="/">
 									<Image
-										className="logo-footer bg-light"
+										className="logo-footer invert-logo-footer"
 										src={imgLogoFooter}
 										alt="logo aura osiguranje"
 									/>
@@ -30,19 +30,22 @@ export default class Footer extends Component {
 								<h3 className="title-footer">Osiguranja</h3>
 								<ul className="list-unstyled ul-footer">
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Osiguranje od autoodgovornosti</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Kasko osiguranje</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Osiguranje imovine</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Putno zdravstveno osiguranje</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Osiguranje od nezgoda</li>
+									</LinkContainer>
+									<LinkContainer to="/">
+										<li className="li-footer">Osiguranje korisnika kredita</li>
 									</LinkContainer>
 								</ul>
 							</Col>
@@ -50,40 +53,51 @@ export default class Footer extends Component {
 								<h3 className="title-footer">Kontakt</h3>
 								<ul className="list-unstyled ul-footer">
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">
+											<span className="span-footer">Telefon: </span> 051/490-490
+										</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">
+											<span className="span-footer">E-mail: </span>
+											info@auraosiguranje.com
+										</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">
+											<span className="span-footer">Web:</span>
+											www.auraosiguranje.com
+										</li>
 									</LinkContainer>
-									<LinkContainer to="/">
+									{/* <LinkContainer to="/">
+										<li className="li-footer">
+											<span className="span-footer">Web:</span>
+											Lorem ipsum dolor sit
+										</li>
+									</LinkContainer> */}
+									{/* <LinkContainer to="/">
 										<li className="li-footer">Lorem ipsum dolor sit</li>
-									</LinkContainer>
-									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
-									</LinkContainer>
+									</LinkContainer> */}
 								</ul>
 							</Col>
 							<Col lg={3}>
 								<h3 className="title-footer">Društvene mreže</h3>
 								<ul className="list-unstyled ul-footer">
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Facebook</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Instagram</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Linkedin</li>
 									</LinkContainer>
 									<LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
+										<li className="li-footer">Youtube</li>
 									</LinkContainer>
-									<LinkContainer to="/">
+									{/* <LinkContainer to="/">
 										<li className="li-footer">Lorem ipsum dolor sit</li>
-									</LinkContainer>
+									</LinkContainer> */}
 								</ul>
 							</Col>
 						</Row>
@@ -92,9 +106,9 @@ export default class Footer extends Component {
 
 				<div className="sub-footer">
 					<Container>
-						<Row className="justify-content-between">
+						<Col xs={12} className="form-inline justify-content-between pl-0 pr-0">
 							<div>
-								<span className="copy-text-sub-footer">©2018. Sva prava zadržana.</span>
+								<span className="copy-text-sub-footer">©2019. Sva prava zadržana.</span>
 							</div>
 							<div>
 								<span className="copy-text-sub-footer">
@@ -104,7 +118,7 @@ export default class Footer extends Component {
 									</a>
 								</span>
 							</div>
-						</Row>
+						</Col>
 					</Container>
 				</div>
 			</React.Fragment>

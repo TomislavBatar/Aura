@@ -25,7 +25,8 @@ export default class HomeSlider extends Component {
 		return (
 			<React.Fragment>
 				<Slider {...settings}>
-					<div className="position-rel">
+					<div className="position-rel ">
+						<div className="box" />
 						<div className="img-slide-dimension slajd-1" />
 						<Container>
 							<div className="position-abs">

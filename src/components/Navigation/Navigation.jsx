@@ -54,7 +54,9 @@ export default class Navigation extends Component {
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">Autoodgovornost</h3>
 															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur{' '}
+																Osiguranje od auto-odgovornosti je zakonski obavezno
+																osiguranje koje se zaključuje prilikom registracije
+																motornih vozila.
 															</p>
 														</li>
 													</LinkContainer>
@@ -62,7 +64,8 @@ export default class Navigation extends Component {
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
 															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur{' '}
+																Kasko osiguranje pokriva štetu i kad je za njen nastanak
+																odgovoran vozač koji je upravljao vozilom.
 															</p>
 														</li>
 													</LinkContainer>
@@ -70,7 +73,8 @@ export default class Navigation extends Component {
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">Registracija na rate</h3>
 															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur{' '}
+																Osiguranje Aura u saradnji MKD Auris i Auto Centar Alfom
+																nudi mogućnost registracije vozila na rate.
 															</p>
 														</li>
 													</LinkContainer>
@@ -92,7 +96,8 @@ export default class Navigation extends Component {
 																Osiguranje kuće ili stana
 															</h3>
 															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur
+																Štiteći ono što posjedujemo, štitimo sebe, poštujući
+																svoju prošlost i osiguravajući svoju budućnost.
 															</p>
 														</li>
 													</LinkContainer>
@@ -102,7 +107,9 @@ export default class Navigation extends Component {
 																Osiguranje preduzetnika
 															</h3>
 															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur
+																Upoznati sa potrebom razvoja malih i srednjih preduzeća,
+																Osiguranje Aura je razvilo proizvod za mala i srednja
+																preduzeće.
 															</p>
 														</li>
 													</LinkContainer>
@@ -135,7 +142,9 @@ export default class Navigation extends Component {
 																putno zdravstveno osig.
 															</h3>
 															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur
+																Čak i pri brižljivo planiranim putovanjima ili kratkim
+																izletima u inostranstvo mogu se desiti nepredviđene
+																neprijatnosti, nezgode ili bolest.
 															</p>
 														</li>
 													</LinkContainer>

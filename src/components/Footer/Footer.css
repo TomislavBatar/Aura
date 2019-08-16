@@ -10,12 +10,20 @@
 	text-transform: uppercase;
 }
 .logo-footer {
-	max-height: 200px;
+	height: 100px;
 }
 .li-footer {
 	font-size: 16px;
 	font-family: "Ubuntu";
 	color: #d47fcd;
+	line-height: 3.398;
+	cursor: pointer;
+	transition: all .3s;
+}
+.li-footer:hover {
+	font-size: 16px;
+	font-family: "Ubuntu";
+	color: #fff;
 	line-height: 3.398;
 	cursor: pointer;
 }
@@ -41,7 +49,16 @@
 }
 .link-omnia {
 	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	text-decoration-color: #f3c9ef;
 }
 .link-omnia:hover {
 	color: rgb(255, 255, 255);
+}
+.span-footer {
+	color: #f0bceb;
+	margin-right: 5px;
+}
+.invert-logo-footer {
+	filter: brightness(0) invert(1);
 }

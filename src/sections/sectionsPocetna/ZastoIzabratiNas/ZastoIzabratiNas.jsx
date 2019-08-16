@@ -21,9 +21,8 @@ export default class ZastoIzabratiNas extends Component {
 							<Col lg={2} />
 							<Col lg={8}>
 								<p className="zasto-p">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation
-									ullamco commodo consequat.
+									Brzo riješavanje odštetnih zahtjeva, besplatna pravna pomoć, kao i niz drugih
+									pogodnosti dostupno je našim osiguranicima tokom cijele godine.
 								</p>
 							</Col>
 							<Col lg={2} />
@@ -45,9 +44,8 @@ export default class ZastoIzabratiNas extends Component {
 								<br />
 
 								<p className="p-right-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation
-									ullamco commodo consequat.
+									Naš stručan i ljubazan tim će vrlo rado odgovoriti na svaki Vaš upit, zato ne
+									oklijevajte da se obratite u najbližu kancelariju našeg društva.
 								</p>
 							</Col>
 							{/* end 1 row */}
@@ -62,9 +60,8 @@ export default class ZastoIzabratiNas extends Component {
 								<br />
 
 								<p className="p-left-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation
-									ullamco commodo consequat.
+									Ovakvim pristupom Osiguranje Aura konstantno bilježi rast tržišnog učešća i
+									povjerenja sve većeg broja novih osiguranika i saradnika.
 								</p>
 							</Col>
 							<Col lg={6}>
@@ -95,9 +92,9 @@ export default class ZastoIzabratiNas extends Component {
 								<br />
 
 								<p className="p-right-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation
-									ullamco commodo consequat.
+									Razvojem prodajne mreže, edukacijom preuzimača osiguranja, povećanjem broja
+									zaposlenih i stalnim unapređenjem efikasnosti poslovanja, konstantno unapređujemo
+									naše usluge.
 								</p>
 							</Col>
 							{/* end 3 row */}
@@ -112,9 +109,9 @@ export default class ZastoIzabratiNas extends Component {
 								<br />
 
 								<p className="p-left-text">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-									incididunt ut labore et dolore magna aliqua. Ut enim ad minim nostrud exercitation
-									ullamco commodo consequat.
+									Kako bi krajnji korisnici naših usluga bili maksimalno zadovoljni, konstantno radimo
+									na povećanju produktivnosti rada, naših zaposlenih te njihovom stručnom
+									osposobljavanju.
 								</p>
 							</Col>
 							<Col lg={6}>
