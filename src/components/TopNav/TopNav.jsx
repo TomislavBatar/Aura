@@ -14,20 +14,13 @@ export default class TopNav extends Component {
 			<React.Fragment>
 				<Navbar className="topNav navbar-expand navbar-dark justify-content-between">
 					<Container>
-						<Navbar.Brand href="/" className="lg-logo-media">
-							<img
-								className="d-inline-block AuraLogoTopNav"
-								src={AuraLogoTopNav}
-								alt="React Bootstrap logo"
-							/>
-						</Navbar.Brand>
-
-						{/* <Navbar.Text className="textTopNavLeft" inline /> */}
-						<Navbar.Text className="textTopNavRight" >
+						<Navbar.Text className="textTopNavLeft">
 							<a className="ttextTopNavLeft mr-4 telefonTopNav" href="viber://chat?number=12345678">
 								<img className="mr-3" src={ViberIcon} alt="viber icon" />0800 51 055
 							</a>
 							<span className="textTopNavLeft besplatniBroj">*Besplatni info telefon</span>
+						</Navbar.Text>
+						<Navbar.Text className="textTopNavRight" >
 							<a
 								target="_blank"
 								rel="noopener noreferrer"

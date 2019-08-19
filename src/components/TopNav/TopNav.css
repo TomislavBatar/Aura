@@ -1,8 +1,8 @@
 /* style for TopNav */
 .topNav {
-	/* background-color: rgb(143, 32, 134); */
-	background-color: #fff;
-	height: 100px;
+	background-color: rgb(143, 32, 134);
+	/* background-color: #fff; */
+	height: 50px;
 	border: none;
 }
 .AuraLogoTopNav {
@@ -12,21 +12,23 @@
 .textTopNavLeft {
 	font-size: 14px;
 	font-family: "Ubuntu";
-	color: #8f2086;
+	color: #fff;
 }
 .textTopNavRight {
 	font-size: 14px;
 	font-family: "Ubuntu";
-	color: rgb(143, 32, 134);
+	color: rgba(255, 255, 255, 0.781);
+
 }
 .telefonTopNav {
 	padding: 5px 35px;
-	border: 1px solid rgb(143, 32, 134);
+	border: 1px solid #fff;
 	border-radius: 100px;
-	color: rgb(143, 32, 134) !important;
+	color:#fff !important;
 }
 .telefonTopNav:hover {
 	text-decoration: none;
+	
 }
 
 /* izmjena bootstrapa  */
