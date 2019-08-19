@@ -33,6 +33,10 @@
 	border-radius: 20px;
 } */
 
+.padd-icon-search-lg{
+	padding-top: 4px !important
+}
+
 .SearchModalInput::placeholder {
 	/* Chrome, Firefox, Opera, Safari 10.1+ */
 	color: #e9b224;

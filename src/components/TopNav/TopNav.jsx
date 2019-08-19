@@ -6,13 +6,13 @@ import ViberIcon from './imgTopNav/viber.svg';
 import IgIcon from './imgTopNav/ig.svg';
 import FbIcon from './imgTopNav/fb.svg';
 import YtIcon from './imgTopNav/yt.svg';
-import AuraLogoTopNav from '../TopNav/imgTopNav/logo-aura-osiguranje.svg';
+// import AuraLogoTopNav from '../TopNav/imgTopNav/logo-aura-osiguranje.svg';
 
 export default class TopNav extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar className="topNav navbar-expand navbar-dark justify-content-between">
+				<Navbar className="topNav navbar-expand">
 					<Container>
 						<Navbar.Text className="textTopNavLeft">
 							<a className="ttextTopNavLeft mr-4 telefonTopNav" href="viber://chat?number=12345678">

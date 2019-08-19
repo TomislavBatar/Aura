@@ -10,7 +10,7 @@ import Ostalo from './imgNavigation/ostalo.svg';
 
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 
-// import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
+import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
 export default class Navigation extends Component {
 	state = {
 		otvoreno: true
@@ -18,7 +18,7 @@ export default class Navigation extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar sticky="top" className="Navigation navbar-height" expand="lg">
+				<Navbar sticky="top" className="Navigation navbar-height " expand="lg">
 					<Container className="pr-0 pl-0">
 						<Navbar.Brand href="/" className="sm-logo-media">
 							<img
@@ -33,7 +33,7 @@ export default class Navigation extends Component {
 							onClick={() => this.setState({ otvoreno: !this.state.otvoreno })}
 						/>
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
-							<Nav>
+							<Nav className="aaaaaaa">
 								<LinkContainer exact to="/">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Početna</span>
@@ -213,9 +213,9 @@ export default class Navigation extends Component {
 										</Row>
 									</div>
 								</NavDropdown>
-
+								
 								{/* <span className="bgSpanSm">Proizvodi</span> */}
-
+								
 								<LinkContainer to="/prijava-stete">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Prijava štete</span>
@@ -226,6 +226,15 @@ export default class Navigation extends Component {
 										<span className="bgSpanSm">Online polisa</span>
 									</Nav.Link>
 								</LinkContainer>
+
+								<Navbar.Brand href="/" className="">
+									<img
+										src={AuraLogoLg}
+										
+										className="AuraLogoLgSvg"
+										alt="Aura Osiguranje logo"
+									/>
+								</Navbar.Brand>
 
 								<LinkContainer to="/o-nama">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">

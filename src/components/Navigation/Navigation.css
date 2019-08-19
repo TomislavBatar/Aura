@@ -47,12 +47,14 @@
 	background-color: #fff;
 	min-height: 60px !important;
 	box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
-	/* border-bottom: 1px solid #f5f5f5; */
+	border-bottom: 1px solid #f5f5f5;
 }
 
 /* dopuna bootstrapa uz NavigationLinks */
 .navbar-light .navbar-nav .nav-link {
 	color: #8f2086;
+	padding-top: 41px;
+	
 }
 
 .NavigationLinks {
@@ -62,9 +64,12 @@
 	text-transform: uppercase;
 }
 
-/* .AuraLogoLgSvg {
+.AuraLogoLgSvg {
 	margin-bottom: -45px;
-} */
+	height: 140px;
+	z-index: 2;
+	position: relative;
+}
 
 .searchIcon {
 	height: 18px;
@@ -89,8 +94,8 @@
 /* izmjena bootstrapa */
 @media (min-width: 992px) {
 	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 18px;
-		padding-left: 18px;
+		padding-right: 1vw;
+		padding-left: 1vw;
 		color: #8f2086 !important;
 	}
 }
@@ -106,6 +111,7 @@
 
 	.navbar-light .navbar-nav .nav-link {
 		transition: all .3s;
+	
 	}
 
 	.navbar-light .navbar-nav .nav-link > span:hover {
@@ -277,8 +283,13 @@
 		width: 100%;
 		left: 0;
 		right: 0;
+		padding: 0;
+    	margin: 0;
 		/*  height of nav-item  */
-		top: 58px;
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1
 	}
 
 	/* shows the dropdown menu on hover */
