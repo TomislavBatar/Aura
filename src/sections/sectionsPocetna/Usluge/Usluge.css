@@ -337,3 +337,112 @@
 .link-kartica-usluge:hover {
 	color: #701068;
 }
+
+@keyframes Float {
+	from {
+		-webkit-transform: translateX(20%) translateZ(0);
+		transform: translateX(20%) translateZ(0);
+	}
+	to {
+		-webkit-transform: translateX(-20%) translateZ(0);
+		transform: translateX(-20%) translateZ(0);
+	}
+}
+
+@keyframes FadeIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-o-keyframes FadeIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-moz-keyframes FadeIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-webkit-keyframes FadeIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.oblak-sredina {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 10s;
+	animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-name: FadeIn, Float, FadeFloat;
+	animation-name: FadeIn, Float, FadeFloat;
+}
+
+/* sunce */
+
+.sunce-animacija {
+	animation-name: spin;
+}
+
+/* oblak 2 */
+
+@keyframes Float-2 {
+	from {
+		-webkit-transform: translateX(0%) translateZ(0);
+		transform: translateX(0%) translateZ(0);
+	}
+	to {
+		-webkit-transform: translateX(-40%) translateZ(0);
+		transform: translateX(-40%) translateZ(0);
+	}
+}
+
+.oblak-sredina-2 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-name: FadeIn, Float-2;
+	animation-name: FadeIn, Float-2;
+}

@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Row, Col, Container, Image, Card, CardGroup } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
 // import ReactTooltip from 'react-tooltip';
+import GrafikUsluge from './svgIkonice/grafikUsluge';
 
 import './Usluge.css';
 
-import imgGrafikUsluge from './imgUsluge/GrafikUsluge.png';
+import imgGrafikUsluge from './imgUsluge/GrafikUsluge.svg';
 
 // import imgAutoodgovornost from './imgUsluge/auto.svg';
 import imgKaskoOsiguranje from './imgUsluge/kasko.svg';
@@ -50,12 +51,13 @@ export default class Usluge extends Component {
 								</p>
 							</Col>
 							<Col lg={12}>
-								<Image
+								{/* <Image
 									className="grafik-usluge"
-									src={imgGrafikUsluge}
+									src={SvgComponent}
 									fluid
 									alt="Aura osiguranje grafik"
-								/>
+								/> */}
+								<GrafikUsluge />
 							</Col>
 
 							<Col lg={12}>
@@ -71,11 +73,14 @@ export default class Usluge extends Component {
 												<Card
 													// data-tip
 													// data-for="auto"
-													
+
 													key="front"
 													className="card-grafik-usluge card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center"
 												>
-													<Card.Body onMouseOver={this.handleClick}  className="card-body-grafik-usluge">
+													<Card.Body
+														onMouseOver={this.handleClick}
+														className="card-body-grafik-usluge"
+													>
 														<svg
 															className="img-fluid grafik-usluge-1"
 															viewBox="0 0 321.97 150.34"
