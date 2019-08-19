@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image, Card, CardGroup } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-import ReactTooltip from 'react-tooltip';
+// import ReactTooltip from 'react-tooltip';
 
 import './Usluge.css';
 
@@ -30,9 +30,9 @@ export default class Usluge extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<ReactTooltip delayShow={500} id="auto" type="info" effect="solid">
+				{/* <ReactTooltip delayShow={500} id="auto" type="info" effect="solid">
 					<span>Klik za više...</span>
-				</ReactTooltip>
+				</ReactTooltip> */}
 				<dir className="bg-purple section-padding">
 					<Container>
 						<Row>
@@ -69,13 +69,13 @@ export default class Usluge extends Component {
 										<Card className="card-grafik-usluge-1 card-grafik-usluge-top-left-radius  text-center">
 											<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 												<Card
-													data-tip
-													data-for="auto"
-													onClick={this.handleClick}
+													// data-tip
+													// data-for="auto"
+													
 													key="front"
 													className="card-grafik-usluge card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center"
 												>
-													<Card.Body className="card-body-grafik-usluge">
+													<Card.Body onMouseOver={this.handleClick}  className="card-body-grafik-usluge">
 														<svg
 															className="img-fluid grafik-usluge-1"
 															viewBox="0 0 321.97 150.34"
@@ -289,7 +289,7 @@ export default class Usluge extends Component {
 													</Card.Body>
 												</Card>
 												<Card
-													onClick={this.handleClick}
+													onMouseLeave={this.handleClick}
 													key="back"
 													className="card-grafik-usluge-back card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center"
 												>
