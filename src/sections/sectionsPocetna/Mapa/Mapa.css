@@ -21,6 +21,8 @@
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
+	padding-left: 55px;
+
 }
 
 .input-mapa:focus {
@@ -37,6 +39,7 @@
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
+	padding-left: 70px
 }
 .input-mapa::placeholder {
 	font-size: 21px;
@@ -44,8 +47,6 @@
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
-	padding-left: 40px;
-	margin-left: 40px;
 }
 
 .button-search-mapa {

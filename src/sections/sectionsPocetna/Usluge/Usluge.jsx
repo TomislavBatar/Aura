@@ -7,7 +7,7 @@ import './Usluge.css';
 
 import imgGrafikUsluge from './imgUsluge/GrafikUsluge.png';
 
-import imgAutoodgovornost from './imgUsluge/auto.svg';
+// import imgAutoodgovornost from './imgUsluge/auto.svg';
 import imgKaskoOsiguranje from './imgUsluge/kasko.svg';
 import imgOsiguranjeImovine from './imgUsluge/imovina.svg';
 import imgPutnoZdravstvenoOsiguranje from './imgUsluge/putno.svg';

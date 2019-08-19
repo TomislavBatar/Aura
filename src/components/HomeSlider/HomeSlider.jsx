@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import Image from 'react-bootstrap/Image';
 import { Container, Button } from 'react-bootstrap';
 
 import './cssHomeSlider/HomeSlider.css';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Image, Form, InputGroup, Button } from 'react-bootstrap';
+import { Row, Col, Container, Image, Form, Button } from 'react-bootstrap';
 import './Mapa.css';
 
 import imgSearchPartneri from './imgMapa/search.svg';
@@ -14,7 +14,7 @@ export default class Mapa extends Component {
 						<Row className="justify-content-center">
 							<Col lg={8}>
 								<Form className="d-flex align-items-start">
-									<Form.Control className="input-mapa" placeholder="Pronadji najbljižu poslovnicu" />
+									<Form.Control className="input-mapa" placeholder="Pronađi najbljižu poslovnicu" />
 									<Button className="button-search-mapa">
 										<Image
 											className="svg-pretraga-poslovnica"

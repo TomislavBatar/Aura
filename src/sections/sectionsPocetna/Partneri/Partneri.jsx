@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Row, Col, Container, Image, Card, CardGroup } from 'react-bootstrap';
+import { Row, Col, Container, Image} from 'react-bootstrap';
 import './Partneri.css';
 
 import imgAurisLogo from './imgPartneri/auris-logo.png';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Image, Form, InputGroup, Button } from 'react-bootstrap';
+import { Row, Col, Container, Image, Form, Button } from 'react-bootstrap';
 import './Newsletter.css';
 
 import imgNewsletter from './imgNewsletter/newsletter.svg';
