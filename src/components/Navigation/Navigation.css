@@ -44,7 +44,7 @@
 }
 
 .Navigation {
-	background-color: #8f2086;
+	background-color: #fff;
 	min-height: 60px !important;
 	box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
 	/* border-bottom: 1px solid #f5f5f5; */
@@ -52,7 +52,7 @@
 
 /* dopuna bootstrapa uz NavigationLinks */
 .navbar-light .navbar-nav .nav-link {
-	color: #fff;
+	color: #8f2086;
 }
 
 .NavigationLinks {
@@ -68,6 +68,7 @@
 
 .searchIcon {
 	height: 18px;
+
 }
 
 @media (min-width: 993px) {
@@ -90,7 +91,7 @@
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 18px;
 		padding-left: 18px;
-		color: #fff !important;
+		color: #8f2086 !important;
 	}
 }
 
@@ -99,7 +100,7 @@
 	.navbar-light .navbar-nav .nav-link.active > span,
 	.navbar-light .navbar-nav .nav-link.show > span,
 	.navbar-light .navbar-nav .show > .nav-link > span {
-		color: #fff !important;
+		color: #8f2086 !important;
 		border-bottom: 2.5px solid #f9d761;
 	}
 
@@ -108,11 +109,11 @@
 	}
 
 	.navbar-light .navbar-nav .nav-link > span:hover {
-		color: #fff !important;
+		color: #8f2086 !important;
 		border-bottom: 2.5px solid #f9d761;
 	}
 	.navbar-light .navbar-nav .nav-link > span:focus {
-		color: #fff !important;
+		color: #8f2086 !important;
 		border-bottom: 2.5px solid #f9d761;
 	}
 }
