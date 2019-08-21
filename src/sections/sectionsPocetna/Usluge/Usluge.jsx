@@ -4,7 +4,8 @@ import ReactCardFlip from 'react-card-flip';
 // import ReactTooltip from 'react-tooltip';
 import GrafikUsluge from './svgIkonice/grafikUsluge';
 
-import './Usluge.css';
+import './cssUsluge/usluge.css';
+import './cssUsluge/media-query-usluge.css';
 
 // import imgGrafikUsluge from './imgUsluge/GrafikUsluge.svg';
 

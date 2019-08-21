@@ -3,6 +3,8 @@ import Slider from 'react-slick';
 import { Container, Button } from 'react-bootstrap';
 
 import './cssHomeSlider/HomeSlider.css';
+import './cssHomeSlider/media-query-home-slider.css';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
