@@ -1,0 +1,334 @@
+.oblak-sredina {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 30s;
+	animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* sunce */
+
+@keyframes sunce-zdrake-animacija {
+	0% {
+		fill: #f1c40f;
+	}
+	50% {
+		fill: #e67e22;
+	}
+	100% {
+		fill: #f1c40f;
+	}
+}
+
+@keyframes sunce-krug-animacija-boja {
+	0% {
+		fill: #ffcf53;
+	}
+	50% {
+		fill: #f5c54a;
+	}
+	100% {
+		fill: #ffcf53;
+	}
+}
+
+@keyframes scale-animation-sunce {
+	0% {
+		transform: scale(1.0) translateX(-1px);
+	}
+
+	50% {
+		transform: scale(1.02) translateX(-1px);
+	}
+	100% {
+		transform: scale(1.0) translateX(-1px);
+	}
+}
+
+.sunce-animacija {
+	animation: scale-animation-sunce 1s 0s linear infinite, sunce-zdrake-animacija 1s 0s linear infinite;
+}
+.sunce-krug-animacija {
+	animation: sunce-krug-animacija-boja 2s 0s linear infinite;
+}
+
+/* oblak 2 */
+
+.oblak-sredina-2 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* oblak 3 */
+
+.oblak-sredina-3 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 30s;
+	animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* oblak-4 */
+
+.oblak-4 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* oblak-5 */
+
+.oblak-5 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 20s;
+	animation-duration: 20s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* oblak-6 */
+.oblak-6 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 30s;
+	animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* oblak-7 */
+
+@keyframes Float-7 {
+	0% {
+		-webkit-transform: translateX(0%) translateZ(0);
+		transform: translateX(0%) translateZ(0);
+	}
+	50% {
+		-webkit-transform: translateX(-10%) translateZ(0);
+		transform: translateX(-10%) translateZ(0);
+	}
+	100% {
+		-webkit-transform: translateX(-1%) translateZ(0);
+		transform: translateX(0%) translateZ(0);
+	}
+}
+
+.oblak-7 {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-animation-duration: 30s;
+	animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: Float-7;
+	animation-name: Float-7;
+}
+
+/* munja */
+
+@keyframes munja {
+	0% {
+		opacity: 1;
+		transform: translateX(0) translateY(0px);
+	}
+	10% {
+		opacity: .2;
+		transform: translateX(0) translateY(2px);
+	}
+	20% {
+		opacity: 1;
+		transform: translateX(0) translateY(0px);
+	}
+	30% {
+		opacity: .2;
+		transform: translateX(0) translateY(2px);
+	}
+	40% {
+		opacity: 1;
+		transform: translateX(0) translateY(0px);
+	}
+	50% {
+		opacity: .2;
+		transform: translateX(0) translateY(2px);
+	}
+	60% {
+		opacity: 1;
+		transform: translateX(0) translateY(0px);
+	}
+	70% {
+		opacity: .2;
+		transform: translateX(0) translateY(2px);
+	}
+	80% {
+		opacity: 1;
+		transform: translateX(0) translateY(0px);
+	}
+	90% {
+		opacity: .2;
+		transform: translateX(0) translateY(2px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0) translateY(0px);
+	}
+}
+
+.munja {
+	animation: munja 8s linear alternate infinite;
+}
+
+/* crtice sudar */
+
+@keyframes draw {
+	from {
+		clip-path: inset(0% 0% 0% 0%);
+	}
+	to {
+		clip-path: inset(100% 0% 0% 0%);
+	}
+}
+@keyframes draw-2 {
+	from {
+		clip-path: inset(0% 0% 0% 0%);
+	}
+	to {
+		clip-path: inset(0% 100% 0% 0%);
+	}
+}
+
+.crtica-sudar-1 {
+	animation: draw .2s linear alternate infinite;
+}
+.crtica-sudar-2 {
+	animation: draw .4s linear alternate infinite;
+}
+.crtica-sudar-3 {
+	animation: draw .6s linear alternate infinite;
+}
+.crtica-sudar-4 {
+	animation: draw-2 .8s linear alternate infinite;
+}
+
+/* avioncic */
+
+@keyframes avioncic-crtice {
+	0% {
+		clip-path: inset(0% 0% 0% 0%);
+	}
+	40% {
+		clip-path: inset(0% 100% 0% 0%);
+	}
+	50% {
+		clip-path: inset(0% 100% 0% 0%);
+	}
+	60% {
+		clip-path: inset(0% 100% 0% 0%);
+	}
+	100% {
+		clip-path: inset(0% 100% 0% 0%);
+	}
+}
+
+@keyframes paper-plane-scoping {
+	0% {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+		transform: translate(-10, -100);
+	}
+	80% {
+		opacity: 1;
+	}
+
+	99% {
+		opacity: 0;
+	}
+
+	100% {
+		transform: translate(-20%, 20%);
+		opacity: 0;
+	}
+}
+
+.crtice-avion-3 {
+	animation: avioncic-crtice 6s forwards ease-in-out infinite;
+	animation-delay: 2s;
+}
+
+.avioncic-3 {
+	animation: paper-plane-scoping 6s ease-in-out forwards infinite;
+	animation-delay: 2s;
+}

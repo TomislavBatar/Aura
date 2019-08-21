@@ -3,7 +3,7 @@ import { Row, Col, Container, Image, Form, Button } from 'react-bootstrap';
 import './Mapa.css';
 
 import imgSearchPartneri from './imgMapa/search.svg';
-import imgMapaBih from './imgMapa/mapa-bih.png';
+import imgMapaBih from './imgMapa/mapa-aura.svg';
 
 export default class Mapa extends Component {
 	render() {
@@ -26,8 +26,7 @@ export default class Mapa extends Component {
 							</Col>
 						</Row>
 					</Container>
-
-					<Container fluid>
+					<Container className="text-center" fluid>
 						<Image className="mapa-bih" fluid src={imgMapaBih} alt="Pretraga poslovnica" />
 					</Container>
 				</div>

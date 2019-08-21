@@ -22,7 +22,6 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	padding-left: 55px;
-
 }
 
 .input-mapa:focus {
@@ -39,7 +38,7 @@
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
-	padding-left: 70px
+	padding-left: 70px;
 }
 .input-mapa::placeholder {
 	font-size: 21px;
@@ -85,5 +84,6 @@
 }
 
 .mapa-bih {
-	margin-top: -320px;
+	margin-top: -260px;
+	height: 1200px;
 }
