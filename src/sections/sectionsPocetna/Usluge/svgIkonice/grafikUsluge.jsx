@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './mediaGrafikUsluge.css';
 
 const GrafikUsluge = () => (
   <svg

@@ -33,8 +33,9 @@ export default class HomeSlider extends Component {
 									11 GODINA USPJEŠNOG <br /> RADA SA VAMA!
 								</h2>
 								<p className="slider-p">
-									Osiguravajuća kuća Aura se od svog osnivanja 2008. godine relativno brzo našla među
-									najpoželjnijim osiguravajućim društvima u BiH.
+									11 godina uspješnog rada sa vama Osiguravajuća kuća Aura se od svog osnivanja 2008.
+									godine relativno brzo našla među najpoželjnijim osiguravajućim društvima u BiH.
+									Zahvaljujući dobroj poslovnoj strategiji...
 								</p>
 								<Button className="dugme-slajder">
 									Saznaj više

@@ -6,7 +6,7 @@ import GrafikUsluge from './svgIkonice/grafikUsluge';
 
 import './Usluge.css';
 
-import imgGrafikUsluge from './imgUsluge/GrafikUsluge.svg';
+// import imgGrafikUsluge from './imgUsluge/GrafikUsluge.svg';
 
 // import imgAutoodgovornost from './imgUsluge/auto.svg';
 import imgKaskoOsiguranje from './imgUsluge/kasko.svg';
