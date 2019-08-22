@@ -26,13 +26,6 @@
 	text-decoration: none;
 }
 
-/* izmjena bootstrapa  */
-@media (max-width: 576px) {
-	.besplatniBroj {
-		display: none;
-	}
-}
-
 .padd-15px-right {
 	padding-right: 15px;
 }

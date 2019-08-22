@@ -1,10 +1,20 @@
-@media screen and (min-width: 0px) and (max-width: 320px) {
-	.topNav {
+/* izmjena bootstrapa  */
+@media (max-width: 576px) {
+	.besplatniBroj {
 		display: none;
 	}
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	.topNav {
+		display: none;
+	}
+	.ttextTopNavLeft {
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 334px) {
 	.fb-icon {
 		height: 18px;
 	}
@@ -16,5 +26,132 @@
 	}
 	.padd-15px-right {
 		padding-right: 0px;
+	}
+	.margina-tel-ikonice {
+		margin-left: 0 !important;
+		margin-right: 30px !important;
+	}
+	.telefonTopNav {
+		padding: 6px 16px;
+	}
+	.textTopNavLeft {
+		font-size: 10px;
+	}
+	.textTopNavRight {
+		font-size: 10px;
+	}
+	.ttextTopNavLeft {
+		margin-right: 0 !important;
+	}
+}
+@media screen and (min-width: 335px) and (max-width: 375px) {
+	.fb-icon {
+		height: 18px;
+	}
+	.ig-icon {
+		height: 18px;
+	}
+	.yt-icon {
+		height: 18px;
+	}
+	.padd-15px-right {
+		padding-right: 0px;
+	}
+	.margina-tel-ikonice {
+		margin-left: 0 !important;
+		margin-right: 40px !important;
+	}
+	.telefonTopNav {
+		padding: 6px 16px;
+	}
+	.textTopNavLeft {
+		font-size: 10px;
+	}
+	.textTopNavRight {
+		font-size: 10px;
+	}
+	.ttextTopNavLeft {
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+	.fb-icon {
+		height: 20px;
+	}
+	.ig-icon {
+		height: 20px;
+	}
+	.yt-icon {
+		height: 20px;
+	}
+	.padd-15px-right {
+		padding-right: 0px;
+	}
+	.margina-tel-ikonice {
+		margin-left: 0 !important;
+		margin-right: 50px !important;
+	}
+	.telefonTopNav {
+		padding: 8px 28px;
+	}
+	.textTopNavLeft {
+		font-size: 11px;
+	}
+	.textTopNavRight {
+		font-size: 11px;
+	}
+	.ttextTopNavLeft {
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+	.fb-icon {
+		height: 20px;
+	}
+	.ig-icon {
+		height: 20px;
+	}
+	.yt-icon {
+		height: 20px;
+	}
+	.padd-15px-right {
+		padding-right: 0px;
+	}
+	.margina-tel-ikonice {
+		margin-left: 0 !important;
+		margin-right: 60px !important;
+	}
+	.telefonTopNav {
+		padding: 9px 35px;
+	}
+	.textTopNavLeft {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 427px) and (max-width: 1024px) {
+	.fb-icon {
+		height: 18px;
+	}
+	.ig-icon {
+		height: 18px;
+	}
+	.yt-icon {
+		height: 18px;
+	}
+	.padd-15px-right {
+		padding-right: 0px;
+	}
+	.margina-tel-ikonice {
+		margin-left: 0 !important;
+		margin-right: 55px !important;
+	}
+	.telefonTopNav {
+		padding: 7px 35px;
+	}
+	.textTopNavLeft {
+		font-size: 12px;
 	}
 }

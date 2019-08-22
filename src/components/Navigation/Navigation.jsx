@@ -213,9 +213,9 @@ export default class Navigation extends Component {
 										</Row>
 									</div>
 								</NavDropdown>
-								
+
 								{/* <span className="bgSpanSm">Proizvodi</span> */}
-								
+
 								<LinkContainer to="/prijava-stete">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Prijava štete</span>
@@ -228,12 +228,7 @@ export default class Navigation extends Component {
 								</LinkContainer>
 
 								<Navbar.Brand href="/" className="">
-									<img
-										src={AuraLogoLg}
-										
-										className="AuraLogoLgSvg"
-										alt="Aura Osiguranje logo"
-									/>
+									<img src={AuraLogoLg} className="AuraLogoLgSvg" alt="Aura Osiguranje logo" />
 								</Navbar.Brand>
 
 								<LinkContainer to="/o-nama">

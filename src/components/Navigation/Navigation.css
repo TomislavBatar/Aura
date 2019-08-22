@@ -54,7 +54,6 @@
 .navbar-light .navbar-nav .nav-link {
 	color: #8f2086;
 	padding-top: 41px;
-	
 }
 
 .NavigationLinks {
@@ -69,12 +68,10 @@
 	height: 140px;
 	z-index: 2;
 	position: relative;
-	
 }
 
 .searchIcon {
 	height: 18px;
-
 }
 
 @media (min-width: 993px) {
@@ -112,7 +109,6 @@
 
 	.navbar-light .navbar-nav .nav-link {
 		transition: all .3s;
-	
 	}
 
 	.navbar-light .navbar-nav .nav-link > span:hover {
@@ -209,22 +205,6 @@
 	.navbar-light .navbar-nav .nav-link:hover {
 		color: #8f2086;
 	}
-
-	.telefonTopNav {
-		padding: 6px 18px;
-		border: 1px solid #fff;
-		border-radius: 100px;
-	}
-	.textTopNavLeft {
-		font-size: 10px;
-		font-family: "Ubuntu";
-		color: rgb(255, 255, 255);
-	}
-	.textTopNavRight {
-		font-size: 10px;
-		font-family: "Ubuntu";
-		color: rgb(255, 255, 255);
-	}
 }
 
 @keyframes spinning {
@@ -285,12 +265,12 @@
 		left: 0;
 		right: 0;
 		padding: 0;
-    	margin: 0;
+		margin: 0;
 		/*  height of nav-item  */
 		top: 100px;
 		border-top: 1px solid #e1e1e1;
 		border-bottom: 1px solid #e1e1e1;
-		z-index: 1
+		z-index: 1;
 	}
 
 	/* shows the dropdown menu on hover */
