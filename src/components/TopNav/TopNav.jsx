@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Navbar, Container } from 'react-bootstrap';
-import './TopNav.css';
+
+import './cssTopNav/topnav.css';
+import './cssTopNav/media-topnav.css';
 
 import ViberIcon from './imgTopNav/viber.svg';
 import IgIcon from './imgTopNav/ig.svg';
 import FbIcon from './imgTopNav/fb.svg';
 import YtIcon from './imgTopNav/yt.svg';
-// import AuraLogoTopNav from '../TopNav/imgTopNav/logo-aura-osiguranje.svg';
 
 export default class TopNav extends Component {
 	render() {
@@ -20,22 +21,22 @@ export default class TopNav extends Component {
 							</a>
 							<span className="textTopNavLeft besplatniBroj">*Besplatni info telefon</span>
 						</Navbar.Text>
-						<Navbar.Text className="textTopNavRight" >
+						<Navbar.Text className="textTopNavRight">
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
 								href="https://www.facebook.com/osiguranjeaura/"
-								className="mr-5 ml-5"
+								className="mr-5 ml-5 margina-tel-ikonice"
 							>
-								<img src={FbIcon} height="20" alt="fb icon" />
+								<img src={FbIcon} className="fb-icon" height="20" alt="fb icon" />
 							</a>
 							<a
 								target="_blank"
 								rel="noopener noreferrer"
 								href="https://www.instagram.com/osiguranje_aura_official/"
-								className="mr-5"
+								className="mr-5 margina-tel-ikonice"
 							>
-								<img src={IgIcon} height="20" alt="ig icon" />
+								<img src={IgIcon} className="ig-icon" height="20" alt="ig icon" />
 							</a>
 							<a
 								target="_blank"
@@ -43,7 +44,7 @@ export default class TopNav extends Component {
 								href="https://www.youtube.com/channel/UC22Sjor-ktC_H0dkK7THsNg"
 								className="padd-15px-right"
 							>
-								<img src={YtIcon} height="20" alt="yt icon" />
+								<img src={YtIcon} className="yt-icon" height="20" alt="yt icon" />
 							</a>
 						</Navbar.Text>
 					</Container>

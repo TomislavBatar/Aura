@@ -15,17 +15,15 @@
 	font-size: 14px;
 	font-family: "Ubuntu";
 	color: rgba(255, 255, 255, 0.781);
-
 }
 .telefonTopNav {
 	padding: 5px 35px;
 	border: 1px solid #fff;
 	border-radius: 100px;
-	color:#fff !important;
+	color: #fff !important;
 }
 .telefonTopNav:hover {
 	text-decoration: none;
-	
 }
 
 /* izmjena bootstrapa  */
