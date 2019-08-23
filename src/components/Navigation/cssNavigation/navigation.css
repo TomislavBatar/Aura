@@ -27,6 +27,14 @@
 		transform: translateX(0);
 	}
 }
+@keyframes slideTop {
+	0% {
+		transform: translateY(-20%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
 
 @keyframes spinning {
 	from {

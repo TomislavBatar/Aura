@@ -1004,3 +1004,100 @@
 		padding: 40px 0px !important;
 	}
 }
+/* to do podesti prave vrijednosti */
+@media screen and (min-width: 1921px) {
+	.NavigationLinks {
+		font-size: 12px;
+	}
+	.navbar-height {
+		max-height: 100px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -45px;
+		height: 120px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 34px;
+	}
+	.navbar .dropdown-menu {
+		top: 100px;
+	}
+	.col-1-dropdown {
+		animation: .5s ease-in-out slideIn;
+	}
+	.col-2-dropdown {
+		animation: .4s ease-in-out slideIn;
+	}
+	.col-3-dropdown {
+		animation: .3s ease-in-out slideIn;
+	}
+	.col-4-dropdown {
+		animation: .2s ease-in-out slideIn;
+	}
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+		animation: .1s ease-in-out opaDropdown;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
