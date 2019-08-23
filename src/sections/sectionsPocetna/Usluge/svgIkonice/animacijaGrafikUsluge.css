@@ -332,3 +332,6 @@
 	animation: paper-plane-scoping 6s ease-in-out forwards infinite;
 	animation-delay: 2s;
 }
+.radial-gradient {
+	background: radial-gradient(closest-side, #af3da5dc, #af3da5c2, rgb(143, 32, 134));
+}

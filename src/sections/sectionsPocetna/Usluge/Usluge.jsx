@@ -51,7 +51,7 @@ export default class Usluge extends Component {
 									opšte građanske odgovornosti.
 								</p>
 							</Col>
-							<Col lg={12}>
+							<Col lg={12} className="radial-gradient">
 								{/* <Image
 									className="grafik-usluge"
 									src={SvgComponent}

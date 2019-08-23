@@ -1,0 +1,168 @@
+/* @-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+@keyframes opaDropdown {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes slideIn {
+	0% {
+		transform: translateX(-20%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes spinning {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(90deg);
+	}
+}
+
+/* @-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+.Navigation {
+	background-color: #fff;
+	min-height: 60px !important;
+	box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	border-bottom: 1px solid #f5f5f5;
+}
+
+/* dopuna bootstrapa uz NavigationLinks */
+.navbar-light .navbar-nav .nav-link {
+	color: #8f2086;
+	padding-top: 41px;
+}
+
+.NavigationLinks {
+	font-size: 14px;
+	font-family: "Ubuntu";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.AuraLogoLgSvg {
+	margin-bottom: -45px;
+	height: 140px;
+	z-index: 2;
+	position: relative;
+}
+
+.searchIcon {
+	height: 18px;
+}
+
+@media (min-width: 993px) {
+	.sm-logo-media {
+		display: none;
+	}
+	.lg-logo-media {
+		display: block;
+		z-index: 2;
+	}
+}
+
+/* izmjena bootstrapa */
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1vw;
+		padding-left: 1vw;
+		color: #8f2086 !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-light .navbar-nav .active > .nav-link > span,
+	.navbar-light .navbar-nav .nav-link.active > span,
+	.navbar-light .navbar-nav .nav-link.show > span,
+	.navbar-light .navbar-nav .show > .nav-link > span {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		transition: all .3s;
+	}
+
+	.navbar-light .navbar-nav .nav-link > span:hover {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+	.navbar-light .navbar-nav .nav-link > span:focus {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+}
+
+/* dodavanje triger meni ikonice (custom) */
+
+.openMenu {
+	background-image: url(../imgNavigation/open.svg) !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	transition: all .05s;
+	height: 27px;
+}
+.closeMenu {
+	background-image: url(../imgNavigation/close.svg) !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	animation: .5s spinning forwards;
+	height: 27px;
+}
+
+@media screen and (min-width: 992px) {
+}
+
+/* prosirenje containera */
+
+@media (min-width: 1441px) {
+	.container {
+		max-width: 1400px;
+	}
+	.margin-navItems-lg {
+		margin-right: 20px;
+	}
+}

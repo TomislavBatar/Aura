@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import { Navbar, Nav, Row, Col, Container, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import SearchModal from '../../components/SearchModal/SearchModal';
-import './Navigation.css';
+import './cssNavigation/navigation.css';
+import './cssNavigation/media-navigation.css';
+
 import Automobili from './imgNavigation/automobili.svg';
 import Imovina from './imgNavigation/imovina.svg';
 import Putovanja from './imgNavigation/putovanja.svg';
 import Ostalo from './imgNavigation/ostalo.svg';
 
 import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
-
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
+
 export default class Navigation extends Component {
 	state = {
 		otvoreno: true
@@ -33,7 +35,7 @@ export default class Navigation extends Component {
 							onClick={() => this.setState({ otvoreno: !this.state.otvoreno })}
 						/>
 						<Navbar.Collapse id="basic-navbar-nav" className="slideIn">
-							<Nav className="aaaaaaa">
+							<Nav className="">
 								<LinkContainer exact to="/">
 									<Nav.Link className="NavigationLinks margin-navItems-lg">
 										<span className="bgSpanSm">Početna</span>
@@ -46,7 +48,13 @@ export default class Navigation extends Component {
 								>
 									<div className="container">
 										<Row className="row-dropdown">
-											<Col className="col-dropdown-border-right">
+											<Col
+												lg={3}
+												md={6}
+												sm={12}
+												xs={12}
+												className="col-dropdown-border-right col-1-dropdown"
+											>
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
 													{/* TO DO add a page to="?" */}
@@ -79,15 +87,26 @@ export default class Navigation extends Component {
 														</li>
 													</LinkContainer>
 													<LinkContainer to="/">
-														<li className="li-dorpdown">
-															<img src={Automobili} height="141" alt="Automobili" />
+														<li className="li-dorpdown col-img-automobil">
+															<img
+																src={Automobili}
+																className="img-automobil"
+																height="141"
+																alt="Automobili"
+															/>
 														</li>
 													</LinkContainer>
 												</ul>
 											</Col>
 
 											{/* col 2 */}
-											<Col className="col-dropdown-border-right">
+											<Col
+												lg={3}
+												md={6}
+												sm={12}
+												xs={12}
+												className="col-dropdown-border-right col-2-dropdown"
+											>
 												<h2 className="col-dropdown-title">Imovina</h2>
 												<ul className="list-unstyled">
 													<LinkContainer to="/">
@@ -117,10 +136,10 @@ export default class Navigation extends Component {
 													<LinkContainer to="/">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
-																<span className="text-white">.</span>
+																<span className="text-white visak-tel">.</span>
 															</h3>
 															<p className="p-dropdown">
-																<span className="text-white">.</span>
+																<span className="text-white visak-tel">.</span>
 															</p>
 														</li>
 													</LinkContainer>
@@ -133,13 +152,19 @@ export default class Navigation extends Component {
 											</Col>
 
 											{/* col 3 */}
-											<Col className="col-dropdown-border-right">
+											<Col
+												lg={3}
+												md={6}
+												sm={12}
+												xs={12}
+												className="col-dropdown-border-right col-3-dropdown"
+											>
 												<h2 className="col-dropdown-title">Putovanja</h2>
 												<ul className="list-unstyled">
 													<LinkContainer to="/">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
-																putno zdravstveno osig.
+																Putno zdravstveno osig.
 															</h3>
 															<p className="p-dropdown">
 																Čak i pri brižljivo planiranim putovanjima ili kratkim
@@ -162,10 +187,10 @@ export default class Navigation extends Component {
 													<LinkContainer to="/">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
-																<span className="text-white">.</span>
+																<span className="text-white visak-tel">.</span>
 															</h3>
 															<p className="p-dropdown">
-																<span className="text-white">.</span>
+																<span className="text-white visak-tel">.</span>
 															</p>
 														</li>
 													</LinkContainer>
@@ -178,7 +203,13 @@ export default class Navigation extends Component {
 											</Col>
 
 											{/* col 4 */}
-											<Col className="">
+											<Col
+												lg={3}
+												md={6}
+												sm={12}
+												xs={12}
+												className="col-dropdown-zadnja col-4-dropdown"
+											>
 												<h2 className="col-dropdown-title">Ostalo</h2>
 												<ul className="list-unstyled">
 													<li className="li-dorpdown">
@@ -189,9 +220,8 @@ export default class Navigation extends Component {
 															Lorem ipsum dolor sit amet, consectetur
 														</p>
 													</li>
-
 													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">osiguranje od nezgoda</h3>
+														<h3 className="sub-title-dropdown">Osiguranje od nezgoda</h3>
 														<p className="p-dropdown">
 															Lorem ipsum dolor sit amet, consectetur
 														</p>
@@ -199,10 +229,10 @@ export default class Navigation extends Component {
 													{/* to do izbrisati kasnije tacke  */}
 													<li className="li-dorpdown">
 														<h3 className="sub-title-dropdown">
-															<span className="text-white">.</span>
+															<span className="text-white visak-tel">.</span>
 														</h3>
 														<p className="p-dropdown">
-															<span className="text-white">.</span>
+															<span className="text-white visak-tel">.</span>
 														</p>
 													</li>
 													<li className="li-dorpdown">
@@ -227,7 +257,7 @@ export default class Navigation extends Component {
 									</Nav.Link>
 								</LinkContainer>
 
-								<Navbar.Brand href="/" className="">
+								<Navbar.Brand href="/" className="aura-lg-logo-link">
 									<img src={AuraLogoLg} className="AuraLogoLgSvg" alt="Aura Osiguranje logo" />
 								</Navbar.Brand>
 

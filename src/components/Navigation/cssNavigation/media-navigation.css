@@ -1,0 +1,1006 @@
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	.sm-logo-media {
+		display: block;
+	}
+	.AuraLogoLgSvg {
+		display: none;
+	}
+	.aura-lg-logo-link {
+		display: none;
+	}
+	/* za tel dropdown */
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+
+	.navbar-light .navbar-toggler {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+		padding: 14px 0px;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+	.navbar-light .navbar-toggler:hover {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+
+	/* uklonjena default ikonica od bootstrapa  */
+	.navbar-toggler-icon {
+		background-image: none !important;
+	}
+
+	.slideIn {
+		transition: color 0.2s ease-in-out 0s;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.NavigationLinks {
+		font-size: 20px;
+		text-transform: none;
+	}
+
+	#basic-navbar-nav {
+		max-height: 85vh;
+		overflow-y: auto;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: #8f2086;
+		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
+		padding: 12px 0px;
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.show > .nav-link,
+	.active > .nav-link,
+	.nav-link.show,
+	.nav-link.active .bgSpanSm {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: #8f2086;
+	}
+	.col-dropdown-title {
+		font-size: 20px;
+		color: #8f2086;
+		border-bottom: 2.5px solid #8f208643;
+		margin-bottom: 15px;
+	}
+	.sub-title-dropdown {
+		font-size: 18px;
+		color: #8f2086;
+	}
+	.p-dropdown {
+		font-size: 10px;
+		font-weight: 400;
+		color: rgb(73, 74, 74);
+	}
+	.col-img-automobil {
+		text-align: center;
+	}
+
+	.col-dropdown-border-right {
+		padding: 0;
+	}
+	.li-dorpdown img {
+		display: none;
+	}
+	.col-dropdown-zadnja {
+		padding: 0;
+	}
+	.visak-tel {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+	.sm-logo-media {
+		display: block;
+	}
+	.AuraLogoLgSvg {
+		display: none;
+	}
+	.aura-lg-logo-link {
+		display: none;
+	}
+	/* za tel dropdown */
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+
+	.navbar-light .navbar-toggler {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+		padding: 14px 0px;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+	.navbar-light .navbar-toggler:hover {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+
+	/* uklonjena default ikonica od bootstrapa  */
+	.navbar-toggler-icon {
+		background-image: none !important;
+	}
+
+	.slideIn {
+		transition: color 0.2s ease-in-out 0s;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.NavigationLinks {
+		font-size: 20px;
+		text-transform: none;
+	}
+
+	#basic-navbar-nav {
+		max-height: 85vh;
+		overflow-y: auto;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: #8f2086;
+		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
+		padding: 12px 0px;
+		text-align: left;
+		font-size: 20px;
+	}
+
+	.show > .nav-link,
+	.active > .nav-link,
+	.nav-link.show,
+	.nav-link.active .bgSpanSm {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: #8f2086;
+	}
+	.col-dropdown-title {
+		font-size: 22px;
+		color: #8f2086;
+		border-bottom: 2.5px solid #8f208643;
+		margin-bottom: 15px;
+	}
+	.sub-title-dropdown {
+		font-size: 20px;
+		color: #8f2086;
+	}
+	.p-dropdown {
+		font-size: 14px;
+		font-weight: 400;
+		color: rgb(73, 74, 74);
+	}
+	.col-img-automobil {
+		text-align: center;
+	}
+
+	.col-dropdown-border-right {
+		padding: 0;
+	}
+	.li-dorpdown img {
+		display: none;
+	}
+	.col-dropdown-zadnja {
+		padding: 0;
+	}
+	.visak-tel {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 426px) and (max-width: 992px) {
+	.sm-logo-media {
+		display: block;
+	}
+	.AuraLogoLgSvg {
+		display: none;
+	}
+	.aura-lg-logo-link {
+		display: none;
+	}
+	/* za tel dropdown */
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+
+	.navbar-light .navbar-toggler {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+		padding: 14px 0px;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+	.navbar-light .navbar-toggler:hover {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+
+	/* uklonjena default ikonica od bootstrapa  */
+	.navbar-toggler-icon {
+		background-image: none !important;
+	}
+
+	.slideIn {
+		transition: color 0.2s ease-in-out 0s;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.NavigationLinks {
+		font-size: 20px;
+		text-transform: none;
+	}
+
+	#basic-navbar-nav {
+		max-height: 85vh;
+		overflow-y: auto;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: #8f2086;
+		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
+		padding: 12px 0px;
+		text-align: left;
+		font-size: 25px;
+	}
+
+	.show > .nav-link,
+	.active > .nav-link,
+	.nav-link.show,
+	.nav-link.active .bgSpanSm {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: #8f2086;
+	}
+	.col-dropdown-title {
+		font-size: 30px;
+		color: #8f2086;
+		border-bottom: 2.5px solid #8f208643;
+		margin-bottom: 15px;
+	}
+	.sub-title-dropdown {
+		font-size: 20px;
+		color: #8f2086;
+	}
+	.p-dropdown {
+		font-size: 14px;
+		font-weight: 400;
+		color: rgb(73, 74, 74);
+	}
+	.col-img-automobil {
+		text-align: center;
+	}
+
+	.col-dropdown-border-right {
+		padding: 0;
+		padding-right: 40px;
+	}
+	.li-dorpdown img {
+		display: none;
+	}
+	.col-dropdown-zadnja {
+		padding: 0;
+	}
+	.visak-tel {
+		display: none;
+	}
+	.col-1-dropdown {
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-2-dropdown {
+		animation: .7s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-3-dropdown {
+		animation: .9s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-4-dropdown {
+		animation: 1.1s ease 0s 1 normal forwards running slideIn;
+	}
+
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.NavigationLinks {
+		font-size: 12px;
+	}
+	.navbar-height {
+		max-height: 75px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -25px;
+		height: 100px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 33px;
+	}
+	.navbar .dropdown-menu {
+		top: 75px;
+	}
+	.col-1-dropdown {
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-2-dropdown {
+		animation: .7s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-3-dropdown {
+		animation: .9s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-4-dropdown {
+		animation: 1.1s ease 0s 1 normal forwards running slideIn;
+	}
+
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+	.NavigationLinks {
+		font-size: 12px;
+	}
+	.navbar-height {
+		max-height: 100px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -45px;
+		height: 120px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 37px;
+	}
+	.navbar .dropdown-menu {
+		top: 100px;
+	}
+	.col-1-dropdown {
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-2-dropdown {
+		animation: .7s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-3-dropdown {
+		animation: .9s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-4-dropdown {
+		animation: 1.1s ease 0s 1 normal forwards running slideIn;
+	}
+
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+	.NavigationLinks {
+		font-size: 14px;
+	}
+	.navbar-height {
+		max-height: 100px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -45px;
+		height: 120px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 34px;
+	}
+	.navbar .dropdown-menu {
+		top: 100px;
+	}
+	.col-1-dropdown {
+		animation: .1s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-2-dropdown {
+		animation: .2s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-3-dropdown {
+		animation: .4s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-4-dropdown {
+		animation: .6s ease 0s 1 normal forwards running slideIn;
+	}
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+	.NavigationLinks {
+		font-size: 14px;
+	}
+	.navbar-height {
+		max-height: 100px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -45px;
+		height: 120px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 34px;
+	}
+	.navbar .dropdown-menu {
+		top: 100px;
+	}
+	.col-1-dropdown {
+		animation: .1s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-2-dropdown {
+		animation: .2s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-3-dropdown {
+		animation: .4s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-4-dropdown {
+		animation: .6s ease 0s 1 normal forwards running slideIn;
+	}
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+	.NavigationLinks {
+		font-size: 14px;
+	}
+	.navbar-height {
+		max-height: 100px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -45px;
+		height: 120px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 34px;
+	}
+	.navbar .dropdown-menu {
+		top: 100px;
+	}
+	.col-1-dropdown {
+		animation: .1s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-2-dropdown {
+		animation: .2s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-3-dropdown {
+		animation: .4s ease 0s 1 normal forwards running slideIn;
+	}
+	.col-4-dropdown {
+		animation: .6s ease 0s 1 normal forwards running slideIn;
+	}
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
+
+@media screen and (min-width: 1681px) and (max-width: 1920px) {
+	.NavigationLinks {
+		font-size: 14px;
+	}
+	.navbar-height {
+		max-height: 100px;
+	}
+	.AuraLogoLgSvg {
+		margin-bottom: -45px;
+		height: 120px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		padding-top: 34px;
+	}
+	.navbar .dropdown-menu {
+		top: 100px;
+	}
+	.col-1-dropdown {
+		animation: .5s ease-in-out slideIn;
+	}
+	.col-2-dropdown {
+		animation: .4s ease-in-out slideIn;
+	}
+	.col-3-dropdown {
+		animation: .3s ease-in-out slideIn;
+	}
+	.col-4-dropdown {
+		animation: .2s ease-in-out slideIn;
+	}
+	/* makes the dropdown full width  */
+	.navbar .dropdown {
+		position: static;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		width: 100%;
+		left: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		/*  height of nav-item  */
+		top: 100px;
+		border-top: 1px solid #e1e1e1;
+		border-bottom: 1px solid #e1e1e1;
+		z-index: 1;
+	}
+
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+	}
+
+	.navbar .dropdown-menu {
+		border-bottom: 1px solid #e1e1e1;
+		animation: .1s ease-in-out opaDropdown;
+	}
+
+	.col-dropdown-border-right {
+		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
+		background-position: right;
+		background-size: 1px 10px;
+		background-repeat: repeat-y;
+	}
+
+	.col-dropdown-title {
+		font-size: 24px;
+		font-family: "Ubuntu";
+		color: rgb(143, 32, 134);
+		padding: 15px 0px 30px 0px;
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.sub-title-dropdown {
+		font-size: 15px;
+		font-family: "Ubuntu Medium";
+		color: rgb(63, 61, 86);
+		text-transform: uppercase;
+	}
+	.p-dropdown {
+		font-size: 13px;
+		text-transform: none;
+		font-family: "Ubuntu";
+		font-weight: 400;
+		color: rgb(135, 135, 135);
+	}
+
+	.li-dorpdown {
+		padding-bottom: 20px;
+		cursor: pointer;
+	}
+	.row-dropdown {
+		padding: 40px 0px !important;
+	}
+}
