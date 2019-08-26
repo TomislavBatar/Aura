@@ -52,6 +52,14 @@
 	height: 300px;
 	transition: all 0.4s;
 }
+.card-grafik-usluge-2 {
+	border: none;
+	border-radius: 0px;
+	background: transparent;
+	position: relative;
+	height: 300px;
+	transition: all 0.4s;
+}
 .card-grafik-usluge:hover {
 	background-color: #ffe7a5;
 	cursor: pointer;
@@ -220,83 +228,6 @@
 	right: 0;
 }
 
-@keyframes hideshow {
-	0% {
-		opacity: 1;
-	}
-	10% {
-		opacity: .5;
-	}
-	20% {
-		opacity: 1;
-	}
-	30% {
-		opacity: .5;
-	}
-	40% {
-		opacity: 1;
-	}
-	50% {
-		opacity: .5;
-	}
-	60% {
-		opacity: 1;
-	}
-	70% {
-		opacity: .5;
-	}
-	80% {
-		opacity: 1;
-	}
-	90% {
-		opacity: .5;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes farovi {
-	0% {
-		opacity: 1;
-		fill: #ffd148;
-	}
-	50% {
-		opacity: .1;
-		fill: #ffd148;
-	}
-	100% {
-		opacity: 1;
-		fill: #ffd148;
-	}
-}
-
-.prefix__cls-3 {
-	animation: hideshow 10s infinite linear;
-}
-
-.prefix__cls-5 {
-	animation: farovi .6s infinite linear;
-}
-
-@keyframes float {
-	0% {
-		transform: translate(0px, 0px);
-	}
-	50% {
-		transform: translate(10px, 2px);
-	}
-	80% {
-		transform: translate(3px, 6px);
-	}
-	100% {
-		transform: translate(0px, 0px);
-	}
-}
-
-.grafik-usluge-4 {
-	animation: float 5s infinite linear;
-}
 .card-grafik-usluge-back-tekst {
 	font-size: 18px;
 	color: rgb(17, 55, 90);
@@ -337,5 +268,3 @@
 .link-kartica-usluge:hover {
 	color: #701068;
 }
-
-/* background: radial-gradient(rgb(208, 43, 196), #bd5eb55c,#8f208600,#8f208600); */

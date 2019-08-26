@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Image} from 'react-bootstrap';
+import { Row, Col, Container, Image } from 'react-bootstrap';
 import './ZastoIzabratiNas.css';
 
 import imgSrtucanTim from './imgZastoIzabratiNas/strucan-tim.svg';
