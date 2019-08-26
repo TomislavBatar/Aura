@@ -231,8 +231,8 @@
 		display: none;
 	}
 }
-
-@media screen and (min-width: 426px) and (max-width: 992px) {
+/* (max-width: 992px) */
+@media screen and (min-width: 426px) and (max-width: 768px) {
 	.sm-logo-media {
 		display: block;
 	}
@@ -428,22 +428,121 @@
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-	.NavigationLinks {
-		font-size: 12px;
-	}
-	.navbar-height {
-		max-height: 75px;
+@media screen and (min-width: 769px) and (max-width: 991px) {
+	.sm-logo-media {
+		display: block;
 	}
 	.AuraLogoLgSvg {
-		margin-bottom: -25px;
-		height: 100px;
+		display: none;
+	}
+	.aura-lg-logo-link {
+		display: none;
+	}
+	/* za tel dropdown */
+	.navbar .dropdown-menu {
+		border: none;
+		background-color: #fff !important;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+	}
+
+	.navbar-light .navbar-toggler {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+		padding: 14px 0px;
+	}
+
+	.navbar-light .navbar-toggler:focus {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+	.navbar-light .navbar-toggler:hover {
+		border: none !important;
+		outline: none !important;
+		outline-color: none !important;
+	}
+
+	/* uklonjena default ikonica od bootstrapa  */
+	.navbar-toggler-icon {
+		background-image: none !important;
+	}
+
+	.slideIn {
+		transition: color 0.2s ease-in-out 0s;
+		animation: .5s ease 0s 1 normal forwards running slideIn;
+	}
+	.NavigationLinks {
+		font-size: 20px;
+		text-transform: none;
+	}
+
+	#basic-navbar-nav {
+		max-height: 85vh;
+		overflow-y: auto;
+	}
+
+	.Navigation {
+		background-color: rgb(255, 255, 255);
+		min-height: 60px !important;
+		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
 	}
 	.navbar-light .navbar-nav .nav-link {
-		padding-top: 33px;
+		color: #8f2086;
+		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
+		padding: 12px 0px;
+		text-align: left;
+		font-size: 25px;
 	}
-	.navbar .dropdown-menu {
-		top: 75px;
+
+	.show > .nav-link,
+	.active > .nav-link,
+	.nav-link.show,
+	.nav-link.active .bgSpanSm {
+		color: #8f2086 !important;
+		border-bottom: 2.5px solid #f9d761;
+	}
+
+	.navbar-light .navbar-nav .nav-link:hover {
+		color: #8f2086;
+	}
+	.col-dropdown-title {
+		font-size: 30px;
+		color: #8f2086;
+		border-bottom: 2.5px solid #8f208643;
+		margin-bottom: 15px;
+	}
+	.sub-title-dropdown {
+		font-size: 20px;
+		color: #8f2086;
+	}
+	.p-dropdown {
+		font-size: 14px;
+		font-weight: 400;
+		color: rgb(73, 74, 74);
+	}
+	.col-img-automobil {
+		text-align: center;
+	}
+
+	.col-dropdown-border-right {
+		padding: 0;
+		padding-right: 40px;
+	}
+	.li-dorpdown img {
+		display: none;
+	}
+	.col-dropdown-zadnja {
+		padding: 0;
+	}
+	.visak-tel {
+		display: none;
 	}
 	.col-1-dropdown {
 		animation: .5s ease 0s 1 normal forwards running slideIn;
@@ -525,7 +624,7 @@
 	}
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 992px) and (max-width: 1024px) {
 	.NavigationLinks {
 		font-size: 12px;
 	}
@@ -621,9 +720,10 @@
 		padding: 40px 0px !important;
 	}
 }
-@media screen and (min-width: 1281px) and (max-width: 1440px) {
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
 	.NavigationLinks {
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.navbar-height {
 		max-height: 100px;

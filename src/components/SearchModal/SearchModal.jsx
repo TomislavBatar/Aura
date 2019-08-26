@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './SearchModal.css';
+import './cssSearchModal/search-modal.css';
+import './cssSearchModal/media-search-modal.css';
 
 import { Modal, Nav, Form } from 'react-bootstrap';
 import SearchImg from './imgSearchModal/search.svg';
@@ -17,7 +18,10 @@ export default class SearchModal extends Component {
 		let lgClose = () => this.setState({ lgShow: false });
 		return (
 			<React.Fragment>
-				<Nav.Link className="NavigationLinks padd-icon-search-lg hoverSearchIcon" onClick={() => this.setState({ lgShow: true })}>
+				<Nav.Link
+					className="NavigationLinks padd-icon-search-lg hoverSearchIcon"
+					onClick={() => this.setState({ lgShow: true })}
+				>
 					<img src={SearchImg} className="searchIcon hoverSearchIcon" alt="search" />
 				</Nav.Link>
 

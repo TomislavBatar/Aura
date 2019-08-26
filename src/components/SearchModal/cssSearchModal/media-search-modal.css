@@ -1,0 +1,18 @@
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	.SearchModalInput {
+		height: 60px;
+		font-size: 16px;
+	}
+	.borderRadiusInput {
+		border-radius: 12px !important;
+	}
+}
+@media screen and (min-width: 321px) and (max-width: 425px) {
+	.SearchModalInput {
+		height: 70px;
+		font-size: 18px;
+	}
+	.borderRadiusInput {
+		border-radius: 12px !important;
+	}
+}

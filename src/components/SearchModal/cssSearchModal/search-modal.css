@@ -1,0 +1,74 @@
+.SearchModalInput {
+	height: 80px;
+	border: none !important;
+	outline: none !important;
+	font-size: 20px;
+	font-family: "Ubuntu";
+	font-weight: 500;
+	color: #8f2086;
+	/* text-transform: uppercase; */
+}
+.SearchModalInput:focus {
+	color: #8f2086;
+	outline-color: none !important;
+	outline: none;
+	box-shadow: none !important;
+	/* text-transform: uppercase; */
+}
+
+.borderRadiusInput {
+	border-radius: 20px !important;
+}
+
+.ModalTopMargin .modal-dialog {
+	border-radius: 20px !important;
+}
+.ModalTopMargin .modal-dialog .modal-content {
+	border-radius: 20px !important;
+	border: none !important;
+}
+
+/* izmjena bootstrapa  */
+/* .modal-content {
+	border-radius: 20px;
+} */
+
+.padd-icon-search-lg {
+	padding-top: 4px !important;
+}
+
+.SearchModalInput::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #e9b224;
+	opacity: 1; /* Firefox */
+}
+
+.SearchModalInput:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #e9b224;
+}
+
+.SearchModalInput::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #e9b224;
+}
+/* izmjena bootstrapa  */
+@media (min-width: 576px) {
+	.ModalTopMargin {
+		margin-top: 11.75rem;
+	}
+}
+
+/* izmjena bootstrapa  */
+@media (max-width: 576px) {
+	.ModalTopMargin {
+		margin-top: 100px;
+	}
+}
+
+.navbar-light .navbar-nav .nav-link.hoverSearchIcon:hover {
+	background: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link.hoverSearchIcon:focus {
+	background: transparent !important;
+}
