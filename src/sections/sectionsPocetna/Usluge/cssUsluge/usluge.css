@@ -60,6 +60,14 @@
 	height: 300px;
 	transition: all 0.4s;
 }
+.card-grafik-usluge-3 {
+	border: none;
+	border-radius: 0px;
+	background: transparent;
+	position: relative;
+	height: 300px;
+	transition: all 0.4s;
+}
 .card-grafik-usluge:hover {
 	background-color: #ffe7a5;
 	cursor: pointer;
@@ -105,7 +113,7 @@
 	padding: 20px 0px 80px 0px;
 }
 
-.Shape_3_copy {
+/* .Shape_3_copy {
 	background-color: rgb(153, 134, 117);
 	opacity: 0.51;
 	position: absolute;
@@ -114,7 +122,7 @@
 	width: 1px;
 	height: 601px;
 	z-index: 245;
-}
+} */
 
 .card-title-grafik-usluge {
 	font-size: 18px;

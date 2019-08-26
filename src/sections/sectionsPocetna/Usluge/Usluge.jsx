@@ -15,9 +15,10 @@ import imgOsiguranjeImovine from './imgUsluge/imovina.svg';
 import imgPutnoZdravstvenoOsiguranje from './imgUsluge/putno.svg';
 import imgOsiguranjeOdNezgode from './imgUsluge/nezgoda.svg';
 import imgOsiguranjekorisnikaKredita from './imgUsluge/kredit.svg';
-import Auto from './animacijeUsluge/Auto';
-import Kasko from './animacijeUsluge/Kasko';
 
+import KarticaAutoodgovornost from './karticeUsluge/KarticaAutoodgovornost';
+import KarticaKasko from './karticeUsluge/KarticaKasko';
+import KarticaImovina from './karticeUsluge/KarticaImovina';
 export default class Usluge extends Component {
 	constructor() {
 		super();
@@ -71,46 +72,8 @@ export default class Usluge extends Component {
 							<Col lg={12}>
 								<div className="card-grafik-usluge-padding">
 									<CardGroup className="card-group-1">
-										<Card className="card-grafik-usluge-1 card-grafik-usluge-top-left-radius  text-center">
-											<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-												<Card
-													data-tip
-													data-for="auto"
-													key="front"
-													className="card-grafik-usluge card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center"
-												>
-													<Card.Body
-														onClick={this.handleClick}
-														className="card-body-grafik-usluge"
-													>
-														<Auto />
-
-														<Card.Title className="card-title-grafik-usluge grafik-1-tekst no-copy">
-															osiguranje od autoodgovornosti
-														</Card.Title>
-													</Card.Body>
-												</Card>
-												<Card
-													onClick={this.handleClick}
-													key="back"
-													className="card-grafik-usluge-back card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center"
-												>
-													<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
-														<p className="card-grafik-usluge-back-tekst no-copy">
-															Osiguranje od auto-odgovornosti je zakonski obavezno
-															osiguranje koje se zaključuje prilikom registracije motornih
-															vozila. Ovim osiguranjem je pokrivena odgovornost vlasnika,
-															odnosno korisnika, kada upotrebom motornog vozila pričini
-															štetu trećim licima.
-														</p>
-														<a className="link-kartica-usluge no-copy" href="/aa">
-															Prikaži još detalja...
-														</a>
-													</Card.Body>
-												</Card>
-											</ReactCardFlip>
-										</Card>
-										<Card className="card-grafik-usluge text-center card-grafik-usluge-bottom-right-border">
+										<KarticaAutoodgovornost />
+										{/* <Card className="card-grafik-usluge text-center card-grafik-usluge-bottom-right-border">
 											<Card.Body className="card-body-grafik-usluge">
 												<Image
 													className="grafik-usluge-2"
@@ -122,8 +85,9 @@ export default class Usluge extends Component {
 													kasko osiguranje
 												</Card.Title>
 											</Card.Body>
-										</Card>
-										<Card className="card-grafik-usluge card-grafik-usluge-top-right-radius card-grafik-usluge-bottom-border text-center">
+										</Card> */}
+										<KarticaKasko />
+										{/* <Card className="card-grafik-usluge card-grafik-usluge-top-right-radius card-grafik-usluge-bottom-border text-center">
 											<Card.Body className="card-body-grafik-usluge">
 												<Image
 													className="grafik-usluge-3"
@@ -135,7 +99,8 @@ export default class Usluge extends Component {
 													osiguranje imovine
 												</Card.Title>
 											</Card.Body>
-										</Card>
+										</Card> */}
+										<KarticaImovina />
 									</CardGroup>
 									<CardGroup className="card-group-1">
 										<Card className="card-grafik-usluge card-grafik-usluge-bottom-left-radius card-grafik-usluge-right-border text-center">
