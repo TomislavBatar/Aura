@@ -1,0 +1,98 @@
+@media screen and (min-width: 0px) and (max-width: 320px) {
+	.section-padding-zasto {
+		padding: 40px 0px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.zasto-title {
+		font-size: 30px;
+	}
+	.zasto-p {
+		font-size: 12px;
+	}
+	.flex-column-reverse-tel {
+		flex-direction: column-reverse;
+	}
+
+	.padding-row-tekst-grafik {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.h3-right-title {
+		font-size: 30px;
+	}
+	.h3-left-title {
+		font-size: 30px;
+	}
+	.p-right-text {
+		font-size: 12px;
+	}
+	.p-left-text {
+		font-size: 12px;
+	}
+
+	.grafik-usluge-right {
+		padding: 0px 0px 30px 0px;
+	}
+	.grafik-usluge {
+		padding: 0px 0px 30px 0px;
+	}
+	.hr-style-2 {
+		width: 100px;
+	}
+	.hr-style-3 {
+		width: 100px;
+	}
+	.hr-style-4 {
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+	.section-padding-zasto {
+		padding: 40px 0px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.zasto-title {
+		font-size: 35px;
+	}
+	.zasto-p {
+		font-size: 14px;
+	}
+	.padding-row-tekst-grafik {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.h3-right-title {
+		font-size: 35px;
+	}
+	.h3-left-title {
+		font-size: 35px;
+	}
+	.p-left-text {
+		font-size: 14px;
+	}
+	.p-right-text {
+		font-size: 14px;
+	}
+	.flex-column-reverse-tel {
+		flex-direction: column-reverse;
+	}
+
+	.grafik-usluge-right {
+		padding: 0px 0px 30px 0px;
+	}
+	.grafik-usluge {
+		padding: 0px 0px 30px 0px;
+	}
+	.hr-style-2 {
+		width: 100px;
+	}
+	.hr-style-3 {
+		width: 100px;
+	}
+	.hr-style-4 {
+		width: 100px;
+	}
+}

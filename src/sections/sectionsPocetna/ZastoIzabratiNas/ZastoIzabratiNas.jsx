@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image } from 'react-bootstrap';
-import './ZastoIzabratiNas.css';
-
+import './cssZastoIzabratiNas/ZastoIzabratiNas.css';
+import './cssZastoIzabratiNas/media-query-zasto.css';
 import imgSrtucanTim from './imgZastoIzabratiNas/strucan-tim.svg';
 import imgKonstantanRast from './imgZastoIzabratiNas/konstantan-rast.svg';
 import imgUnapredjivanjeUsluga from './imgZastoIzabratiNas/unapredjivanje-usluga.svg';
@@ -51,7 +51,7 @@ export default class ZastoIzabratiNas extends Component {
 							{/* end 1 row */}
 						</Row>
 
-						<Row className="padding-row-tekst-grafik d-flex align-items-center">
+						<Row className="padding-row-tekst-grafik d-flex align-items-center flex-column-reverse-tel">
 							{/* 2 row */}
 
 							<Col lg={6}>
@@ -100,7 +100,7 @@ export default class ZastoIzabratiNas extends Component {
 							{/* end 3 row */}
 						</Row>
 
-						<Row className="padding-row-tekst-grafik d-flex align-items-center">
+						<Row className="padding-row-tekst-grafik d-flex align-items-center flex-column-reverse-tel">
 							{/* 4 row */}
 
 							<Col lg={6}>
