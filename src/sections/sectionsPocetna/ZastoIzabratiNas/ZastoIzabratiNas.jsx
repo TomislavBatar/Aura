@@ -30,9 +30,9 @@ export default class ZastoIzabratiNas extends Component {
 
 						<Row className="padding-row-tekst-grafik d-flex align-items-center">
 							{/* 1 row */}
-							<Col lg={6}>
+							<Col lg={6} className="col-align-tel">
 								<Image
-									className="grafik-usluge"
+									className="grafik-usluge float-grafik-1"
 									src={imgSrtucanTim}
 									fluid
 									alt="Aura osiguranje grafik"
@@ -64,9 +64,9 @@ export default class ZastoIzabratiNas extends Component {
 									povjerenja sve većeg broja novih osiguranika i saradnika.
 								</p>
 							</Col>
-							<Col lg={6}>
+							<Col lg={6} className="col-align-tel">
 								<Image
-									className="grafik-usluge"
+									className="grafik-usluge float-grafik-2"
 									src={imgKonstantanRast}
 									fluid
 									alt="Aura osiguranje grafik"
@@ -78,9 +78,9 @@ export default class ZastoIzabratiNas extends Component {
 
 						<Row className="padding-row-tekst-grafik d-flex align-items-center">
 							{/* 3 row */}
-							<Col lg={6}>
+							<Col lg={6} className="col-align-tel">
 								<Image
-									className="grafik-usluge-right"
+									className="grafik-usluge-right float-grafik-3"
 									src={imgUnapredjivanjeUsluga}
 									fluid
 									alt="Aura osiguranje grafik"
@@ -107,16 +107,15 @@ export default class ZastoIzabratiNas extends Component {
 								<h2 className="h3-left-title">Zadovoljni klijenti</h2>
 								<span className="hr-style-4" />
 								<br />
-
 								<p className="p-left-text">
 									Kako bi krajnji korisnici naših usluga bili maksimalno zadovoljni, konstantno radimo
 									na povećanju produktivnosti rada, naših zaposlenih te njihovom stručnom
 									osposobljavanju.
 								</p>
 							</Col>
-							<Col lg={6}>
+							<Col lg={6} className="col-align-tel">
 								<Image
-									className="grafik-usluge"
+									className="grafik-usluge float-grafik-4"
 									src={imgZadovoljniKlijenti}
 									fluid
 									alt="Aura osiguranje grafik"
