@@ -63,7 +63,7 @@ export default class Usluge extends Component {
 										<KarticaKasko />
 										<KarticaImovina />
 									</CardGroup>
-									<CardGroup className="card-group-1">
+									<CardGroup className="card-group-2">
 										<KarticaPutnoOsiguranje />
 										<KarticaNezgoda />
 										<KarticaKredit />

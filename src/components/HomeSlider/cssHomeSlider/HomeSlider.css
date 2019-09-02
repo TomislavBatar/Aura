@@ -32,23 +32,23 @@
 }
 
 .slajd-1 {
-	background-image: url("../imgSlider/bg-home.jpg");
+	background-image: url("../imgSlider/bg-home-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .slajd-2 {
-	background-image: url("https://www.investhk.gov.hk/sites/default/files/whyHK_OpenBusiness.jpg");
+	background-image: url("../imgSlider/bg-home-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .slajd-3 {
-	background-image: url("https://onlinestudyaustralia.com/courses/wp-content/uploads/business-manager-online-working.jpg");
+	background-image: url("../imgSlider/bg-home-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .slajd-4 {
-	background-image: url("https://www.essoft.com/wp-content/uploads/2014/12/erp-software-solutions-vancouver-slider.jpg");
+	background-image: url("../imgSlider/bg-home-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }

@@ -6,14 +6,14 @@
 		font-size: 16px;
 	}
 	.nase-usluge-title {
-		font-size: 40px;
+		font-size: 30px;
 		margin-top: 30px;
 	}
 	.card-grafik-usluge-top-left-radius {
 		border-radius: 15px;
 	}
 	.card-grafik-usluge {
-		border-radius: 15px;
+		border-radius: 10px;
 	}
 	.section-padding {
 		padding: 40px 0px;
@@ -29,6 +29,366 @@
 	}
 	.link-kartica-usluge {
 		padding-top: 15px;
+		font-size: 12px;
+	}
+	.card-grafik-usluge-bottom-right-border {
+		border: none;
+	}
+	.card-grafik-usluge-bottom-border {
+		border: none;
+	}
+
+	.card-grafik-usluge-right-border {
+		border: none;
+	}
+	.back-radius-tel {
+		border-radius: 10px;
+	}
+	/* samo jedna ikonica mjenja visinu ! */
+	.grafik-usluge-2 {
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+	.usluge-title {
+		font-size: 40px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 30px;
+		margin-top: 30px;
+	}
+	.card-grafik-usluge-top-left-radius {
+		border-radius: 15px;
+	}
+	.card-grafik-usluge {
+		border-radius: 10px;
+	}
+	.section-padding {
+		padding: 40px 0px;
+	}
+	.card-grafik-usluge-padding {
+		padding: 20px 0px 0px 0px;
+	}
+	.card-title-grafik-usluge {
+		font-size: 16px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 14px;
+	}
+	.link-kartica-usluge {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+	.card-grafik-usluge-bottom-right-border {
+		border: none;
+	}
+	.card-grafik-usluge-bottom-border {
+		border: none;
+	}
+
+	.card-grafik-usluge-right-border {
+		border: none;
+	}
+	.back-radius-tel {
+		border-radius: 10px;
+	}
+	/* samo jedna ikonica mjenja visinu ! */
+	.grafik-usluge-2 {
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+	.usluge-title {
+		font-size: 45px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 35px;
+		margin-top: 30px;
+	}
+	.card-grafik-usluge-top-left-radius {
+		border-radius: 10px;
+	}
+	.card-grafik-usluge {
+		border-radius: 10px;
+	}
+	.section-padding {
+		padding: 40px 0px;
+	}
+	.card-grafik-usluge-padding {
+		padding: 20px 0px 0px 0px;
+	}
+	.card-title-grafik-usluge {
+		font-size: 16px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 14px;
+	}
+	.link-kartica-usluge {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+	.card-grafik-usluge-bottom-right-border {
+		border: none;
+	}
+	.card-grafik-usluge-bottom-border {
+		border: none;
+	}
+
+	.card-grafik-usluge-right-border {
+		border: none;
+	}
+	.back-radius-tel {
+		border-radius: 10px;
+	}
+	/* samo jedna ikonica mjenja visinu ! */
+	.grafik-usluge-2 {
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 426px) and (max-width: 575px) {
+	.usluge-title {
+		font-size: 45px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 35px;
+		margin-top: 30px;
+	}
+	.card-grafik-usluge-top-left-radius {
+		border-radius: 10px;
+	}
+	.card-grafik-usluge {
+		border-radius: 10px;
+	}
+	.section-padding {
+		padding: 40px 0px;
+	}
+	.card-grafik-usluge-padding {
+		padding: 20px 0px 0px 0px;
+	}
+	.card-title-grafik-usluge {
+		font-size: 16px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 14px;
+	}
+	.link-kartica-usluge {
+		padding-top: 15px;
+		font-size: 12px;
+	}
+	.card-grafik-usluge-bottom-right-border {
+		border: none;
+	}
+	.card-grafik-usluge-bottom-border {
+		border: none;
+	}
+
+	.card-grafik-usluge-right-border {
+		border: none;
+	}
+	.back-radius-tel {
+		border-radius: 10px;
+	}
+	/* samo jedna ikonica mjenja visinu ! */
+	.grafik-usluge-2 {
+		height: 100px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.card-group-1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.card-group-2 {
+		display: flex;
+		flex-direction: column;
+	}
+	.usluge-title {
+		font-size: 45px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 35px;
+		margin-top: 30px;
+	}
+	.card-grafik-usluge {
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+	/* .grafik-usluge-1 {
+		height: 65px;
+	} */
+	/* .grafik-usluge-2 {
+		top: -70px;
+		height: 80px;
+	} */
+	/* .grafik-usluge-3 {
+		height: 100px;
+	} */
+	/* .grafik-usluge-4 {
+		height: 90px;
+	} */
+
+	/* .grafik-usluge-5 {
+		height: 120px;
+	} */
+
+	.card-grafik-usluge-bottom-right-border {
+		border: none;
+	}
+	.card-grafik-usluge-bottom-border {
+		border: none;
+	}
+
+	.card-grafik-usluge-right-border {
+		border: none;
+	}
+	.back-radius-tel {
+		border-radius: 10px;
+		margin-bottom: 20px;
+	}
+
+	.card-title-grafik-usluge {
+		font-size: 20px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 16px;
+	}
+	.link-kartica-usluge {
+		font-size: 12px;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	.usluge-title {
+		font-size: 50px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 40px;
+		margin-top: 30px;
+	}
+
+	.grafik-usluge-1 {
+		height: 70px;
+	}
+	.grafik-usluge-2 {
+		top: -70px;
+		height: 80px;
+	}
+	.grafik-usluge-3 {
+		height: 100px;
+	}
+
+	.grafik-usluge-4 {
+		height: 90px;
+	}
+
+	.grafik-usluge-5 {
+		height: 110px;
+	}
+
+	.card-title-grafik-usluge {
+		font-size: 16px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 12px;
+	}
+	.link-kartica-usluge {
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+	.usluge-title {
+		font-size: 50px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 40px;
+		margin-top: 30px;
+	}
+
+	.grafik-usluge-1 {
+		height: 80px;
+	}
+	.grafik-usluge-2 {
+		top: -70px;
+		height: 90px;
+	}
+	.grafik-usluge-3 {
+		height: 110px;
+	}
+
+	.grafik-usluge-4 {
+		height: 100px;
+	}
+
+	.grafik-usluge-5 {
+		height: 130px;
+	}
+
+	.card-title-grafik-usluge {
+		font-size: 18px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 14px;
+	}
+	.link-kartica-usluge {
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+	.usluge-title {
+		font-size: 55px;
+	}
+	.p-title-usluge {
+		font-size: 16px;
+	}
+	.nase-usluge-title {
+		font-size: 45px;
+		margin-top: 30px;
+	}
+
+	.grafik-usluge-1 {
+		height: 100px;
+	}
+	.grafik-usluge-2 {
+		height: 120px;
+	}
+	.grafik-usluge-3 {
+		height: 130px;
+	}
+	.grafik-usluge-4 {
+		height: 120px;
+	}
+	.grafik-usluge-5 {
+		height: 140px;
+	}
+	.card-title-grafik-usluge {
+		font-size: 17px;
+	}
+	.card-grafik-usluge-back-tekst {
+		font-size: 14px;
+	}
+	.link-kartica-usluge {
 		font-size: 12px;
 	}
 }

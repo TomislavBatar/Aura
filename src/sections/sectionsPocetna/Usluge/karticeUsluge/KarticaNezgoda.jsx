@@ -33,7 +33,7 @@ export default class KarticaNezgoda extends Component {
 					<Card
 						onClick={this.handleClick}
 						key="back"
-						className="card-grafik-usluge-back card-grafik-usluge-right-border text-center no-copy"
+						className="card-grafik-usluge-back back-radius-tel card-grafik-usluge-right-border text-center no-copy"
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">
