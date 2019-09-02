@@ -68,6 +68,14 @@
 	height: 300px;
 	transition: all 0.4s;
 }
+.card-grafik-usluge-4 {
+	border: none;
+	border-radius: 0px;
+	background: transparent;
+	position: relative;
+	height: 300px;
+	transition: all 0.4s;
+}
 .card-grafik-usluge:hover {
 	background-color: #ffe7a5;
 	cursor: pointer;

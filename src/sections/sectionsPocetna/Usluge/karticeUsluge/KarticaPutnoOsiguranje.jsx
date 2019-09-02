@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 
 import { Card, Image } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-// import Auto from '../animacijeUsluge/Auto';
-import imgAutoodgovornost from '../imgUsluge/auto.svg';
 
-// import imgKaskoOsiguranje from '../imgUsluge/kasko.svg';
-export default class KarticaAutoodgovornost extends Component {
+import imgPutnoOsiguranje from '../imgUsluge/putno.svg';
+
+export default class KarticaPutnoOsiguranje extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -22,31 +21,31 @@ export default class KarticaAutoodgovornost extends Component {
 
 	render() {
 		return (
-			<Card className="card-grafik-usluge-1 card-grafik-usluge-top-left-radius text-center">
+			<Card className="card-grafik-usluge-4 card-grafik-usluge-top-left-radius text-center">
 				<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 					<Card
 						data-tip
 						data-for="auto"
 						key="front"
-						className="card-grafik-usluge card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center no-copy"
+						className="card-grafik-usluge card-grafik-usluge-bottom-left-radius card-grafik-usluge-right-border text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
 							<Image
-								className="grafik-usluge-1"
-								src={imgAutoodgovornost}
+								className="grafik-usluge-4"
+								src={imgPutnoOsiguranje}
 								fluid
 								alt="Aura osiguranje grafik"
 							/>
 
-							<Card.Title className="card-title-grafik-usluge grafik-1-tekst">
-								osiguranje od autoodgovornosti
+							<Card.Title className="card-title-grafik-usluge grafik-4-tekst">
+								Putno zdravstveno osiguranje
 							</Card.Title>
 						</Card.Body>
 					</Card>
 					<Card
 						onClick={this.handleClick}
 						key="back"
-						className="card-grafik-usluge-back card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center no-copy"
+						className="card-grafik-usluge-back card-grafik-usluge-bottom-left-radius card-grafik-usluge-bottom-right-border text-center no-copy"
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">

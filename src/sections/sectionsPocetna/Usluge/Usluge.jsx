@@ -19,6 +19,7 @@ import imgOsiguranjekorisnikaKredita from './imgUsluge/kredit.svg';
 import KarticaAutoodgovornost from './karticeUsluge/KarticaAutoodgovornost';
 import KarticaKasko from './karticeUsluge/KarticaKasko';
 import KarticaImovina from './karticeUsluge/KarticaImovina';
+import KarticaPutnoOsiguranje from './karticeUsluge/KarticaPutnoOsiguranje';
 export default class Usluge extends Component {
 	constructor() {
 		super();
@@ -103,7 +104,7 @@ export default class Usluge extends Component {
 										<KarticaImovina />
 									</CardGroup>
 									<CardGroup className="card-group-1">
-										<Card className="card-grafik-usluge card-grafik-usluge-bottom-left-radius card-grafik-usluge-right-border text-center">
+										{/* <Card className="card-grafik-usluge card-grafik-usluge-bottom-left-radius card-grafik-usluge-right-border text-center">
 											<Card.Body className="card-body-grafik-usluge">
 												<Image
 													className="grafik-usluge-4"
@@ -115,7 +116,8 @@ export default class Usluge extends Component {
 													putno zdravstveno osiguranje
 												</Card.Title>
 											</Card.Body>
-										</Card>
+										</Card> */}
+										<KarticaPutnoOsiguranje />
 										<Card className="card-grafik-usluge card-grafik-usluge-right-border">
 											<Card.Body className="card-body-grafik-usluge text-center">
 												<Image
