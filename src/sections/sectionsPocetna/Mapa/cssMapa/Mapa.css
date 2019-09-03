@@ -1,11 +1,9 @@
 .section-padding-mapa {
-	padding: 180px 0 80px 0;
+	padding: 180px 0 0 0;
 }
 
 .bg-section-mapa {
 	background-color: rgb(142, 31, 134);
-	/* privremena visina  */
-	/* height: 1000px; */
 }
 .input-mapa {
 	height: 80px;
@@ -17,8 +15,7 @@
 	transition: all .5s;
 	color: rgb(142, 31, 134);
 	font-size: 21px;
-	font-family: "Ubuntu";
-	color: rgb(143, 31, 134);
+
 	font-weight: 600;
 	text-transform: uppercase;
 	padding-left: 55px;
@@ -32,9 +29,9 @@
 	background-color: rgb(255, 255, 255);
 	outline: none;
 	box-shadow: none;
-	color: rgb(142, 31, 134);
+
 	font-size: 21px;
-	font-family: "Ubuntu";
+
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
@@ -42,7 +39,7 @@
 }
 .input-mapa::placeholder {
 	font-size: 21px;
-	font-family: "Ubuntu";
+
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
@@ -64,6 +61,14 @@
 }
 
 .button-search-mapa:focus {
+	border-radius: 100px;
+	background-color: rgb(216, 171, 46) !important;
+	background: rgb(216, 171, 46);
+	border: none;
+	outline: none;
+	box-shadow: none !important;
+}
+.button-search-mapa:active {
 	border-radius: 100px;
 	background-color: rgb(216, 171, 46) !important;
 	background: rgb(216, 171, 46);
