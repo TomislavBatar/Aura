@@ -12,14 +12,14 @@
 
 .title-slider {
 	font-size: 67px;
-	font-family: "Ubuntu";
+
 	color: rgb(143, 32, 134);
 	font-weight: 600;
 }
 
 .slider-p {
 	font-size: 18px;
-	font-family: "Ubuntu";
+
 	color: rgb(143, 32, 134);
 	max-width: 450px;
 }
@@ -59,7 +59,7 @@
 	padding-left: 50px;
 	padding-right: 60px;
 	font-size: 14px;
-	font-family: "Ubuntu";
+
 	color: rgb(255, 255, 255);
 	font-weight: bold;
 	text-transform: uppercase;
@@ -81,5 +81,5 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	box-shadow: inset 40vw 0px 300px -51px #fff8eaf7;
+	box-shadow: inset 40vw 0 300px -51px #fff8eaf7;
 }

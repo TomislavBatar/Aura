@@ -5,7 +5,7 @@
 	}
 }
 
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0) and (max-width: 320px) {
 	.topNav {
 		display: none;
 	}
@@ -25,7 +25,7 @@
 		height: 18px;
 	}
 	.padd-15px-right {
-		padding-right: 0px;
+		padding-right: 0;
 	}
 	.margina-tel-ikonice {
 		margin-left: 0 !important;
@@ -55,7 +55,7 @@
 		height: 18px;
 	}
 	.padd-15px-right {
-		padding-right: 0px;
+		padding-right: 0;
 	}
 	.margina-tel-ikonice {
 		margin-left: 0 !important;
@@ -86,7 +86,7 @@
 		height: 20px;
 	}
 	.padd-15px-right {
-		padding-right: 0px;
+		padding-right: 0;
 	}
 	.margina-tel-ikonice {
 		margin-left: 0 !important;
@@ -117,7 +117,7 @@
 		height: 20px;
 	}
 	.padd-15px-right {
-		padding-right: 0px;
+		padding-right: 0;
 	}
 	.margina-tel-ikonice {
 		margin-left: 0 !important;
@@ -142,7 +142,7 @@
 		height: 18px;
 	}
 	.padd-15px-right {
-		padding-right: 0px;
+		padding-right: 0;
 	}
 	.margina-tel-ikonice {
 		margin-left: 0 !important;

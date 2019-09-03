@@ -22,7 +22,7 @@
 		font-size: 12px;
 	}
 	.box {
-		box-shadow: inset 90vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 90vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -50,7 +50,7 @@
 		font-size: 12px;
 	}
 	.box {
-		box-shadow: inset 90vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 90vw 0 300px -51px #fff8eaf7;
 	}
 }
 @media screen and (min-width: 376px) and (max-width: 425px) {
@@ -77,7 +77,7 @@
 		font-size: 13px;
 	}
 	.box {
-		box-shadow: inset 90vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 90vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -105,7 +105,7 @@
 		font-size: 13px;
 	}
 	.box {
-		box-shadow: inset 80vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 80vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -133,7 +133,7 @@
 		font-size: 13px;
 	}
 	.box {
-		box-shadow: inset 80vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 80vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -161,7 +161,7 @@
 		font-size: 13px;
 	}
 	.box {
-		box-shadow: inset 55vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 55vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -189,7 +189,7 @@
 		font-size: 13px;
 	}
 	.box {
-		box-shadow: inset 42vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 42vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -217,7 +217,7 @@
 		font-size: 14px;
 	}
 	.box {
-		box-shadow: inset 42vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 42vw 0 300px -51px #fff8eaf7;
 	}
 }
 
@@ -245,6 +245,6 @@
 		font-size: 16px;
 	}
 	.box {
-		box-shadow: inset 42vw 0px 300px -51px #fff8eaf7;
+		box-shadow: inset 42vw 0 300px -51px #fff8eaf7;
 	}
 }

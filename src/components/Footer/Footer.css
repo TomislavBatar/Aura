@@ -1,10 +1,10 @@
 .bg-position-footer {
 	background-color: rgb(143, 32, 134);
-	padding: 80px 0px;
+	padding: 80px 0;
 }
 .title-footer {
 	font-size: 20px;
-	font-family: "Ubuntu";
+
 	color: rgb(255, 255, 255) !important;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -14,7 +14,7 @@
 }
 .li-footer {
 	font-size: 16px;
-	font-family: "Ubuntu";
+
 	color: #d47fcd;
 	line-height: 3.398;
 	cursor: pointer;
@@ -22,7 +22,7 @@
 }
 .li-footer:hover {
 	font-size: 16px;
-	font-family: "Ubuntu";
+
 	color: #fff;
 	line-height: 3.398;
 	cursor: pointer;
@@ -32,9 +32,9 @@
 }
 .footer-logo-text {
 	font-size: 16px;
-	font-family: "Ubuntu";
+
 	color: rgb(255, 255, 255);
-	padding: 40px 40px 40px 0px;
+	padding: 40px 40px 40px 0;
 }
 
 .sub-footer {
@@ -42,7 +42,7 @@
 }
 .copy-text-sub-footer {
 	font-size: 16px;
-	font-family: "Ubuntu";
+
 	font-weight: 400;
 	color: rgb(255, 255, 255);
 	line-height: 3.02;
@@ -59,4 +59,3 @@
 	color: #f0bceb;
 	margin-right: 5px;
 }
-

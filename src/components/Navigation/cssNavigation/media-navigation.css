@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0) and (max-width: 320px) {
 	.sm-logo-media {
 		display: block;
 	}
@@ -18,14 +18,14 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 
 	.navbar-light .navbar-toggler {
 		border: none !important;
 		outline: none !important;
 		outline-color: none !important;
-		padding: 14px 0px;
+		padding: 14px 0;
 	}
 
 	.navbar-light .navbar-toggler:focus {
@@ -61,12 +61,12 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 	.navbar-light .navbar-nav .nav-link {
 		color: #8f2086;
 		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
-		padding: 12px 0px;
+		padding: 12px 0;
 		text-align: left;
 		font-size: 18px;
 	}
@@ -135,14 +135,14 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 
 	.navbar-light .navbar-toggler {
 		border: none !important;
 		outline: none !important;
 		outline-color: none !important;
-		padding: 14px 0px;
+		padding: 14px 0;
 	}
 
 	.navbar-light .navbar-toggler:focus {
@@ -178,12 +178,12 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 	.navbar-light .navbar-nav .nav-link {
 		color: #8f2086;
 		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
-		padding: 12px 0px;
+		padding: 12px 0;
 		text-align: left;
 		font-size: 20px;
 	}
@@ -252,14 +252,14 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 
 	.navbar-light .navbar-toggler {
 		border: none !important;
 		outline: none !important;
 		outline-color: none !important;
-		padding: 14px 0px;
+		padding: 14px 0;
 	}
 
 	.navbar-light .navbar-toggler:focus {
@@ -295,12 +295,12 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 	.navbar-light .navbar-nav .nav-link {
 		color: #8f2086;
 		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
-		padding: 12px 0px;
+		padding: 12px 0;
 		text-align: left;
 		font-size: 25px;
 	}
@@ -400,7 +400,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -424,7 +424,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 
@@ -448,14 +448,14 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 
 	.navbar-light .navbar-toggler {
 		border: none !important;
 		outline: none !important;
 		outline-color: none !important;
-		padding: 14px 0px;
+		padding: 14px 0;
 	}
 
 	.navbar-light .navbar-toggler:focus {
@@ -491,12 +491,12 @@
 	.Navigation {
 		background-color: rgb(255, 255, 255);
 		min-height: 60px !important;
-		box-shadow: 0px 0px 35px 0px rgba(175, 39, 164, 0.08);
+		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
 	.navbar-light .navbar-nav .nav-link {
 		color: #8f2086;
 		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
-		padding: 12px 0px;
+		padding: 12px 0;
 		text-align: left;
 		font-size: 25px;
 	}
@@ -596,7 +596,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -620,7 +620,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 
@@ -693,7 +693,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -717,7 +717,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 
@@ -789,7 +789,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -813,7 +813,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 
@@ -885,7 +885,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -909,7 +909,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 @media screen and (min-width: 1441px) and (max-width: 1680px) {
@@ -980,7 +980,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -1004,7 +1004,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 
@@ -1077,7 +1077,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -1101,7 +1101,7 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }
 /* to do podesti prave vrijednosti */
@@ -1174,7 +1174,7 @@
 		font-size: 24px;
 		font-family: "Ubuntu";
 		color: rgb(143, 32, 134);
-		padding: 15px 0px 30px 0px;
+		padding: 15px 0 30px 0;
 		font-weight: 600;
 		text-transform: none;
 	}
@@ -1198,6 +1198,6 @@
 		cursor: pointer;
 	}
 	.row-dropdown {
-		padding: 40px 0px !important;
+		padding: 40px 0 !important;
 	}
 }

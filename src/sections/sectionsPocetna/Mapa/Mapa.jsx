@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Image, Form, Button } from 'react-bootstrap';
-import './Mapa.css';
+import './cssMapa/Mapa.css';
+import './cssMapa/media-query-mapa.css';
 
 import imgSearchPartneri from './imgMapa/search.svg';
 import imgMapaBih from './imgMapa/mapa-aura.svg';

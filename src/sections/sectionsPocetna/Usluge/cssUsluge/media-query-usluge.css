@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) and (max-width: 320px) {
+@media screen and (min-width: 0) and (max-width: 320px) {
 	.usluge-title {
 		font-size: 40px;
 	}
@@ -16,10 +16,10 @@
 		border-radius: 10px;
 	}
 	.section-padding {
-		padding: 40px 0px;
+		padding: 40px 0;
 	}
 	.card-grafik-usluge-padding {
-		padding: 20px 0px 0px 0px;
+		padding: 20px 0 0 0;
 	}
 	.card-title-grafik-usluge {
 		font-size: 16px;
@@ -68,10 +68,10 @@
 		border-radius: 10px;
 	}
 	.section-padding {
-		padding: 40px 0px;
+		padding: 40px 0;
 	}
 	.card-grafik-usluge-padding {
-		padding: 20px 0px 0px 0px;
+		padding: 20px 0 0 0;
 	}
 	.card-title-grafik-usluge {
 		font-size: 16px;
@@ -120,10 +120,10 @@
 		border-radius: 10px;
 	}
 	.section-padding {
-		padding: 40px 0px;
+		padding: 40px 0;
 	}
 	.card-grafik-usluge-padding {
-		padding: 20px 0px 0px 0px;
+		padding: 20px 0 0 0;
 	}
 	.card-title-grafik-usluge {
 		font-size: 16px;
@@ -172,10 +172,10 @@
 		border-radius: 10px;
 	}
 	.section-padding {
-		padding: 40px 0px;
+		padding: 40px 0;
 	}
 	.card-grafik-usluge-padding {
-		padding: 20px 0px 0px 0px;
+		padding: 20px 0 0 0;
 	}
 	.card-title-grafik-usluge {
 		font-size: 16px;
