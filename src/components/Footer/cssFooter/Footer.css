@@ -14,17 +14,13 @@
 }
 .li-footer {
 	font-size: 16px;
-
 	color: #d47fcd;
 	line-height: 3.398;
 	cursor: pointer;
 	transition: all .3s;
 }
 .li-footer:hover {
-	font-size: 16px;
-
 	color: #fff;
-	line-height: 3.398;
 	cursor: pointer;
 }
 .ul-footer {
@@ -42,7 +38,6 @@
 }
 .copy-text-sub-footer {
 	font-size: 16px;
-
 	font-weight: 400;
 	color: rgb(255, 255, 255);
 	line-height: 3.02;

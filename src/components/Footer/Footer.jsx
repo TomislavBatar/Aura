@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import './Footer.css';
+import './cssFooter/Footer.css';
+import './cssFooter/media-query-footer.css';
 import imgLogoFooter from './imgFooter/logo-aura-osiguranje.svg';
 
 export default class Footer extends Component {
@@ -10,7 +11,7 @@ export default class Footer extends Component {
 		return (
 			<React.Fragment>
 				<div className="bg-position-footer">
-					<Container>
+					<Container className="text-center-tel-footer">
 						<Row>
 							<Col lg={3}>
 								<LinkContainer to="/">
@@ -106,7 +107,7 @@ export default class Footer extends Component {
 
 				<div className="sub-footer">
 					<Container>
-						<Col xs={12} className="form-inline justify-content-between pl-0 pr-0">
+						<Col xs={12} className="form-inline justify-content-between pl-0 pr-0 tel-flex-copy">
 							<div>
 								<span className="copy-text-sub-footer">©2019. Sva prava zadržana.</span>
 							</div>
