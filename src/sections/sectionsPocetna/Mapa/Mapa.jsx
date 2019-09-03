@@ -15,7 +15,7 @@ export default class Mapa extends Component {
 						<Row className="justify-content-center">
 							<Col lg={8}>
 								<Form className="d-flex align-items-start">
-									<Form.Control className="input-mapa" placeholder="Pronađi najbljižu poslovnicu" />
+									<Form.Control className="input-mapa" placeholder="Pronađi najbližu poslovnicu" />
 									<Button className="button-search-mapa">
 										<Image
 											className="svg-pretraga-poslovnica"

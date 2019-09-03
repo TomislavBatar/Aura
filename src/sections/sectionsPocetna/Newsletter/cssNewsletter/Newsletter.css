@@ -29,6 +29,7 @@
 	border-color: rgb(143, 32, 134);
 	padding-left: 50px;
 }
+
 .input-newsletter::placeholder {
 	color: rgb(95, 21, 89);
 
@@ -80,7 +81,14 @@
 	color: rgb(255, 255, 255);
 	box-shadow: none !important;
 }
-
+.button-newsletter:active {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134) !important;
+	border-style: solid;
+	background-color: rgb(143, 32, 134) !important;
+	color: rgb(255, 255, 255);
+	box-shadow: none !important;
+}
 .text-center-button-newsletter {
 	text-align: center;
 }
