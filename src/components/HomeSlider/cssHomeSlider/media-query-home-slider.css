@@ -15,10 +15,9 @@
 	}
 
 	.dugme-slajder {
-		background-image: linear-gradient(-180deg, rgb(245, 211, 103) 0%, rgb(232, 179, 35) 100%);
-		height: 45px;
-		padding-left: 30px;
-		padding-right: 55px;
+		height: 50px;
+		padding-left: 50px;
+		padding-right: 65px;
 		font-size: 12px;
 	}
 	.box {
@@ -43,10 +42,9 @@
 	}
 
 	.dugme-slajder {
-		background-image: linear-gradient(-180deg, rgb(245, 211, 103) 0%, rgb(232, 179, 35) 100%);
-		height: 45px;
-		padding-left: 30px;
-		padding-right: 55px;
+		height: 50px;
+		padding-left: 50px;
+		padding-right: 65px;
 		font-size: 12px;
 	}
 	.box {
@@ -70,11 +68,10 @@
 	}
 
 	.dugme-slajder {
-		background-image: linear-gradient(-180deg, rgb(245, 211, 103) 0%, rgb(232, 179, 35) 100%);
 		height: 50px;
-		padding-left: 40px;
-		padding-right: 70px;
-		font-size: 13px;
+		padding-left: 50px;
+		padding-right: 65px;
+		font-size: 12px;
 	}
 	.box {
 		box-shadow: inset 90vw 0 300px -51px #fff8eaf7;
@@ -98,11 +95,10 @@
 	}
 
 	.dugme-slajder {
-		background-image: linear-gradient(-180deg, rgb(245, 211, 103) 0%, rgb(232, 179, 35) 100%);
 		height: 50px;
 		padding-left: 50px;
-		padding-right: 70px;
-		font-size: 13px;
+		padding-right: 65px;
+		font-size: 12px;
 	}
 	.box {
 		box-shadow: inset 80vw 0 300px -51px #fff8eaf7;
