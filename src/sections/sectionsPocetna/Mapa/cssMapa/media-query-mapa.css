@@ -171,7 +171,46 @@
 		height: 65px;
 		border-width: 3px;
 		font-size: 16px;
-		padding-left: 20px;
+		padding-left: 35px;
+		z-index: 2;
+	}
+	.input-mapa:focus {
+		border-width: 3px;
+		font-size: 16px;
+		padding-left: 28px;
+	}
+	.input-mapa::placeholder {
+		font-size: 16px;
+	}
+	.svg-pretraga-poslovnica {
+		height: 24px;
+		z-index: 2;
+	}
+	.button-search-mapa {
+		border-radius: 100px;
+		height: 60px;
+		width: 60px;
+		margin-left: -62.5px;
+		margin-top: 2.7px;
+		z-index: 2;
+	}
+	.mapa-bih {
+		margin-top: -260px;
+		height: unset;
+		transform: scale(1);
+	}
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+	.section-padding-mapa {
+		padding: 120px 0 0 0;
+		overflow: hidden;
+	}
+	.input-mapa {
+		height: 65px;
+		border-width: 3px;
+		font-size: 16px;
+		padding-left: 35px;
 		z-index: 2;
 	}
 	.input-mapa:focus {

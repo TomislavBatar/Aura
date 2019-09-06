@@ -21,7 +21,6 @@
 
 .input-newsletter:focus {
 	color: rgb(95, 21, 89);
-
 	font-weight: 600;
 	box-shadow: none !important;
 	outline: none !important;
@@ -32,7 +31,6 @@
 
 .input-newsletter::placeholder {
 	color: rgb(95, 21, 89);
-
 	font-weight: 600;
 	box-shadow: none !important;
 	outline: none !important;

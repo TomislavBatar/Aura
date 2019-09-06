@@ -103,7 +103,7 @@
 		margin-bottom: 0;
 	}
 	.zasto-title {
-		font-size: 38px;
+		font-size: 40px;
 	}
 	.zasto-p {
 		font-size: 14px;
@@ -367,7 +367,63 @@
 	}
 }
 
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+	.section-padding-zasto {
+		padding: 60px 0;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.zasto-title {
+		font-size: 55px;
+	}
+	.zasto-p {
+		font-size: 16px;
+	}
+	.padding-row-tekst-grafik {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.h3-right-title {
+		font-size: 45px;
+	}
+	.h3-left-title {
+		font-size: 45px;
+	}
+	.p-left-text {
+		font-size: 16px;
+	}
+	.p-right-text {
+		font-size: 16px;
+	}
+	.hr-style-2 {
+		width: 130px;
+	}
+	.hr-style-3 {
+		width: 130px;
+	}
+	.hr-style-4 {
+		width: 130px;
+	}
+	/* .col-align-tel {
+		text-align: center;
+	} */
+	.float-grafik-1 {
+		height: 350px;
+	}
+	.float-grafik-2 {
+		height: 400px;
+		float: right;
+	}
+	.float-grafik-3 {
+		height: 400px;
+	}
+	.float-grafik-4 {
+		height: 400px;
+		float: right;
+	}
+}
+
+@media screen and (min-width: 1681px) and (max-width: 1920px) {
 	.section-padding-zasto {
 		padding: 70px 0;
 		margin-top: 0;

@@ -147,8 +147,8 @@
 		height: 80px;
 	}
 	.footer-logo-text {
-		font-size: 15px;
-		padding: 35px 10px 0 0;
+		font-size: 14px;
+		padding: 20px 10px 0 0;
 	}
 	.title-footer {
 		font-size: 18px;
@@ -156,5 +156,31 @@
 	.li-footer {
 		font-size: 14px;
 		line-height: 3.6;
+	}
+	.copy-text-sub-footer {
+		font-size: 14px;
+
+		line-height: 4.2;
+	}
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+	.logo-footer {
+		height: 80px;
+	}
+	.footer-logo-text {
+		font-size: 15px;
+		padding: 20px 10px 0 0;
+	}
+	.title-footer {
+		font-size: 18px;
+	}
+	.li-footer {
+		font-size: 15px;
+		line-height: 3.6;
+	}
+	.copy-text-sub-footer {
+		font-size: 15px;
+		line-height: 4.2;
 	}
 }

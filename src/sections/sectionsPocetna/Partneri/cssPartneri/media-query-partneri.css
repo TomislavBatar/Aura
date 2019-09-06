@@ -165,10 +165,10 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
 	.partneri-title {
-		font-size: 50px;
+		font-size: 60px;
 	}
 	.section-padding-partneri {
-		padding: 60px 0 120px 0;
+		padding: 100px 0 140px 0;
 	}
 	.padd-title-partneri {
 		padding-bottom: 60px;
@@ -187,7 +187,31 @@
 		height: 40px;
 	}
 }
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+	.partneri-title {
+		font-size: 60px;
+	}
+	.section-padding-partneri {
+		padding: 100px 0 140px 0;
+	}
+	.padd-title-partneri {
+		padding-bottom: 60px;
+	}
+	.align-center-tel {
+		text-align: center;
+	}
+	.partner-logo-1 {
+		height: 75px;
+		margin-top: -15px;
+	}
+	.partner-logo-2 {
+		height: 38px;
+	}
+	.partner-logo-3 {
+		height: 40px;
+	}
+}
+@media screen and (min-width: 1681px) and (max-width: 1920px) {
 	.partneri-title {
 		font-size: 65px;
 	}
