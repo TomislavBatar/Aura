@@ -21,7 +21,12 @@ export default class KarticaNezgoda extends Component {
 		return (
 			<Card className="card-grafik-usluge-5 card-grafik-usluge-right-border text-center">
 				<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-					<Card data-tip data-for="auto" key="front" className="card-grafik-usluge text-center no-copy">
+					<Card
+						// data-tip
+						data-for="auto"
+						key="front"
+						className="card-grafik-usluge text-center no-copy"
+					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
 							<Image className="grafik-usluge-5" src={imgNezgoda} fluid alt="Aura osiguranje grafik" />
 

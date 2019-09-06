@@ -24,7 +24,7 @@ export default class KarticaPutnoOsiguranje extends Component {
 			<Card className="card-grafik-usluge-4 card-grafik-usluge-top-left-radius text-center">
 				<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 					<Card
-						data-tip
+						// data-tip
 						data-for="auto"
 						key="front"
 						className="card-grafik-usluge card-grafik-usluge-bottom-left-radius card-grafik-usluge-right-border text-center no-copy"

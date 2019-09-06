@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, CardGroup } from 'react-bootstrap';
-import ReactTooltip from 'react-tooltip';
+// import ReactTooltip from 'react-tooltip';
 import GrafikUsluge from './svgIkonice/grafikUsluge';
 
 import './cssUsluge/usluge.css';
@@ -28,9 +28,9 @@ export default class Usluge extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<ReactTooltip delayShow={500} id="auto" type="info" effect="solid">
+				{/* <ReactTooltip delayShow={500} id="auto" type="info" effect="solid">
 					<span>Klik za više...</span>
-				</ReactTooltip>
+				</ReactTooltip> */}
 				<dir className="bg-purple section-padding">
 					<Container>
 						<Row>

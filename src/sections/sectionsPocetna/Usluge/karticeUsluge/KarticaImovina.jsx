@@ -22,7 +22,7 @@ export default class KarticaImovina extends Component {
 			<Card className="card-grafik-usluge-3 card-grafik-usluge-top-right-radius card-grafik-usluge-bottom-border text-center">
 				<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 					<Card
-						data-tip
+						// data-tip
 						data-for="auto"
 						key="front"
 						className="card-grafik-usluge card-grafik-usluge-top-right-radius card-grafik-usluge-bottom-border text-center no-copy"

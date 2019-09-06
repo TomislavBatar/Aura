@@ -22,7 +22,7 @@ export default class KarticaKredit extends Component {
 			<Card className="card-grafik-usluge-5 card-grafik-usluge-bottom-right-radius text-center">
 				<ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
 					<Card
-						data-tip
+						// data-tip
 						data-for="auto"
 						key="front"
 						className="card-grafik-usluge card-grafik-usluge-bottom-right-radius card-grafik-usluge-right-border text-center no-copy"
