@@ -201,7 +201,6 @@ export default class Navigation extends Component {
 													</LinkContainer>
 												</ul>
 											</Col>
-
 											{/* col 4 */}
 											<Col
 												lg={3}

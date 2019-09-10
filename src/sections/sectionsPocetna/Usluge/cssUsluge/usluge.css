@@ -120,15 +120,15 @@
 
 /* card - border na karticama lg  */
 .card-grafik-usluge-bottom-right-border {
-	border-bottom: .5px solid #cbc1b9;
-	border-right: .5px solid #cbc1b9;
+	border-bottom: 1px solid #cbc1b9;
+	border-right: 1px solid #cbc1b9;
 }
 .card-grafik-usluge-bottom-border {
-	border-bottom: .5px solid #cbc1b9;
+	border-bottom: 1px solid #cbc1b9;
 }
 
 .card-grafik-usluge-right-border {
-	border-right: .5px solid #cbc1b9;
+	border-right: 1px solid #cbc1b9;
 }
 
 /* Padding gore dole na carticama */

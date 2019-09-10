@@ -235,6 +235,13 @@
 		border-radius: 10px;
 		margin-bottom: 20px;
 	}
+	.card-group-1 .card {
+		margin-bottom: 20px;
+	}
+	.card-group-2 .card {
+		margin-bottom: 20px;
+	}
+
 	/* .grafik-usluge-1 {
 		height: 65px;
 	} */
@@ -276,6 +283,9 @@
 	}
 	.link-kartica-usluge {
 		font-size: 12px;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		text-align: center !important;
 	}
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {

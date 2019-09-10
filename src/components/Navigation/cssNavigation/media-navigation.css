@@ -13,6 +13,7 @@
 		border: none;
 		background-color: #fff !important;
 		animation: .5s ease 0s 1 normal forwards running slideIn;
+		text-align: center;
 	}
 
 	.Navigation {
@@ -69,6 +70,10 @@
 		padding: 12px 0;
 		text-align: left;
 		font-size: 18px;
+		text-align: center;
+	}
+	.p-dropdown {
+		display: none;
 	}
 
 	.show > .nav-link,
@@ -85,12 +90,18 @@
 	.col-dropdown-title {
 		font-size: 20px;
 		color: #8f2086;
-		border-bottom: 2.5px solid #8f208643;
+		/* border-bottom: 2.5px solid #8f208643; */
 		margin-bottom: 15px;
 	}
 	.sub-title-dropdown {
-		font-size: 18px;
-		color: #8f2086;
+		/* font-size: 14px;
+		padding-bottom: 10px;
+		color: #8f2086; */
+
+		font-size: 14px;
+		padding-bottom: 10px;
+		color: rgb(135, 135, 135);
+		font-weight: 400;
 	}
 	.p-dropdown {
 		font-size: 10px;
@@ -115,7 +126,7 @@
 	}
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media screen and (min-width: 321px) and (max-width: 520px) {
 	.sm-logo-media {
 		display: block;
 	}
@@ -125,11 +136,13 @@
 	.aura-lg-logo-link {
 		display: none;
 	}
+
 	/* za tel dropdown */
 	.navbar .dropdown-menu {
 		border: none;
 		background-color: #fff !important;
 		animation: .5s ease 0s 1 normal forwards running slideIn;
+		text-align: center;
 	}
 
 	.Navigation {
@@ -143,6 +156,19 @@
 		outline: none !important;
 		outline-color: none !important;
 		padding: 14px 0;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		color: #8f2086;
+		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
+		padding: 12px 0;
+		text-align: left;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.p-dropdown {
+		display: none;
 	}
 
 	.navbar-light .navbar-toggler:focus {
@@ -180,13 +206,6 @@
 		min-height: 60px !important;
 		box-shadow: 0 0 35px 0 rgba(175, 39, 164, 0.08);
 	}
-	.navbar-light .navbar-nav .nav-link {
-		color: #8f2086;
-		border-bottom: 2px solid rgba(101, 81, 99, 0.031);
-		padding: 12px 0;
-		text-align: left;
-		font-size: 20px;
-	}
 
 	.show > .nav-link,
 	.active > .nav-link,
@@ -199,15 +218,25 @@
 	.navbar-light .navbar-nav .nav-link:hover {
 		color: #8f2086;
 	}
-	.col-dropdown-title {
+	/* .col-dropdown-title {
 		font-size: 22px;
 		color: #8f2086;
 		border-bottom: 2.5px solid #8f208643;
 		margin-bottom: 15px;
-	}
-	.sub-title-dropdown {
+	} */
+
+	.col-dropdown-title {
 		font-size: 20px;
 		color: #8f2086;
+		/* border-bottom: 2.5px solid #8f208643; */
+		margin-bottom: 15px;
+	}
+
+	.sub-title-dropdown {
+		font-size: 14px;
+		padding-bottom: 10px;
+		color: rgb(135, 135, 135);
+		font-weight: 400;
 	}
 	.p-dropdown {
 		font-size: 14px;
@@ -232,7 +261,7 @@
 	}
 }
 /* (max-width: 992px) */
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 521px) and (max-width: 767px) {
 	.sm-logo-media {
 		display: block;
 	}
@@ -303,6 +332,7 @@
 		padding: 12px 0;
 		text-align: left;
 		font-size: 25px;
+		text-align: center;
 	}
 
 	.show > .nav-link,
@@ -390,10 +420,10 @@
 	}
 
 	.col-dropdown-border-right {
-		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
-		background-position: right;
-		background-size: 1px 10px;
-		background-repeat: repeat-y;
+		background-image: none;
+		background-position: unset;
+		background-size: unset;
+		background-repeat: unset;
 	}
 
 	.col-dropdown-title {
@@ -428,7 +458,7 @@
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	.sm-logo-media {
 		display: block;
 	}
@@ -586,10 +616,10 @@
 	}
 
 	.col-dropdown-border-right {
-		background-image: linear-gradient(#e9e8e8 40%, rgba(255, 255, 255, 0) 0%);
-		background-position: right;
-		background-size: 1px 10px;
-		background-repeat: repeat-y;
+		background-image: unset;
+		background-position: unset;
+		background-size: unset;
+		background-repeat: unset;
 	}
 
 	.col-dropdown-title {

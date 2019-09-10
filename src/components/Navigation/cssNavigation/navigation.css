@@ -21,10 +21,10 @@
 
 @keyframes slideIn {
 	0% {
-		transform: translateX(-20%);
+		transform: translateY(-3%);
 	}
 	100% {
-		transform: translateX(0);
+		transform: translateY(0);
 	}
 }
 @keyframes slideTop {
