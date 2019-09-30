@@ -47,9 +47,9 @@ export default class KarticaImovina extends Component {
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">
-								Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje koje se zaključuje
-								prilikom registracije motornih vozila. Ovim osiguranjem je pokrivena odgovornost
-								vlasnika, odnosno korisnika, kada upotrebom motornog vozila pričini štetu trećim licima.
+								Štiteći ono što posjedujemo, štitimo sebe, poštujući svoju prošlost i osiguravajući
+								svoju budućnost. Mnogi ne znaju da je osiguranje kuće ili stana povoljno u odnosu na ono
+								šta je pokriveno. Provjeri online i ostvari 10% popusta te osiguraj stan ili kuću.
 							</p>
 							<a className="link-kartica-usluge" href="/aa">
 								Prikaži još detalja...

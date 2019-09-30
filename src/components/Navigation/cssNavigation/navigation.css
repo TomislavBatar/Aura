@@ -174,3 +174,23 @@
 		margin-right: 20px;
 	}
 }
+
+@media (min-width: 1441px) {
+	.container {
+		max-width: 1400px;
+	}
+	.margin-navItems-lg {
+		margin-right: 20px;
+	}
+}
+/* nove klase za drop bez media */
+.img-abs-dropdown {
+	position: absolute;
+	bottom: 0;
+}
+.padd-abs-bottom {
+	padding-bottom: 170px !important;
+}
+.img-dropdown {
+	max-width: 100%;
+}

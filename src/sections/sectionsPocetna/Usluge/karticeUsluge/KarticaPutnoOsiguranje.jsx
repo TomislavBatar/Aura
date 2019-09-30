@@ -49,9 +49,10 @@ export default class KarticaPutnoOsiguranje extends Component {
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">
-								Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje koje se zaključuje
-								prilikom registracije motornih vozila. Ovim osiguranjem je pokrivena odgovornost
-								vlasnika, odnosno korisnika, kada upotrebom motornog vozila pričini štetu trećim licima.
+								Čak i pri brižljivo planiranim putovanjima ili kratkim izletima u inostranstvo mogu se
+								desiti nepredviđene neprijatnosti, nezgode ili bolest. Troškovi povezani sa neophodnim
+								liječničkim tretmanom mogu biti vrlo visoki. Zato, pri planiranju izleta i putovanja u
+								inostranstvo blagovremeno obezbijedite sebi putničko zdravstveno osiguranje.
 							</p>
 							<a className="link-kartica-usluge" href="/aa">
 								Prikaži još detalja...

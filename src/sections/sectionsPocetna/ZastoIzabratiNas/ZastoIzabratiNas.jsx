@@ -3,7 +3,10 @@ import { Row, Col, Container, Image } from 'react-bootstrap';
 import './cssZastoIzabratiNas/ZastoIzabratiNas.css';
 import './cssZastoIzabratiNas/media-query-zasto.css';
 import imgSrtucanTim from './imgZastoIzabratiNas/strucan-tim.svg';
-import imgKonstantanRast from './imgZastoIzabratiNas/konstantan-rast.svg';
+
+import { ReactComponent as AnimatedLogo } from '../ZastoIzabratiNas/imgZastoIzabratiNas/konstantan-rast-animated.svg';
+
+// import imgKonstantanRast from './imgZastoIzabratiNas/konstantan-rast-animated.svg';
 import imgUnapredjivanjeUsluga from './imgZastoIzabratiNas/unapredjivanje-usluga.svg';
 import imgZadovoljniKlijenti from './imgZastoIzabratiNas/zadovoljni-klijenti.svg';
 
@@ -65,12 +68,13 @@ export default class ZastoIzabratiNas extends Component {
 								</p>
 							</Col>
 							<Col lg={6} className="col-align-tel">
-								<Image
+								{/* <Image
 									className="grafik-usluge float-grafik-2"
 									src={imgKonstantanRast}
 									fluid
 									alt="Aura osiguranje grafik"
-								/>
+								/> */}
+								<AnimatedLogo />
 							</Col>
 
 							{/* end 2 row */}

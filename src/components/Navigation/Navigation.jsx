@@ -78,7 +78,7 @@ export default class Navigation extends Component {
 														</li>
 													</LinkContainer>
 													<LinkContainer to="/">
-														<li className="li-dorpdown">
+														<li className="li-dorpdown padd-abs-bottom">
 															<h3 className="sub-title-dropdown">Registracija na rate</h3>
 															<p className="p-dropdown">
 																Osiguranje Aura u saradnji MKD Auris i Auto Centar Alfom
@@ -87,10 +87,10 @@ export default class Navigation extends Component {
 														</li>
 													</LinkContainer>
 													<LinkContainer to="/">
-														<li className="li-dorpdown col-img-automobil">
+														<li className="li-dorpdown col-img-automobil img-abs-dropdown">
 															<img
 																src={Automobili}
-																className="img-automobil"
+																className="img-automobil img-dropdown"
 																height="141"
 																alt="Automobili"
 															/>
@@ -134,7 +134,7 @@ export default class Navigation extends Component {
 													</LinkContainer>
 													{/* to do izbrisati kasnije tacke  */}
 													<LinkContainer to="/">
-														<li className="li-dorpdown">
+														<li className="li-dorpdown padd-abs-bottom">
 															<h3 className="sub-title-dropdown">
 																<span className="text-white visak-tel">.</span>
 															</h3>
@@ -144,8 +144,13 @@ export default class Navigation extends Component {
 														</li>
 													</LinkContainer>
 													<LinkContainer to="/">
-														<li className="li-dorpdown">
-															<img src={Imovina} height="141" alt="Automobili" />
+														<li className="li-dorpdown img-abs-dropdown">
+															<img
+																src={Imovina}
+																className="img-dropdown"
+																height="141"
+																alt="Automobili"
+															/>
 														</li>
 													</LinkContainer>
 												</ul>
@@ -185,7 +190,7 @@ export default class Navigation extends Component {
 													</LinkContainer>
 													{/* to do izbrisati kasnije tacke  */}
 													<LinkContainer to="/">
-														<li className="li-dorpdown">
+														<li className="li-dorpdown padd-abs-bottom">
 															<h3 className="sub-title-dropdown">
 																<span className="text-white visak-tel">.</span>
 															</h3>
@@ -195,8 +200,13 @@ export default class Navigation extends Component {
 														</li>
 													</LinkContainer>
 													<LinkContainer to="/">
-														<li className="li-dorpdown">
-															<img src={Putovanja} height="141" alt="Automobili" />
+														<li className="li-dorpdown img-abs-dropdown">
+															<img
+																className="img-dropdown"
+																src={Putovanja}
+																height="141"
+																alt="Automobili"
+															/>
 														</li>
 													</LinkContainer>
 												</ul>
@@ -216,17 +226,21 @@ export default class Navigation extends Component {
 															Osiguranje robe u transportu
 														</h3>
 														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur
+															Osiguranje robe u transportu (CARGO) namijenjeno je osobama
+															koje imaju osigurljiv interes nad robom koja se prevozi, a
+															najčešće su to sami vlasnici.
 														</p>
 													</li>
 													<li className="li-dorpdown">
 														<h3 className="sub-title-dropdown">Osiguranje od nezgoda</h3>
 														<p className="p-dropdown">
-															Lorem ipsum dolor sit amet, consectetur
+															Kolektivno osiguranje od posljedica nezgode osoba na poslu i
+															u slobodnom vremenu je namijenjeno osiguranju radnika u
+															preduzećima, članovima udruženja ili društvima.
 														</p>
 													</li>
 													{/* to do izbrisati kasnije tacke  */}
-													<li className="li-dorpdown">
+													<li className="li-dorpdown padd-abs-bottom">
 														<h3 className="sub-title-dropdown">
 															<span className="text-white visak-tel">.</span>
 														</h3>
@@ -234,8 +248,13 @@ export default class Navigation extends Component {
 															<span className="text-white visak-tel">.</span>
 														</p>
 													</li>
-													<li className="li-dorpdown">
-														<img src={Ostalo} height="141" alt="Automobili" />
+													<li className="li-dorpdown img-abs-dropdown">
+														<img
+															className="img-dropdown"
+															src={Ostalo}
+															height="141"
+															alt="Automobili"
+														/>
 													</li>
 												</ul>
 											</Col>

@@ -114,7 +114,12 @@ export default class Footer extends Component {
 							<div>
 								<span className="copy-text-sub-footer">
 									Made by{' '}
-									<a className="link-omnia" href="#">
+									<a
+										className="link-omnia"
+										href="http://omniamarketing.ba"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										OMNIA
 									</a>
 								</span>

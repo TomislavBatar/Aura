@@ -42,9 +42,11 @@ export default class KarticaNezgoda extends Component {
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">
-								Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje koje se zaključuje
-								prilikom registracije motornih vozila. Ovim osiguranjem je pokrivena odgovornost
-								vlasnika, odnosno korisnika, kada upotrebom motornog vozila pričini štetu trećim licima.
+								Kolektivno osiguranje od posljedica nezgode osoba na poslu i u slobodnom vremenu je
+								namijenjeno osiguranju radnika u preduzećima, članovima udruženja ili društvima. Ovaj
+								oblik osiguranje je finansijski povoljniji radi većeg broja osiguranika. Kolektivno
+								osiguranje od posljedica nezgode je namijenjeno zaposlenicima u preduzećima, članovima
+								organizovanih grupa i udruženja.
 							</p>
 							<a className="link-kartica-usluge" href="/aa">
 								Prikaži još detalja...

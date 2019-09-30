@@ -47,9 +47,10 @@ export default class KarticaKasko extends Component {
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">
-								Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje koje se zaključuje
-								prilikom registracije motornih vozila. Ovim osiguranjem je pokrivena odgovornost
-								vlasnika, odnosno korisnika, kada upotrebom motornog vozila pričini štetu trećim licima.
+								Kasko osiguranje pokriva štetu i kad je za njen nastanak odgovoran vozač koji je
+								upravljao vozilom. Bilo da vaše motorno vozilo koristite za lične potrebe ili za potrebe
+								posla kojim se bavite, poželjno je da ga obezbedite od potencijalnih nemilih događaja
+								koji vam se mogu desiti na putu.
 							</p>
 							<a className="link-kartica-usluge" href="/aa">
 								Prikaži još detalja...
