@@ -3,8 +3,9 @@ import { Row, Col, Container, Image, Form, Button } from 'react-bootstrap';
 import './cssMapa/Mapa.css';
 import './cssMapa/media-query-mapa.css';
 
+import { ReactComponent as MapaBih } from './imgMapa/mapa-pinovi.svg';
+
 import imgSearchPartneri from './imgMapa/search.svg';
-import imgMapaBih from './imgMapa/mapa-aura.svg';
 
 export default class Mapa extends Component {
 	render() {
@@ -28,7 +29,8 @@ export default class Mapa extends Component {
 						</Row>
 					</Container>
 					<Container className="text-center" fluid>
-						<Image className="mapa-bih" fluid src={imgMapaBih} alt="Pretraga poslovnica" />
+						{/* <Image className="mapa-bih" fluid src={imgMapaBih} alt="Pretraga poslovnica" /> */}
+						<MapaBih className="mapa-bih" />
 					</Container>
 				</div>
 			</React.Fragment>

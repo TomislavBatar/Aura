@@ -1,0 +1,84 @@
+.kontakt {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.naslov-kontakt {
+	font-size: 67px;
+	color: #5f1559;
+	font-weight: 600;
+}
+.forma-kontakt {
+	padding-top: 60px;
+}
+
+.input-kontakt {
+	height: 59px;
+	border-width: 3px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	border-radius: 100px;
+	background-color: rgb(255, 255, 255);
+	transition: all .5s;
+	font-weight: 600;
+	padding-left: 30px;
+}
+
+.input-kontakt:focus {
+	color: rgb(95, 21, 89);
+	font-weight: 600;
+	box-shadow: none !important;
+	outline: none !important;
+	border-width: 3px;
+	border-color: rgb(143, 32, 134);
+	padding-left: 50px;
+}
+
+.input-kontakt::placeholder {
+	color: rgb(95, 21, 89);
+	font-weight: 600;
+	box-shadow: none !important;
+	outline: none !important;
+	border-width: 3px;
+	border-color: rgb(143, 32, 134);
+}
+.button-kontakt {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	background-color: rgb(143, 32, 134);
+	height: 57px;
+	border-radius: 100px;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 70px;
+	padding-right: 80px;
+	margin: 40px 0;
+	position: relative;
+}
+
+.button-kontakt:hover {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134);
+	border-style: solid;
+	background-color: rgb(143, 32, 134);
+	color: rgb(255, 255, 255);
+}
+.button-kontakt:focus {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134) !important;
+	border-style: solid;
+	background-color: rgb(143, 32, 134) !important;
+	color: rgb(255, 255, 255);
+	box-shadow: none !important;
+}
+.button-kontakt:active {
+	border-width: 4px;
+	border-color: rgb(143, 32, 134) !important;
+	border-style: solid;
+	background-color: rgb(143, 32, 134) !important;
+	color: rgb(255, 255, 255);
+	box-shadow: none !important;
+}

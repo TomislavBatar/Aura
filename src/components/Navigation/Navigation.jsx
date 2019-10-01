@@ -58,7 +58,7 @@ export default class Navigation extends Component {
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
 													{/* TO DO add a page to="?" */}
-													<LinkContainer to="/">
+													<LinkContainer to="/autoodgovornost">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">Autoodgovornost</h3>
 															<p className="p-dropdown">

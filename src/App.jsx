@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Pocetna from './pages/Pocetna/Pocetna';
-import Proizvodi from './pages/Proizvodi/Proizvodi';
+import ProizvodiAutoodgovornost from './pages/ProizvodiAutoodgovornost/ProizvodiAutoodgovornost';
 import PrijavaStete from './pages/PrijavaStete/PrijavaStete';
 import OnlinePolisa from './pages/OnlinePolisa/OnlinePolisa';
 import ONama from './pages/ONama/ONama';
@@ -20,7 +20,7 @@ export default class App extends Component {
 				<Navigation />
 				<Switch>
 					<Route exact path="/" component={Pocetna} />
-					<Route path="/proizvodi" component={Proizvodi} />
+					<Route path="/autoodgovornost" component={ProizvodiAutoodgovornost} />
 					<Route path="/prijava-stete" component={PrijavaStete} />
 					<Route path="/online-polisa" component={OnlinePolisa} />
 					<Route path="/o-nama" component={ONama} />

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
-export default class Proizvodi extends Component {
+export default class ProizvodiSablon extends Component {
 	render() {
 		return (
 			<div>
-				<br />
-				<p>Proizvodi</p>
+				<div>
+					<p>aaa</p>
+				</div>
 			</div>
 		);
 	}
