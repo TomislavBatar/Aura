@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import { Container, Row, Col, Form, Button, Image } from 'react-bootstrap';
+
 import './cssKontakt/kontakt.css';
 import './cssKontakt/media-kontakt.css';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import kontaktIg from './imgKontakt/ig.svg';
+import kontaktViber from './imgKontakt/viber.svg';
+import kontaktFb from './imgKontakt/fb.svg';
+import kontaktYt from './imgKontakt/yt.svg';
 export default class SekcijaKontakt extends Component {
 	render() {
 		return (
@@ -27,6 +32,28 @@ export default class SekcijaKontakt extends Component {
 								</Form.Group>
 								<Button className="button-kontakt">Pošaljite</Button>
 							</Form>
+						</Col>
+					</Row>
+					<Row className="justify-content-around row-ikonice-kontakt">
+						<Col className="poravnanje-kolone-ikonica-kontakt" lg={2}>
+							<Image className="ikonice-kontakt" src={kontaktIg} alt="" />
+							<h3 className="naslov-ikonice-kontakt">Instagram</h3>
+						</Col>
+						<Col className="poravnanje-kolone-ikonica-kontakt" lg={2}>
+							<Image className="ikonice-kontakt" src={kontaktFb} alt="" />
+							<h3 className="naslov-ikonice-kontakt">Facebook</h3>
+						</Col>
+						<Col className="poravnanje-kolone-ikonica-kontakt" lg={2}>
+							<Image className="ikonice-kontakt" src={kontaktYt} alt="" />
+							<h3 className="naslov-ikonice-kontakt">YouTube</h3>
+						</Col>
+						<Col className="poravnanje-kolone-ikonica-kontakt" lg={2}>
+							<Image className="ikonice-kontakt" src={kontaktViber} alt="" />
+							<h3 className="naslov-ikonice-kontakt">Viber</h3>
+						</Col>
+						<Col className="poravnanje-kolone-ikonica-kontakt" lg={2}>
+							<Image className="ikonice-kontakt" src={kontaktViber} alt="" />
+							<h3 className="naslov-ikonice-kontakt">Mapa</h3>
 						</Col>
 					</Row>
 				</Container>
