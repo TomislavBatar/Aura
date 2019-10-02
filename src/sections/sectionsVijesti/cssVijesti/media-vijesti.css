@@ -1,0 +1,16 @@
+@media screen and (min-width: 0px) and (max-width: 768px) {
+	.vijesti-sekcija {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.naslov-vijesti {
+		font-size: 40px;
+		padding-bottom: 20px;
+	}
+	.tekst-vijest {
+		font-size: 14px;
+	}
+	.button-vijest {
+		font-size: 12px;
+	}
+}
