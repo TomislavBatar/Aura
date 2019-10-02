@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import { Container, Col, Row, Card, Button } from 'react-bootstrap';
+import { Container, Col, Row } from 'react-bootstrap';
 import KarticaVijesti from './KarticaVijesti';
 
 import './cssVijesti/vijesti.css';
 import './cssVijesti/media-vijesti.css';
-
-// slike vijesti
-
-import vijest1 from './imgVijest/Aura-vijest.png';
 
 export default class SekcijaVijesti extends Component {
 	render() {
