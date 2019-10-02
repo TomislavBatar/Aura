@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, Button, Image } from 'react-bootstrap';
 
 import './cssKontakt/kontakt.css';
 import './cssKontakt/media-kontakt.css';
+
 import kontaktIg from './imgKontakt/ig.svg';
 import kontaktViber from './imgKontakt/viber.svg';
 import kontaktFb from './imgKontakt/fb.svg';
@@ -14,18 +15,18 @@ export default class SekcijaKontakt extends Component {
 				<Container>
 					<Row>
 						<Col lg={12}>
-							<h1 className="naslov-kontakt">Kontkat</h1>
+							<h1 className="naslov-kontakt">Kontakt</h1>
 						</Col>
-						<Col lg={6}>
+						<Col lg={6} className="forma-col-kontakti">
 							<Form className="forma-kontakt">
 								<Form.Group controlId="">
 									<Form.Control className="input-kontakt" type="text" placeholder="VAŠE IME" />
 								</Form.Group>
 								<Form.Group controlId="">
-									<Form.Control className="input-kontakt" type="text" placeholder="BROJ TELEFONA" />
+									<Form.Control className="input-kontakt" type="tel" placeholder="BROJ TELEFONA" />
 								</Form.Group>
 								<Form.Group controlId="">
-									<Form.Control className="input-kontakt" type="text" placeholder="E-MAIL ADRESA" />
+									<Form.Control className="input-kontakt" type="email" placeholder="E-MAIL ADRESA" />
 								</Form.Group>
 								<Form.Group controlId="">
 									<Form.Control className="input-kontakt" type="text" placeholder="PORUKA..." />
@@ -53,7 +54,7 @@ export default class SekcijaKontakt extends Component {
 						</Col>
 						<Col className="poravnanje-kolone-ikonica-kontakt" lg={2}>
 							<Image className="ikonice-kontakt" src={kontaktViber} alt="" />
-							<h3 className="naslov-ikonice-kontakt">Mapa</h3>
+							<h3 className="naslov-ikonice-kontakt">LinkedIn</h3>
 						</Col>
 					</Row>
 				</Container>

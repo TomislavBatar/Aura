@@ -124,6 +124,9 @@
 	.visak-tel {
 		display: none;
 	}
+	.padd-abs-bottom {
+		padding-bottom: 0 !important;
+	}
 }
 
 @media screen and (min-width: 321px) and (max-width: 520px) {
@@ -259,12 +262,16 @@
 	.visak-tel {
 		display: none;
 	}
+	.padd-abs-bottom {
+		padding-bottom: 0 !important;
+	}
 }
 /* (max-width: 992px) */
 @media screen and (min-width: 521px) and (max-width: 767px) {
 	.sm-logo-media {
 		display: block;
 	}
+
 	.AuraLogoLgSvg {
 		display: none;
 	}
@@ -455,6 +462,9 @@
 	}
 	.row-dropdown {
 		padding: 40px 0 !important;
+	}
+	.padd-abs-bottom {
+		padding-bottom: 0 !important;
 	}
 }
 

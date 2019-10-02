@@ -1,0 +1,43 @@
+.vijesti-sekcija {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.naslov-vijesti {
+	font-size: 67px;
+	padding-bottom: 80px;
+	color: #5f1559;
+	font-weight: 600;
+}
+.kartica-vijest {
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 2px 27.1px -4px #5f155912;
+}
+.top-radius {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.naslov-vijest {
+	color: rgb(17, 55, 90);
+	font-size: 22px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.tekst-vijest {
+	color: rgb(17, 55, 90);
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.button-vijest {
+	height: 52px;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-radius: 100px;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: rgb(143, 32, 134);
+}
