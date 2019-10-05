@@ -1,0 +1,49 @@
+@media screen and (min-width: 0px) and (max-width: 425px) {
+	.pregled-vijesti-sekcija {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.naslov-pregled-vijesti {
+		font-size: 30px;
+		padding-bottom: 10px;
+	}
+	.datum-pregled-vijesti {
+		font-size: 16px;
+	}
+	.slika-pregled-vijesti {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.tekst-pregled-vijesti {
+		font-size: 14px;
+		color: rgb(73, 74, 74);
+	}
+}
+
+@media screen and (min-width: 426px) and (max-width: 991px) {
+	.pregled-vijesti-sekcija {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.naslov-pregled-vijesti {
+		font-size: 50px;
+		padding-bottom: 10px;
+	}
+	.datum-pregled-vijesti {
+		font-size: 18px;
+	}
+	.slika-pregled-vijesti {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.tekst-pregled-vijesti {
+		font-size: 14px;
+		color: rgb(73, 74, 74);
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1198px) {
+	.naslov-pregled-vijesti {
+		font-size: 50px;
+	}
+}

@@ -23,6 +23,7 @@
 	color: rgb(73, 74, 74);
 }
 .dokument-link-pregled-vijesti {
+	font-size: 14px;
 	color: #8e2085;
 	text-decoration: underline;
 	transition: .2s all;
@@ -32,6 +33,7 @@
 	text-decoration: underline;
 }
 .dokument-pregled-vijesti span {
+	font-size: 14px;
 	color: rgb(73, 74, 74);
 	font-weight: 600;
 	padding-right: 10px;
