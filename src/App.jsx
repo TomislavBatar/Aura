@@ -11,6 +11,7 @@ import Kontakt from './pages/Kontakt/Kontakt';
 import NoMatch from './pages/NoMatch/NoMatch';
 import TopNav from './components/TopNav/TopNav';
 import Navigation from './components/Navigation/Navigation';
+import PregledVijesti from './pages/PregledVijesti/PregledVijesti';
 
 export default class App extends Component {
 	render() {
@@ -26,6 +27,7 @@ export default class App extends Component {
 					<Route path="/o-nama" component={ONama} />
 					<Route path="/poslovnice" component={Poslovnice} />
 					<Route path="/vijesti" component={Vijesti} />
+					<Route path="/pregled-vijesti" component={PregledVijesti} />
 					<Route path="/kontakt" component={Kontakt} />
 					<Route component={NoMatch} />
 				</Switch>

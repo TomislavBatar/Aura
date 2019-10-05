@@ -22,6 +22,7 @@ export default class SekcijaVijesti extends Component {
 								naslov="Obavještenje o radu šalter sala za registraciju motornih vozila"
 								slika="http://auraosiguranje.com/wp-content/uploads/2016/03/aura-osiguranje-capital-640x520.jpg"
 								tekst="Obavještenje o radu šalter sala za registraciju motornih vozila (PDF) Obavještenje o radu šalter sala za registraciju motornih vozila (PDF)"
+								link="/pregled-vijesti"
 							/>
 						</Col>
 						<Col lg={4} md={6}>
