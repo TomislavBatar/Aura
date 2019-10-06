@@ -1,0 +1,15 @@
+.sekcija-proizvodi {
+}
+.slika-proizvodi {
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.bg-proizvodi {
+	position: relative;
+}
+.naslovi-proizvodi {
+	position: absolute;
+	top: 50;
+}
