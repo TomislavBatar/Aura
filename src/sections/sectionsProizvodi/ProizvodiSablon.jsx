@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './cssProizvodi/proizvodi.css';
-import proizvodislika from '../../components/HomeSlider/imgSlider/bg-home-min.jpg';
+import './cssProizvodi/media-proizvodi.css';
+// import proizvodislika from '../../components/HomeSlider/imgSlider/bg-home-min.jpg';
 
 export default class ProizvodiSablon extends Component {
 	render() {
