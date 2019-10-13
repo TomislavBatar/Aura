@@ -4,7 +4,7 @@ import './cssProizvodi/proizvodi.css';
 import './cssProizvodi/media-proizvodi.css';
 // import proizvodislika from '../../components/HomeSlider/imgSlider/bg-home-min.jpg';
 
-export default class ProizvodiSablon extends Component {
+export default class SekcijaAutoosiguranje extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">

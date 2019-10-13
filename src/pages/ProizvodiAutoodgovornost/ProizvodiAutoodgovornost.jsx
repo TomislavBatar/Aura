@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ProizvodiSablon from '../../sections/sectionsProizvodi/ProizvodiSablon';
+import SekcijaAutoosiguranje from '../../sections/sectionsProizvodi/SekcijaAutoosiguranje';
 import Footer from '../../components/Footer/Footer';
 export default class ProizvodiAutoodgovornost extends Component {
 	render() {
 		return (
 			<div>
-				<ProizvodiSablon />
+				<SekcijaAutoosiguranje />
 				<Footer />
 			</div>
 		);
