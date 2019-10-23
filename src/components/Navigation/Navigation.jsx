@@ -58,7 +58,7 @@ export default class Navigation extends Component {
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
 													{/* TO DO add a page to="?" */}
-													<LinkContainer to="/autoodgovornost">
+													<LinkContainer to="/osiguranje-od-autoodgovornosti">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">Autoodgovornost</h3>
 															<p className="p-dropdown">
@@ -120,7 +120,7 @@ export default class Navigation extends Component {
 															</p>
 														</li>
 													</LinkContainer>
-													<LinkContainer to="/">
+													<LinkContainer to="/osiguranje-preduzetnika">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
 																Osiguranje preduzetnika
@@ -166,7 +166,7 @@ export default class Navigation extends Component {
 											>
 												<h2 className="col-dropdown-title">Putovanja</h2>
 												<ul className="list-unstyled">
-													<LinkContainer to="/">
+													<LinkContainer to="/putno-zdravstveno-osiguranje">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
 																Putno zdravstveno osig.
@@ -178,7 +178,7 @@ export default class Navigation extends Component {
 															</p>
 														</li>
 													</LinkContainer>
-													<LinkContainer to="/">
+													<LinkContainer to="/osiguranje-od-otkaza-putovanja">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
 																Osig. od otkaza putovanja
@@ -221,24 +221,32 @@ export default class Navigation extends Component {
 											>
 												<h2 className="col-dropdown-title">Ostalo</h2>
 												<ul className="list-unstyled">
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">
-															Osiguranje robe u transportu
-														</h3>
-														<p className="p-dropdown">
-															Osiguranje robe u transportu (CARGO) namijenjeno je osobama
-															koje imaju osigurljiv interes nad robom koja se prevozi, a
-															najčešće su to sami vlasnici.
-														</p>
-													</li>
-													<li className="li-dorpdown">
-														<h3 className="sub-title-dropdown">Osiguranje od nezgoda</h3>
-														<p className="p-dropdown">
-															Kolektivno osiguranje od posljedica nezgode osoba na poslu i
-															u slobodnom vremenu je namijenjeno osiguranju radnika u
-															preduzećima, članovima udruženja ili društvima.
-														</p>
-													</li>
+													<LinkContainer to="/osiguranje-robe-u-transportu">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																Osiguranje robe u transportu
+															</h3>
+															<p className="p-dropdown">
+																Osiguranje robe u transportu (CARGO) namijenjeno je
+																osobama koje imaju osigurljiv interes nad robom koja se
+																prevozi, a najčešće su to sami vlasnici.
+															</p>
+														</li>
+													</LinkContainer>
+
+													<LinkContainer to="/osiguranje-od-nezgode">
+														<li className="li-dorpdown">
+															<h3 className="sub-title-dropdown">
+																Osiguranje od nezgoda
+															</h3>
+															<p className="p-dropdown">
+																Kolektivno osiguranje od posljedica nezgode osoba na
+																poslu i u slobodnom vremenu je namijenjeno osiguranju
+																radnika u preduzećima, članovima udruženja ili
+																društvima.
+															</p>
+														</li>
+													</LinkContainer>
 													{/* to do izbrisati kasnije tacke  */}
 													<li className="li-dorpdown padd-abs-bottom">
 														<h3 className="sub-title-dropdown">

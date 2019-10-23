@@ -30,46 +30,46 @@ export default class Footer extends Component {
 							<Col lg={3}>
 								<h3 className="title-footer">Osiguranja</h3>
 								<ul className="list-unstyled ul-footer">
-									<LinkContainer to="/">
+									<LinkContainer to="/osiguranje-od-autoodgovornosti">
 										<li className="li-footer">Osiguranje od autoodgovornosti</li>
 									</LinkContainer>
-									<LinkContainer to="/">
+									<LinkContainer to="/kasko-osiguranje">
 										<li className="li-footer">Kasko osiguranje</li>
 									</LinkContainer>
-									<LinkContainer to="/">
+									<LinkContainer to="/osiguranje-kuce-ili-stana">
 										<li className="li-footer">Osiguranje imovine</li>
 									</LinkContainer>
-									<LinkContainer to="/">
+									<LinkContainer to="/putno-zdravstveno-osiguranje">
 										<li className="li-footer">Putno zdravstveno osiguranje</li>
 									</LinkContainer>
-									<LinkContainer to="/">
+									<LinkContainer to="/osiguranje-od-nezgoda">
 										<li className="li-footer">Osiguranje od nezgoda</li>
 									</LinkContainer>
-									<LinkContainer to="/">
-										<li className="li-footer">Osiguranje korisnika kredita</li>
+									<LinkContainer to="/osiguranje-preduzetnika">
+										<li className="li-footer">Osiguranje preduzetnika</li>
 									</LinkContainer>
 								</ul>
 							</Col>
 							<Col lg={3}>
 								<h3 className="title-footer">Kontakt</h3>
 								<ul className="list-unstyled ul-footer">
-									<LinkContainer to="/">
+									<a className="a-hover-none" href="tel:051490490">
 										<li className="li-footer">
 											<span className="span-footer">Telefon: </span> 051/490-490
 										</li>
-									</LinkContainer>
-									<LinkContainer to="/">
+									</a>
+									<a className="a-hover-none" href="mailto:info@auraosiguranje.com">
 										<li className="li-footer">
 											<span className="span-footer">E-mail: </span>
 											info@auraosiguranje.com
 										</li>
-									</LinkContainer>
-									<LinkContainer to="/">
+									</a>
+									<a className="a-hover-none" href="auraosiguranje.com">
 										<li className="li-footer">
 											<span className="span-footer">Web:</span>
 											www.auraosiguranje.com
 										</li>
-									</LinkContainer>
+									</a>
 									{/* <LinkContainer to="/">
 										<li className="li-footer">
 											<span className="span-footer">Web:</span>
@@ -84,21 +84,38 @@ export default class Footer extends Component {
 							<Col lg={3}>
 								<h3 className="title-footer">Društvene mreže</h3>
 								<ul className="list-unstyled ul-footer">
-									<LinkContainer to="/">
+									<a
+										className="a-hover-none"
+										href="https://www.facebook.com/osiguranjeaura"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<li className="li-footer">Facebook</li>
-									</LinkContainer>
-									<LinkContainer to="/">
+									</a>
+									<a
+										className="a-hover-none"
+										href="https://www.instagram.com/aura.osiguranje/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<li className="li-footer">Instagram</li>
-									</LinkContainer>
-									<LinkContainer to="/">
+									</a>
+									<a
+										className="a-hover-none"
+										href="https://www.linkedin.com/company/osiguranje-aura-a-d/about/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<li className="li-footer">Linkedin</li>
-									</LinkContainer>
-									<LinkContainer to="/">
+									</a>
+									<a
+										className="a-hover-none"
+										href="https://www.youtube.com/channel/UC22Sjor-ktC_H0dkK7THsNg"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										<li className="li-footer">Youtube</li>
-									</LinkContainer>
-									{/* <LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
-									</LinkContainer> */}
+									</a>
 								</ul>
 							</Col>
 						</Row>

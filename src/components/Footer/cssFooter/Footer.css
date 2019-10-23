@@ -54,3 +54,7 @@
 	color: #f0bceb;
 	margin-right: 5px;
 }
+
+.a-hover-none:hover {
+	text-decoration: none;
+}
