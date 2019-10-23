@@ -68,7 +68,7 @@ export default class Navigation extends Component {
 															</p>
 														</li>
 													</LinkContainer>
-													<LinkContainer to="/">
+													<LinkContainer to="/kasko-osiguranje">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
 															<p className="p-dropdown">
@@ -77,7 +77,7 @@ export default class Navigation extends Component {
 															</p>
 														</li>
 													</LinkContainer>
-													<LinkContainer to="/">
+													<LinkContainer to="/registracija-na-rate">
 														<li className="li-dorpdown padd-abs-bottom">
 															<h3 className="sub-title-dropdown">Registracija na rate</h3>
 															<p className="p-dropdown">
@@ -109,7 +109,7 @@ export default class Navigation extends Component {
 											>
 												<h2 className="col-dropdown-title">Imovina</h2>
 												<ul className="list-unstyled">
-													<LinkContainer to="/">
+													<LinkContainer to="/osiguranje-kuce-ili-stana">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
 																Osiguranje kuće ili stana

@@ -2,17 +2,16 @@ import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './cssProizvodi/proizvodi.css';
 import './cssProizvodi/media-proizvodi.css';
-// import proizvodislika from '../../components/HomeSlider/imgSlider/bg-home-min.jpg';
 import imgCheck from './imgProizvodi/check.svg';
 
-export default class SekcijaAutoosiguranje extends Component {
+export default class SekcijaKaskoOsiguranje extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">
 				<div className="bg-proizvodi bg-autoosiguranje">
 					<Container>
 						<h1 className="naslov-proizvodi">
-							Osiguranje od <br /> autoodgovornost
+							Kasko <br /> osiguranje
 						</h1>
 					</Container>
 				</div>
@@ -28,9 +27,7 @@ export default class SekcijaAutoosiguranje extends Component {
 											fluid
 											src={imgCheck}
 										/>
-										<p className="opis-check-proizvodi">
-											Finansijska zaštita u slučaju štete pričinjene trećim licima
-										</p>
+										<p className="opis-check-proizvodi">Širok spektar osiguranih rizika</p>
 									</Col>
 									<Col lg={4} className="col-proizvodi col-border-2">
 										<Image
@@ -40,7 +37,7 @@ export default class SekcijaAutoosiguranje extends Component {
 											src={imgCheck}
 										/>
 										<p className="opis-check-proizvodi">
-											Mogućnost zaključenja ugovora na period kraći od godinu dana
+											Zaštita od djelimičnog ili potpunog oštećenja vozila
 										</p>
 									</Col>
 									<Col lg={4} className="col-proizvodi col-border-3">
@@ -51,8 +48,7 @@ export default class SekcijaAutoosiguranje extends Component {
 											src={imgCheck}
 										/>
 										<p className="opis-check-proizvodi">
-											Finansijska zaštita se može ugovoriti i za štetu nanjetu licima koja nisu
-											treća lica
+											Mogućnost ugovaranja dopunskog osiguranja
 										</p>
 									</Col>
 								</Row>
@@ -64,9 +60,7 @@ export default class SekcijaAutoosiguranje extends Component {
 											fluid
 											src={imgCheck}
 										/>
-										<p className="opis-check-proizvodi">
-											Mogućnost registracije na rate preko sestrinskih firmi
-										</p>
+										<p className="opis-check-proizvodi">Brza i efikasna isplata šteta</p>
 									</Col>
 									<Col lg={4} className="col-proizvodi col-border-5">
 										<Image
@@ -76,7 +70,7 @@ export default class SekcijaAutoosiguranje extends Component {
 											src={imgCheck}
 										/>
 										<p className="opis-check-proizvodi">
-											Mogućnost registracije po principu “ključ u ruke” preko firme AC Alfa
+											Dodatni popust na online ugovaranje kasko polisa
 										</p>
 									</Col>
 									<Col lg={4} className="col-proizvodi col-border-6">
@@ -87,32 +81,25 @@ export default class SekcijaAutoosiguranje extends Component {
 											src={imgCheck}
 										/>
 										<p className="opis-check-proizvodi">
-											Pravna zaštita ako Vama treće lice napravi štetu
+											Dodatni popust ako imate već ugovorenu polisu kod “Aura Osiguranja”
 										</p>
 									</Col>
 								</Row>
 							</div>
 							<Row>
 								<Col lg={12}>
-									<h1 className="naslov-list-proizvodi">Autoodgovornost Aura</h1>
+									<h1 className="naslov-list-proizvodi">Kasko osiguranje Aura</h1>
 
 									<hr className="hr-naslov-list-proizvodi" />
 									<br />
 									<br />
 
 									<p className="paragraf-list-proizvodi">
-										Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje koje se
-										zaključuje prilikom registracije motornih vozila. Ovim osiguranjem je pokrivena
-										odgovornost vlasnika, odnosno korisnika, kada upotrebom motornog vozila pričini
-										štetu trećim licima. Za putovanje osiguranika motornim vozilima u zemlje članice
-										sistema međunarodne “zelene karte”, u kojima registarska tablica nije dokaz o
-										postojanju osiguranja od AO, izdaje se međunarodna “zelena karta” kao dokaz o
-										postojanju osiguranja o AO.
-									</p>
-									<p className="paragraf-list-proizvodi">
-										Međunarodna “zelena karta” izdaje se za vozila registrirana u BiH i ne može se
-										izdati za razdoblje kraće od 15 dana. Izdavanje “zelene karte” naplaćuje se 4,00
-										KM.
+										Kasko osiguranje pokriva štetu i kad je za njen nastanak odgovoran vozač koji je
+										upravljao vozilom. Bilo da vaše motorno vozilo koristite za lične potrebe ili za
+										potrebe posla kojim se bavite, poželjno je da ga obezbedite od potencijalnih
+										nemilih događaja koji vam se mogu desiti na putu. Najbolja i najpouzdanija
+										zaštita motornih vozila je upravo kasko osiguranje.
 									</p>
 								</Col>
 							</Row>

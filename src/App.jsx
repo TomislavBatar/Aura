@@ -12,6 +12,9 @@ import NoMatch from './pages/NoMatch/NoMatch';
 import TopNav from './components/TopNav/TopNav';
 import Navigation from './components/Navigation/Navigation';
 import PregledVijesti from './pages/PregledVijesti/PregledVijesti';
+import ProizvodiKaskoOsiguranje from './pages/ProizvodiKaskoOsiguranje/ProizvodiKaskoOsiguranje';
+import ProizvodiRegistracijaNaRate from './pages/ProizvodiRegistracijaNaRate/ProizvodiRegistracijaNaRate';
+import ProizvodiOsiguranjeKuceIliStana from './pages/ProizvodiOsiguranjeKuceIliStana/ProizvodiOsiguranjeKuceIliStana';
 
 export default class App extends Component {
 	render() {
@@ -22,6 +25,10 @@ export default class App extends Component {
 				<Switch>
 					<Route exact path="/" component={Pocetna} />
 					<Route path="/autoodgovornost" component={ProizvodiAutoodgovornost} />
+					<Route path="/kasko-osiguranje" component={ProizvodiKaskoOsiguranje} />
+					<Route path="/registracija-na-rate" component={ProizvodiRegistracijaNaRate} />
+					<Route path="/osiguranje-kuce-ili-stana" component={ProizvodiOsiguranjeKuceIliStana} />
+
 					<Route path="/prijava-stete" component={PrijavaStete} />
 					<Route path="/online-polisa" component={OnlinePolisa} />
 					<Route path="/o-nama" component={ONama} />

@@ -1,8 +1,11 @@
 .sekcija-proizvodi {
 }
+.bg-autoosiguranje {
+	background-image: url("../imgProizvodi/autoosiguranje.jpg");
+}
 .bg-proizvodi {
 	height: 500px;
-	background-image: url("../../../components/HomeSlider/imgSlider/bg-home-min.jpg");
+
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -78,4 +81,8 @@
 .paragraf-list-proizvodi {
 	font-size: 16px;
 	color: rgb(73, 74, 74);
+}
+
+.col-3-border-top {
+	border-top: 1px solid #ddd;
 }
