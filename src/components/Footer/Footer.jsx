@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-
 import './cssFooter/Footer.css';
 import './cssFooter/media-query-footer.css';
 import imgLogoFooter from './imgFooter/logo-aura-osiguranje.svg';
@@ -70,15 +69,6 @@ export default class Footer extends Component {
 											www.auraosiguranje.com
 										</li>
 									</a>
-									{/* <LinkContainer to="/">
-										<li className="li-footer">
-											<span className="span-footer">Web:</span>
-											Lorem ipsum dolor sit
-										</li>
-									</LinkContainer> */}
-									{/* <LinkContainer to="/">
-										<li className="li-footer">Lorem ipsum dolor sit</li>
-									</LinkContainer> */}
 								</ul>
 							</Col>
 							<Col lg={3}>
