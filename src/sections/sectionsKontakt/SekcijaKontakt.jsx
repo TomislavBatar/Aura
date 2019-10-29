@@ -8,6 +8,8 @@ import kontaktIg from './imgKontakt/ig.svg';
 import kontaktViber from './imgKontakt/viber.svg';
 import kontaktFb from './imgKontakt/fb.svg';
 import kontaktYt from './imgKontakt/yt.svg';
+
+import imgKontakt from './imgKontakt/kontaktirajte-nas.svg';
 export default class SekcijaKontakt extends Component {
 	render() {
 		return (
@@ -33,6 +35,9 @@ export default class SekcijaKontakt extends Component {
 								</Form.Group>
 								<Button className="button-kontakt">Pošaljite</Button>
 							</Form>
+						</Col>
+						<Col lg={6} className="forma-col-kontakti">
+							<Image fluid src={imgKontakt} />
 						</Col>
 					</Row>
 					<Row className="justify-content-around row-ikonice-kontakt">

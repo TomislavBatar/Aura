@@ -3,9 +3,13 @@
 .bg-autoosiguranje {
 	background-image: url("../imgProizvodi/autoosiguranje.jpg");
 }
+
+.bg-osiguranje-od-nezgoda {
+	background-image: url("../imgProizvodi/autoosiguranje.jpg");
+}
+
 .bg-proizvodi {
 	height: 500px;
-
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
