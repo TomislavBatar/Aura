@@ -3,7 +3,11 @@ import MetaTags from 'react-meta-tags';
 import SekcijaAutoosiguranje from '../../sections/sectionsProizvodi/SekcijaAutoosiguranje';
 import Footer from '../../components/Footer/Footer';
 export default class ProizvodiAutoodgovornost extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
+		
 		return (
 			<React.Fragment>
 				<MetaTags>

@@ -5,6 +5,9 @@ import Footer from '../../components/Footer/Footer';
 import SekcijaVijesti from '../../sections/sectionsVijesti/SekcijaVijesti';
 
 export default class Vijesti extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>

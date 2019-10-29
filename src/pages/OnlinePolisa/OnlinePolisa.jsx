@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import MetaTags from 'react-meta-tags';
 import { Container, Row, Col } from 'react-bootstrap';
 export default class OnlinePolisa extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>

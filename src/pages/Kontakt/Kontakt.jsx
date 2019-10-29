@@ -5,6 +5,9 @@ import SekcijaKontakt from '../../sections/sectionsKontakt/SekcijaKontakt';
 import Footer from '../../components/Footer/Footer';
 
 export default class Kontakt extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>

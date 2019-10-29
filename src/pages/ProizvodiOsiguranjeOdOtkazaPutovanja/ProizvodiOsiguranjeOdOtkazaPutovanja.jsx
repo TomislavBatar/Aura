@@ -3,7 +3,11 @@ import MetaTags from 'react-meta-tags';
 
 import Footer from '../../components/Footer/Footer';
 import SekcijaOsiguranjeOdOtkazaPutovanja from '../../sections/sectionsProizvodi/SekcijaOsiguranjeOdOtkazaPutovanja';
+
 export default class ProizvodiOsiguranjeOdOtkazaPutovanja extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>

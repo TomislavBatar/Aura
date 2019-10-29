@@ -12,10 +12,11 @@
 	border-color: rgb(237, 191, 62);
 	border-style: solid;
 	background-color: rgb(255, 255, 255);
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
 	transition: all .5s;
 	color: rgb(142, 31, 134);
 	font-size: 21px;
-
 	font-weight: 600;
 	text-transform: uppercase;
 	padding-left: 55px;
@@ -28,14 +29,41 @@
 	border-style: solid;
 	background-color: rgb(255, 255, 255);
 	outline: none;
+	-webkit-box-shadow: none;
 	box-shadow: none;
-
+	font-size: 21px;
+	color: rgb(143, 31, 134);
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 70px;
+}
+.input-mapa::-webkit-input-placeholder {
 	font-size: 21px;
 
 	color: rgb(143, 31, 134);
 	font-weight: 600;
 	text-transform: uppercase;
-	padding-left: 70px;
+}
+.input-mapa::-moz-placeholder {
+	font-size: 21px;
+
+	color: rgb(143, 31, 134);
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.input-mapa:-ms-input-placeholder {
+	font-size: 21px;
+
+	color: rgb(143, 31, 134);
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.input-mapa::-ms-input-placeholder {
+	font-size: 21px;
+
+	color: rgb(143, 31, 134);
+	font-weight: 600;
+	text-transform: uppercase;
 }
 .input-mapa::placeholder {
 	font-size: 21px;
@@ -51,12 +79,15 @@
 	background: rgb(237, 191, 62);
 	border: none;
 	outline: none;
+	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-appearance: none;
 	height: 72px;
 	width: 73px;
 	margin-left: -77px;
 	margin-top: 4px;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
 	transition: all .5s;
 }
 
@@ -66,6 +97,7 @@
 	background: rgb(216, 171, 46);
 	border: none;
 	outline: none;
+	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
 .button-search-mapa:active {
@@ -74,6 +106,7 @@
 	background: rgb(216, 171, 46);
 	border: none;
 	outline: none;
+	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 }
 .button-search-mapa:hover {
@@ -82,6 +115,7 @@
 	background: rgb(216, 171, 46);
 	border: none;
 	outline: none;
+	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 .svg-pretraga-poslovnica {
@@ -93,42 +127,135 @@
 	height: 1200px;
 }
 
-/* @keyframes pulse1 {
+@-webkit-keyframes pulse1 {
 	0% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: 1;
 	}
 	50% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: .9;
 	}
 	100% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: 1;
 	}
 }
 
-@keyframes pulse2 {
+@keyframes pulse1 {
 	0% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: 1;
+	}
+	50% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: .9;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes pulse2 {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: 0;
 	}
 	50% {
+		-webkit-transform: scale(1.2);
 		transform: scale(1.2);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: .2;
 	}
 	100% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: 0;
+	}
+}
+
+@keyframes pulse2 {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: .2;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes pulse3 {
+	0% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: scale(1.2);
+		transform: scale(1.2);
+		-webkit-transform-origin: center;
+		transform-origin: center;
+		transform-box: fill-box;
+		opacity: .2;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: 0;
@@ -137,31 +264,118 @@
 
 @keyframes pulse3 {
 	0% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: 0;
 	}
 	50% {
+		-webkit-transform: scale(1.2);
 		transform: scale(1.2);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: .2;
 	}
 	100% {
+		-webkit-transform: scale(1);
 		transform: scale(1);
+		-webkit-transform-origin: center;
 		transform-origin: center;
 		transform-box: fill-box;
 		opacity: 0;
 	}
 }
 
-.cls-8 {
-	animation: pulse1 1s linear infinite forwards;
+/* pulse 3 */
+.cls-11,
+.cls-20,
+.cls-6,
+.cls-16,
+.cls-13,
+.cls-9,
+.cls-25,
+.cls-23,
+.cls-27,
+.cls-21,
+.cls-17,
+.cls-31,
+.cls-29,
+.cls-73,
+.cls-49,
+.cls-43,
+.cls-41,
+.cls-39,
+.cls-45,
+.cls-35,
+.cls-33,
+.cls-37,
+.cls-47,
+.cls-51,
+.cls-71,
+.cls-53,
+.cls-69,
+.cls-65,
+.cls-67,
+.cls-63,
+.cls-61,
+.cls-55,
+.cls-59,
+.cls-75,
+.cls-57,
+.cls-79,
+.cls-77 {
+	-webkit-animation: pulse3 1.5s linear infinite forwards;
+	animation: pulse3 1.5s linear infinite forwards;
 }
-.cls-12 {
+
+/* pulse 2 */
+.cls-12,
+.cls-19,
+.cls-7,
+.cls-15,
+.cls-17,
+.cls-14,
+.cls-10,
+.cls-26,
+.cls-24,
+.cls-28,
+.cls-22,
+.cls-18,
+.cls-32,
+.cls-30,
+.cls-74,
+.cls-50,
+.cls-44,
+.cls-42,
+.cls-40,
+.cls-46,
+.cls-36,
+.cls-34,
+.cls-38,
+.cls-48,
+.cls-52,
+.cls-72,
+.cls-54,
+.cls-70,
+.cls-66,
+.cls-68,
+.cls-64,
+.cls-62,
+.cls-56,
+.cls-60,
+.cls-76,
+.cls-58,
+.cls-80,
+.cls-78 {
+	-webkit-animation: pulse2 1.505s linear infinite forwards;
 	animation: pulse2 1.505s linear infinite forwards;
 }
-.cls-11 {
-	animation: pulse3 1.5s linear infinite forwards;
-} */
+
+/* animation 3 */
+.cls-8 {
+	-webkit-animation: pulse1 1s linear infinite forwards;
+	animation: pulse1 1s linear infinite forwards;
+}

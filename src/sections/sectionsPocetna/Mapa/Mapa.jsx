@@ -15,9 +15,13 @@ export default class Mapa extends Component {
 					<Container>
 						<Row className="justify-content-center">
 							<Col lg={8}>
-								<Form className="d-flex align-items-start">
-									<Form.Control className="input-mapa" placeholder="Pronađi najbližu poslovnicu" />
-									<Button className="button-search-mapa">
+								<Form action="/poslovnice" className="d-flex align-items-start">
+									<Form.Control
+										className="input-mapa"
+										placeholder="Pronađi najbližu poslovnicu"
+										required
+									/>
+									<Button type="submit" className="button-search-mapa">
 										<Image
 											className="svg-pretraga-poslovnica"
 											src={imgSearchPartneri}
@@ -29,7 +33,6 @@ export default class Mapa extends Component {
 						</Row>
 					</Container>
 					<Container className="text-center" fluid>
-						{/* <Image className="mapa-bih" fluid src={imgMapaBih} alt="Pretraga poslovnica" /> */}
 						<MapaBih className="mapa-bih" />
 					</Container>
 				</div>

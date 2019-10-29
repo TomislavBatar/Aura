@@ -10,11 +10,14 @@ import Newsletter from '../../sections/sectionsPocetna/Newsletter/Newsletter';
 import Footer from '../../components/Footer/Footer';
 
 export default class Pocetna extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>
 				<MetaTags>
-					<title>Aura Osiguranje</title>
+					<title>Aura Osiguranje | Neka Vas čuva Vaša Aura!</title>
 					<meta name="description" content="Osiguranje Aura AD Banja Luka je domaće osiguravajuće društvo, registrovano za pružanje usluga neživotnog osiguranja, koje, pored obaveznog osiguranja..." />
 					<meta property="og:type" content="website" />
 					<meta property="og:title" content="Aura Osiguranje | Neka Vas čuva Vaša Aura!" />

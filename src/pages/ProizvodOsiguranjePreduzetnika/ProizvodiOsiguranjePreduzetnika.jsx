@@ -2,7 +2,11 @@ import React, { Component } from 'react';
 import MetaTags from 'react-meta-tags';
 import Footer from '../../components/Footer/Footer';
 import SekcijaOsiguranjePreduzetnika from '../../sections/sectionsProizvodi/SekcijaOsiguranjePreduzetnika';
+
 export default class ProizvodiRegistracijaNaRate extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>

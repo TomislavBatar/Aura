@@ -5,6 +5,9 @@ import SekcijaOnama from '../../sections/sectionsONama/SekcijaOnama';
 import Footer from '../../components/Footer/Footer';
 
 export default class ONama extends Component {
+	componentDidMount() {
+  		window.scrollTo(0, 0)
+	}
 	render() {
 		return (
 			<React.Fragment>
