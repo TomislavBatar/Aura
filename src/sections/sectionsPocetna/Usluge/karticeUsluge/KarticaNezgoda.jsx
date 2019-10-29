@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
 import { ReactComponent as ImgNezgoda } from '../imgUsluge/nezgoda.svg';
+import { Link } from 'react-router-dom';
+
 
 export default class KarticaNezgoda extends Component {
 	constructor() {
@@ -47,9 +49,9 @@ export default class KarticaNezgoda extends Component {
 								osiguranje od posljedica nezgode je namijenjeno zaposlenicima u preduzećima, članovima
 								organizovanih grupa i udruženja.
 							</p>
-							<a className="link-kartica-usluge" href="/aa">
+							<Link className="link-kartica-usluge" to="/osiguranje-od-nezgoda">
 								Prikaži još detalja...
-							</a>
+							</Link>
 						</Card.Body>
 					</Card>
 				</ReactCardFlip>

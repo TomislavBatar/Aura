@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Card, Image } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
 import { ReactComponent as ImgOsiguranjeImovine } from '../imgUsluge/imovina.svg';
+import { Link } from 'react-router-dom';
+
 
 export default class KarticaImovina extends Component {
 	constructor() {
@@ -45,9 +47,9 @@ export default class KarticaImovina extends Component {
 								svoju budućnost. Mnogi ne znaju da je osiguranje kuće ili stana povoljno u odnosu na ono
 								šta je pokriveno. Provjeri online i ostvari 10% popusta te osiguraj stan ili kuću.
 							</p>
-							<a className="link-kartica-usluge" href="/aa">
+							<Link className="link-kartica-usluge" to="/osiguranje-kuce-ili-stana">
 								Prikaži još detalja...
-							</a>
+							</Link>
 						</Card.Body>
 					</Card>
 				</ReactCardFlip>

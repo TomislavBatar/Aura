@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
 import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-
 import { ReactComponent as ImgPutnoOsiguranje } from '../imgUsluge/putno.svg';
+import { Link } from 'react-router-dom';
+
 
 export default class KarticaPutnoOsiguranje extends Component {
 	constructor() {
@@ -49,9 +49,10 @@ export default class KarticaPutnoOsiguranje extends Component {
 								liječničkim tretmanom mogu biti vrlo visoki. Zato, pri planiranju izleta i putovanja u
 								inostranstvo blagovremeno obezbijedite sebi putničko zdravstveno osiguranje.
 							</p>
-							<a className="link-kartica-usluge" href="/aa">
+							{/* putno-zdravstveno-osiguranje */}
+							<Link className="link-kartica-usluge" to="/putno-zdravstveno-osiguranje">
 								Prikaži još detalja...
-							</a>
+							</Link>
 						</Card.Body>
 					</Card>
 				</ReactCardFlip>

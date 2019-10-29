@@ -234,7 +234,7 @@ export default class Navigation extends Component {
 														</li>
 													</LinkContainer>
 
-													<LinkContainer to="/osiguranje-od-nezgode">
+													<LinkContainer to="/osiguranje-od-nezgoda">
 														<li className="li-dorpdown">
 															<h3 className="sub-title-dropdown">
 																Osiguranje od nezgoda

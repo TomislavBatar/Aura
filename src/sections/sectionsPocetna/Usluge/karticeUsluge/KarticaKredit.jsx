@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
 import { ReactComponent as ImgKredit } from '../imgUsluge/kredit.svg';
+import { Link } from 'react-router-dom';
+
 
 export default class KarticaKredit extends Component {
 	constructor() {
@@ -41,17 +43,15 @@ export default class KarticaKredit extends Component {
 					>
 						<Card.Body className="card-body-grafik-usluge pozicija-tekst-back">
 							<p className="card-grafik-usluge-back-tekst">
-								Osiguranje od auto-odgovornosti je zakonski obavezno osiguranje koje se zaključuje
-								prilikom registracije motornih vozila. Ovim osiguranjem je pokrivena odgovornost
-								vlasnika, odnosno korisnika, kada upotrebom motornog vozila pričini štetu trećim licima.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 							</p>
-							<a className="link-kartica-usluge" href="/aa">
+							<Link className="link-kartica-usluge" to="/osiguranje-preduzetnika">
 								Prikaži još detalja...
-							</a>
+							</Link>
 						</Card.Body>
 					</Card>
 				</ReactCardFlip>
-			</Card>
+			</Card>	
 		);
 	}
 }
