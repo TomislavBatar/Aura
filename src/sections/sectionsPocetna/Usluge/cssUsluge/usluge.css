@@ -272,10 +272,10 @@
 	cursor: pointer;
 }
 .no-copy {
-	-moz-user-select: none;
+	/* -moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
-	user-select: none;
+	user-select: none; */
 }
 .__react_component_tooltip.type-info {
 	color: #fff;

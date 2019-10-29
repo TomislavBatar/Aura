@@ -4,7 +4,7 @@ import { Row, Col, Container, Image } from 'react-bootstrap';
 import './cssPartneri/Partneri.css';
 import './cssPartneri/media-query-partneri.css';
 
-import imgAurisLogo from './imgPartneri/auris-logo.png';
+import imgAurisLogo from './imgPartneri/auris-logo.svg';
 import imgAcAlfaLogo from './imgPartneri/ac-afla-logo.png';
 import imgCofusLogo from './imgPartneri/cofus-logo.png';
 

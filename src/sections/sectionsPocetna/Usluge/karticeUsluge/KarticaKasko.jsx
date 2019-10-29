@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { Card, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-import imgKaskoOsiguranje from '../imgUsluge/kasko.svg';
+
+import { ReactComponent as ImgKaskoOsiguranje } from '../imgUsluge/kasko.svg';
 
 export default class KarticaKasko extends Component {
 	constructor() {
@@ -28,13 +30,7 @@ export default class KarticaKasko extends Component {
 						className="card-grafik-usluge card-grafik-usluge-bottom-border text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
-							<Image
-								className="grafik-usluge-2"
-								src={imgKaskoOsiguranje}
-								fluid
-								alt="Aura osiguranje grafik"
-							/>
-
+							<ImgKaskoOsiguranje fluid className="grafik-usluge-2" />
 							<Card.Title className="card-title-grafik-usluge grafik-2-tekst">
 								kasko osiguranje
 							</Card.Title>
@@ -52,9 +48,9 @@ export default class KarticaKasko extends Component {
 								posla kojim se bavite, poželjno je da ga obezbedite od potencijalnih nemilih događaja
 								koji vam se mogu desiti na putu.
 							</p>
-							<a className="link-kartica-usluge" href="/aa">
+							<Link className="link-kartica-usluge" to="/kasko-osiguranje">
 								Prikaži još detalja...
-							</a>
+							</Link>
 						</Card.Body>
 					</Card>
 				</ReactCardFlip>
