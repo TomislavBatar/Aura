@@ -30,7 +30,7 @@ export default class KarticaAutoodgovornost extends Component {
 						className="card-grafik-usluge card-grafik-usluge-top-left-radius card-grafik-usluge-bottom-right-border text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
-							<ImgAutoodgovornost fluid className="grafik-usluge-1" />
+							<ImgAutoodgovornost className="grafik-usluge-1" />
 
 							<Card.Title className="card-title-grafik-usluge grafik-1-tekst">
 								osiguranje od autoodgovornosti

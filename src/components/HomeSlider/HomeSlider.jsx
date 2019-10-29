@@ -21,7 +21,7 @@ export default class HomeSlider extends Component {
 			fade: true,
 			slidesToScroll: 1,
 			arrows: false,
-			autoplay: false
+			autoplay: true
 		};
 		return (
 			<React.Fragment>

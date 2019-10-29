@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import { Card, Image } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
 
-import imgPutnoOsiguranje from '../imgUsluge/putno.svg';
+import { ReactComponent as ImgPutnoOsiguranje } from '../imgUsluge/putno.svg';
 
 export default class KarticaPutnoOsiguranje extends Component {
 	constructor() {
@@ -30,12 +30,7 @@ export default class KarticaPutnoOsiguranje extends Component {
 						className="card-grafik-usluge card-grafik-usluge-bottom-left-radius card-grafik-usluge-right-border text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
-							<Image
-								className="grafik-usluge-4"
-								src={imgPutnoOsiguranje}
-								fluid
-								alt="Aura osiguranje grafik"
-							/>
+							<ImgPutnoOsiguranje className="grafik-usluge-4" />
 
 							<Card.Title className="card-title-grafik-usluge grafik-4-tekst">
 								Putno zdravstveno osiguranje

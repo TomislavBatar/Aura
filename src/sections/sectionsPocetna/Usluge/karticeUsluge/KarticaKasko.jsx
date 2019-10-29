@@ -30,7 +30,7 @@ export default class KarticaKasko extends Component {
 						className="card-grafik-usluge card-grafik-usluge-bottom-border text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
-							<ImgKaskoOsiguranje fluid className="grafik-usluge-2" />
+							<ImgKaskoOsiguranje className="grafik-usluge-2" />
 							<Card.Title className="card-title-grafik-usluge grafik-2-tekst">
 								kasko osiguranje
 							</Card.Title>

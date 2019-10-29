@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Card, Image } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-import imgKredit from '../imgUsluge/kredit.svg';
+import { ReactComponent as ImgKredit } from '../imgUsluge/kredit.svg';
 
 export default class KarticaKredit extends Component {
 	constructor() {
@@ -28,8 +28,7 @@ export default class KarticaKredit extends Component {
 						className="card-grafik-usluge card-grafik-usluge-bottom-right-radius card-grafik-usluge-right-border text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
-							<Image className="grafik-usluge-5" src={imgKredit} fluid alt="Aura osiguranje grafik" />
-
+							<ImgKredit className="grafik-usluge-5" />
 							<Card.Title className="card-title-grafik-usluge grafik-5-tekst">
 								Osiguranje korisnika kredita
 							</Card.Title>

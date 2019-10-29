@@ -22,7 +22,7 @@ import ProizvodiOsiguranjeRobeUTransportu from './pages/ProizvodiOsiguranjeRobeU
 import ProizvodiOsiguranjeOdNezgode from './pages/ProizvodiOsiguranjeOdNezgode/ProizvodiOsiguranjeOdNezgode';
 
 export default class App extends Component {
-	render() {	
+	render() {
 		return (
 			<React.Fragment>
 				<TopNav />

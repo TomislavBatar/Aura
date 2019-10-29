@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Card, Image } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import ReactCardFlip from 'react-card-flip';
-import imgNezgoda from '../imgUsluge/nezgoda.svg';
+import { ReactComponent as ImgNezgoda } from '../imgUsluge/nezgoda.svg';
 
 export default class KarticaNezgoda extends Component {
 	constructor() {
@@ -28,8 +28,7 @@ export default class KarticaNezgoda extends Component {
 						className="card-grafik-usluge text-center no-copy"
 					>
 						<Card.Body onClick={this.handleClick} className="card-body-grafik-usluge">
-							<Image className="grafik-usluge-5" src={imgNezgoda} fluid alt="Aura osiguranje grafik" />
-
+							<ImgNezgoda className="grafik-usluge-5" />
 							<Card.Title className="card-title-grafik-usluge grafik-5-tekst">
 								Osiguranje od nezgoda
 							</Card.Title>
