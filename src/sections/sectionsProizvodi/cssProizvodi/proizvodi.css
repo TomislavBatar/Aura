@@ -1,31 +1,31 @@
 .sekcija-proizvodi {
 }
 .bg-autoosiguranje {
-	background-image: url("../imgProizvodi/10.webp");
+	background-image: url("../imgProizvodi/compress/osiguranje od autoodgovornosti.jpg");
 }
 .bg-putno-osiguranje {
-	background-image: url("../imgProizvodi/1.webp");
+	background-image: url("../imgProizvodi/compress/Putno zdravstveno osiguranje.jpg");
 }
 .bg-osiguranje-od-nezgoda {
-	background-image: url("../imgProizvodi/2.webp");
+	background-image: url("../imgProizvodi/compress/Osiguranje od nezgoda.jpg");
 }
 .bg-otkaz-osiguranje {
-	background-image: url("../imgProizvodi/3.webp");
+	background-image: url("../imgProizvodi/compress/osiguranje od otkaza putovanja.jpg");
 }
 .bg-roba-osiguranje {
-	background-image: url("../imgProizvodi/4.webp");
+	background-image: url("../imgProizvodi/compress/osiguranje robe u transportu.jpg");
 }
 .bg-kuca-stan-osiguranje {
-	background-image: url("../imgProizvodi/5.webp");
+	background-image: url("../imgProizvodi/compress/Osiguranje kuce ili stana.jpg");
 }
 .bg-preduzetnik-osiguranje {
-	background-image: url("../imgProizvodi/9.webp");
+	background-image: url("../imgProizvodi/compress/Osiguranje preduzetnika.jpg");
 }
 .bg-rate-osiguranje {
-	background-image: url("../imgProizvodi/7.webp");
+	background-image: url("../imgProizvodi/compress/Registracija na rate.jpg");
 }
 .bg-kasko-osiguranje {
-	background-image: url("../imgProizvodi/8.webp");
+	background-image: url("../imgProizvodi/compress/kasko osiguranje.jpg");
 }
 
 .bg-proizvodi {
