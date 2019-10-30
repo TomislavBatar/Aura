@@ -8,9 +8,9 @@ export default class SekcijaOsiguranjeKuceIliStana extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">
-				<div className="bg-proizvodi bg-autoosiguranje">
+				<div className="bg-proizvodi bg-kuca-stan-osiguranje">
 					<Container>
-						<h1 className="naslov-proizvodi">
+						<h1 style={{ color: '#6f3009' }} className="naslov-proizvodi">
 							Osiguranje <br /> kuće ili stana
 						</h1>
 					</Container>

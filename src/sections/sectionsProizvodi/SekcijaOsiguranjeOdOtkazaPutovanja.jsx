@@ -7,7 +7,7 @@ export default class SekcijaOsiguranjeOdOtkazaPutovanja extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">
-				<div className="bg-proizvodi bg-autoosiguranje">
+				<div className="bg-proizvodi bg-otkaz-osiguranje">
 					<Container>
 						<h1 className="naslov-proizvodi">
 							Osiguranje od <br /> otkaza putovanja

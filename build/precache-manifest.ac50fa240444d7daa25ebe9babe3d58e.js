@@ -1,27 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e8aaf63dfd3b81caa9b7bc230a6b81fc",
+    "revision": "4f7612148fb395b94a45f83c42bd37e8",
     "url": "/index.html"
   },
   {
-    "revision": "7be5d12791af4ae7ce03",
+    "revision": "0ea352578c6f5f42103d",
     "url": "/static/css/2.cdaf15d1.chunk.css"
   },
   {
-    "revision": "0b62a7c28a771305e736",
-    "url": "/static/css/main.47ea2846.chunk.css"
+    "revision": "16ae1266d67c5c7f2fba",
+    "url": "/static/css/main.d4e071f3.chunk.css"
   },
   {
-    "revision": "7be5d12791af4ae7ce03",
-    "url": "/static/js/2.f9779dbc.chunk.js"
+    "revision": "0ea352578c6f5f42103d",
+    "url": "/static/js/2.6b73590c.chunk.js"
   },
   {
-    "revision": "0b62a7c28a771305e736",
-    "url": "/static/js/main.033af638.chunk.js"
+    "revision": "16ae1266d67c5c7f2fba",
+    "url": "/static/js/main.821464d3.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "4107bc36482e8aa605aa2d1d8e71688e",
+    "url": "/static/media/1.4107bc36.webp"
+  },
+  {
+    "revision": "109c71d8ad06af289eb79a96118a60da",
+    "url": "/static/media/10.109c71d8.webp"
+  },
+  {
+    "revision": "d6712f98522522a1b7d6452b2fee4d14",
+    "url": "/static/media/2.d6712f98.webp"
+  },
+  {
+    "revision": "e40402a909af57cba69c396eebd33d66",
+    "url": "/static/media/3.e40402a9.webp"
+  },
+  {
+    "revision": "782956bbf396b8d9801a71d9933c290e",
+    "url": "/static/media/4.782956bb.webp"
+  },
+  {
+    "revision": "63ab17a0e16845db5ea64e30d31e3c8e",
+    "url": "/static/media/5.63ab17a0.webp"
+  },
+  {
+    "revision": "3afbda94020cf98484197d445ecdeedd",
+    "url": "/static/media/7.3afbda94.webp"
+  },
+  {
+    "revision": "8304f15e6c8a914819d15a7eaf8790ad",
+    "url": "/static/media/8.8304f15e.webp"
+  },
+  {
+    "revision": "10d503de69329c23a4b205cee695259b",
+    "url": "/static/media/9.10d503de.webp"
   },
   {
     "revision": "4bcf9b56ac63ad884eee3397a0ff9e8b",
@@ -44,12 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/automobili.727b4ede.svg"
   },
   {
-    "revision": "5bfba49b28d94e3be62d371f106cafc7",
-    "url": "/static/media/autoosiguranje.5bfba49b.jpg"
-  },
-  {
-    "revision": "d8e353249fb506ae9cd88f214b047744",
-    "url": "/static/media/bg-home-min.d8e35324.jpg"
+    "revision": "f7ece93148e5450d938bc4683d7f5c70",
+    "url": "/static/media/bg-home-min.f7ece931.webp"
   },
   {
     "revision": "12cb3b22cb51dead2c117c7b29092c34",
@@ -92,6 +124,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/konstantan-rast-animated.65c60f0d.svg"
   },
   {
+    "revision": "0c21137ab248e0fb2834d17b85112b35",
+    "url": "/static/media/kontaktirajte-nas.0c21137a.svg"
+  },
+  {
     "revision": "b38c282c6e766afd9397b4aba45e5fce",
     "url": "/static/media/kredit.b38c282c.svg"
   },
@@ -108,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mapa-pinovi.fd58b60d.svg"
   },
   {
-    "revision": "35860bfb307dfca17af15b12a81222b6",
-    "url": "/static/media/newsletter.35860bfb.svg"
+    "revision": "7b2ebd18720eb569ae3158249f39a1e1",
+    "url": "/static/media/newsletter.7b2ebd18.svg"
   },
   {
     "revision": "7528117e677343867029a31a8af3af40",

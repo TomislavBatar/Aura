@@ -7,7 +7,7 @@ export default class SekcijaRegistracijaNaRate extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">
-				<div className="bg-proizvodi bg-autoosiguranje">
+				<div className="bg-proizvodi bg-rate-osiguranje">
 					<Container>
 						<h1 className="naslov-proizvodi">
 							Registracija <br /> na rate

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './index.css';
 import App from './App';
@@ -32,7 +32,7 @@ import ProizvodiOsiguranjeOdNezgode from './pages/ProizvodiOsiguranjeOdNezgode/P
 ReactDOM.render(
 	<Router basename="/">
 		<App />
-		<div>
+		<Switch>
 			<Route exact path="/" component={Pocetna} />
 			<Route path="/osiguranje-od-autoodgovornosti" component={ProizvodiAutoodgovornost} />
 			<Route path="/kasko-osiguranje" component={ProizvodiKaskoOsiguranje} />
@@ -51,7 +51,7 @@ ReactDOM.render(
 			<Route path="/pregled-vijesti" component={PregledVijesti} />
 			<Route path="/kontakt" component={Kontakt} />
 			<Route component={NoMatch} />
-		</div>
+		</Switch>
 	</Router>,
 	document.getElementById('root')
 );

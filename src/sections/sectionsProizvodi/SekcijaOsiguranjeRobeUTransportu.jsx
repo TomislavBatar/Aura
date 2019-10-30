@@ -7,7 +7,7 @@ export default class SekcijaOsiguranjeRobeUTransportu extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">
-				<div className="bg-proizvodi bg-autoosiguranje">
+				<div className="bg-proizvodi bg-roba-osiguranje">
 					<Container>
 						<h1 className="naslov-proizvodi">
 							Osiguranje <br />

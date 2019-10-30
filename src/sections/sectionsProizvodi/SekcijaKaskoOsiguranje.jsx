@@ -8,7 +8,7 @@ export default class SekcijaKaskoOsiguranje extends Component {
 	render() {
 		return (
 			<div className="sekcija-proizvodi">
-				<div className="bg-proizvodi bg-autoosiguranje">
+				<div className="bg-proizvodi bg-kasko-osiguranje">
 					<Container>
 						<h1 className="naslov-proizvodi">
 							Kasko <br /> osiguranje

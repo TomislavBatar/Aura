@@ -1,11 +1,31 @@
 .sekcija-proizvodi {
 }
 .bg-autoosiguranje {
-	background-image: url("../imgProizvodi/autoosiguranje.jpg");
+	background-image: url("../imgProizvodi/10.webp");
 }
-
+.bg-putno-osiguranje {
+	background-image: url("../imgProizvodi/1.webp");
+}
 .bg-osiguranje-od-nezgoda {
-	background-image: url("../imgProizvodi/autoosiguranje.jpg");
+	background-image: url("../imgProizvodi/2.webp");
+}
+.bg-otkaz-osiguranje {
+	background-image: url("../imgProizvodi/3.webp");
+}
+.bg-roba-osiguranje {
+	background-image: url("../imgProizvodi/4.webp");
+}
+.bg-kuca-stan-osiguranje {
+	background-image: url("../imgProizvodi/5.webp");
+}
+.bg-preduzetnik-osiguranje {
+	background-image: url("../imgProizvodi/9.webp");
+}
+.bg-rate-osiguranje {
+	background-image: url("../imgProizvodi/7.webp");
+}
+.bg-kasko-osiguranje {
+	background-image: url("../imgProizvodi/8.webp");
 }
 
 .bg-proizvodi {
@@ -38,6 +58,7 @@
 	padding-bottom: 90px;
 	padding-left: 110px;
 	padding-right: 110px;
+	border-radius: 6px;
 }
 .col-proizvodi {
 	text-align: center;
