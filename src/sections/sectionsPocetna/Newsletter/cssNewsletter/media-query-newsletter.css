@@ -12,10 +12,11 @@
 	}
 	.input-newsletter:focus {
 		border-width: 2px;
-		padding-left: 30px;
+		padding-left: 0px;
 	}
 	.input-newsletter::placeholder {
 		font-size: 12px;
+		padding-left: 0px;
 	}
 	.button-newsletter {
 		height: 50px;
@@ -50,7 +51,7 @@
 	}
 	.input-newsletter:focus {
 		border-width: 2px;
-		padding-left: 30px;
+		padding-left: 0px;
 	}
 	.input-newsletter::placeholder {
 		font-size: 14px;
@@ -91,7 +92,7 @@
 	}
 	.input-newsletter:focus {
 		border-width: 2px;
-		padding-left: 35px;
+		padding-left: 0px;
 	}
 	.input-newsletter::placeholder {
 		font-size: 14px;
