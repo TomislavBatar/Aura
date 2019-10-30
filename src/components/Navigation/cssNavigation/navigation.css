@@ -171,18 +171,18 @@
 		max-width: 1400px;
 	}
 	.margin-navItems-lg {
-		margin-right: 20px;
+		margin-right: 30px;
 	}
-}
+}	
 
-@media (min-width: 1441px) {
+/* @media (min-width: 1441px) {
 	.container {
 		max-width: 1400px;
 	}
 	.margin-navItems-lg {
-		margin-right: 20px;
+		margin-right: 30px;
 	}
-}
+} */
 /* nove klase za drop bez media */
 .img-abs-dropdown {
 	position: absolute;

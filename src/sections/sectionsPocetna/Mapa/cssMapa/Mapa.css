@@ -7,6 +7,7 @@
 }
 .input-mapa {
 	height: 80px;
+	-webkit-border-radius: 200px;
 	border-radius: 200px;
 	border-width: 4px;
 	border-color: rgb(237, 191, 62);
@@ -23,6 +24,7 @@
 }
 
 .input-mapa:focus {
+	-webkit-border-radius: 200px;
 	border-radius: 200px;
 	border-width: 4px;
 	border-color: rgb(216, 171, 46);
@@ -74,6 +76,7 @@
 }
 
 .button-search-mapa {
+	-webkit-border-radius: 100px;
 	border-radius: 100px;
 	background-color: rgb(237, 191, 62);
 	background: rgb(237, 191, 62);
@@ -92,6 +95,7 @@
 }
 
 .button-search-mapa:focus {
+	-webkit-border-radius: 100px;
 	border-radius: 100px;
 	background-color: rgb(216, 171, 46) !important;
 	background: rgb(216, 171, 46);
@@ -101,6 +105,7 @@
 	box-shadow: none !important;
 }
 .button-search-mapa:active {
+	-webkit-border-radius: 100px;
 	border-radius: 100px;
 	background-color: rgb(216, 171, 46) !important;
 	background: rgb(216, 171, 46);
@@ -110,6 +115,7 @@
 	box-shadow: none !important;
 }
 .button-search-mapa:hover {
+	-webkit-border-radius: 100px;
 	border-radius: 100px;
 	background-color: rgb(216, 171, 46);
 	background: rgb(216, 171, 46);
