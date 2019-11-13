@@ -32,23 +32,18 @@
 }
 
 .slajd-1 {
-	background-image: url("../imgSlider/bg-home-min.webp");
+	background-image: url("../imgSlider/bg-home-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .slajd-2 {
-	background-image: url("../imgSlider/bg-home-min.webp");
+	background-image: url("../imgSlider/putovanje.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .slajd-3 {
-	background-image: url("../imgSlider/bg-home-min.webp");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.slajd-4 {
-	background-image: url("../imgSlider/bg-home-min.webp");
+	background-image: url("../imgSlider/osiguranje-preduzetnika.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -79,12 +74,40 @@
 	transform: translate(-50%, -50%);
 }
 
-.box {
+.box-1 {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	-webkit-box-shadow: inset 40vw 0 300px -51px #fff8eaf7;
-	box-shadow: inset 40vw 0 300px -51px #fff8eaf7;
+	-webkit-box-shadow: inset 40vw 0 300px -51px #feedcfde;
+	box-shadow: inset 40vw 0 300px -51px #feedcfde;
+}
+.box-4 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-shadow: inset 42vw 0 300px -51px #f8dac1ed;
+	-webkit-box-shadow: inset 40vw 0 300px -51px #f8dac1ed;
+}
+.box-2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-box-shadow: inset 42vw 0 300px -51px #f3f3f3;
+	box-shadow: inset 42vw 0 300px -51px #f3f3f3;
+}
+
+.box-preduzetnik {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	-webkit-box-shadow: inset 42vw 0 300px -51px #e6ece5e8;
+	box-shadow: inset 42vw 0 300px -51px #e6ece5e8;
 }

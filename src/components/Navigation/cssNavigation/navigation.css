@@ -173,7 +173,7 @@
 	.margin-navItems-lg {
 		margin-right: 30px;
 	}
-}	
+}
 
 /* @media (min-width: 1441px) {
 	.container {
@@ -193,4 +193,17 @@
 }
 .img-dropdown {
 	max-width: 100%;
+}
+
+.dropdown-item-custom {
+	display: unset;
+	width: unset;
+	padding: unset;
+	clear: unset;
+	font-weight: unset;
+	color: unset;
+	text-align: unset;
+	white-space: unset;
+	background-color: unset;
+	border: unset;
 }

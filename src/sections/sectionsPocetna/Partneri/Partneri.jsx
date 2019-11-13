@@ -22,14 +22,6 @@ export default class Partneri extends Component {
 						<Row className="row d-flex justify-content-center align-items-center">
 							<Col lg={3} md={4} sm={4}>
 								<Image
-									className="partner-logo-1"
-									src={imgAurisLogo}
-									fluid
-									alt="Aura osiguranje partner"
-								/>
-							</Col>
-							<Col lg={3} md={4} sm={4}>
-								<Image
 									className="partner-logo-2"
 									src={imgAcAlfaLogo}
 									fluid
@@ -38,12 +30,21 @@ export default class Partneri extends Component {
 							</Col>
 							<Col lg={3} md={4} sm={4}>
 								<Image
+									className="partner-logo-1"
+									src={imgAurisLogo}
+									fluid
+									alt="Aura osiguranje partner"
+								/>
+							</Col>
+
+							{/* <Col lg={3} md={4} sm={4}>
+								<Image
 									className="partner-logo-3"
 									src={imgCofusLogo}
 									fluid
 									alt="Aura osiguranje partner"
 								/>
-							</Col>
+							</Col> */}
 						</Row>
 					</Container>
 				</div>

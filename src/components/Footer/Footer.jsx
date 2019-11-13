@@ -54,7 +54,12 @@ export default class Footer extends Component {
 								<ul className="list-unstyled ul-footer">
 									<a className="a-hover-none" href="tel:051490490">
 										<li className="li-footer">
-											<span className="span-footer">Telefon: </span> 051/490-490
+											<span className="span-footer">Telefon (Banja Luka): </span> 051/490-490
+										</li>
+									</a>
+									<a className="a-hover-none" href="tel:033456456">
+										<li className="li-footer">
+											<span className="span-footer">Telefon (Sarajevo): </span> 033/456-456
 										</li>
 									</a>
 									<a className="a-hover-none" href="mailto:info@auraosiguranje.com">

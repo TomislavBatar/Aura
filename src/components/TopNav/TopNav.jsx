@@ -16,8 +16,8 @@ export default class TopNav extends Component {
 				<Navbar className="topNav navbar-expand">
 					<Container>
 						<Navbar.Text className="textTopNavLeft">
-							<a className="ttextTopNavLeft mr-4 telefonTopNav" href="viber://chat?number=12345678">
-								<img className="mr-3" src={ViberIcon} alt="viber icon" />0800 51 055
+							<a className="ttextTopNavLeft mr-4 telefonTopNav" href="tel:051 490 490">
+								<img className="mr-3" src={ViberIcon} alt="viber icon" />051 490 490
 							</a>
 							<span className="textTopNavLeft besplatniBroj">*Besplatni info telefon</span>
 						</Navbar.Text>

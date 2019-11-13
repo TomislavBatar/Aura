@@ -9,7 +9,7 @@ import Mapa from '../../sections/sectionsPocetna/Mapa/Mapa';
 import Newsletter from '../../sections/sectionsPocetna/Newsletter/Newsletter';
 import Footer from '../../components/Footer/Footer';
 
-import ogImgPcetna from '../../components/HomeSlider/imgSlider/bg-home-min.webp';
+import ogImgPcetna from '../../components/HomeSlider/imgSlider/bg-home-min.jpg';
 export default class Pocetna extends Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);

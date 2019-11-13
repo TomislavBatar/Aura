@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, Row, Col, Container, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Row, Col, Container, NavDropdown, Dropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import SearchModal from '../../components/SearchModal/SearchModal';
 import './cssNavigation/navigation.css';
@@ -14,9 +14,13 @@ import AuraLogo from './imgNavigation/logo-aura-osiguranje.svg';
 import AuraLogoLg from './imgNavigation/aura-logo-web.svg';
 
 export default class Navigation extends Component {
-	state = {
-		otvoreno: true
-	};
+	constructor(props) {
+		super(props);
+		this.state = {
+			otvoreno: true
+		};
+	}
+
 	render() {
 		return (
 			<React.Fragment>
@@ -58,44 +62,54 @@ export default class Navigation extends Component {
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
 													{/* TO DO add a page to="?" */}
-													<LinkContainer to="/osiguranje-od-autoodgovornosti">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">Autoodgovornost</h3>
-															<p className="p-dropdown">
-																Osiguranje od auto-odgovornosti je zakonski obavezno
-																osiguranje koje se zaključuje prilikom registracije
-																motornih vozila.
-															</p>
-														</li>
-													</LinkContainer>
-													<LinkContainer to="/kasko-osiguranje">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
-															<p className="p-dropdown">
-																Kasko osiguranje pokriva štetu i kad je za njen nastanak
-																odgovoran vozač koji je upravljao vozilom.
-															</p>
-														</li>
-													</LinkContainer>
-													<LinkContainer to="/registracija-na-rate">
-														<li className="li-dorpdown padd-abs-bottom">
-															<h3 className="sub-title-dropdown">Registracija na rate</h3>
-															<p className="p-dropdown">
-																Osiguranje Aura u saradnji MKD Auris i Auto Centar Alfom
-																nudi mogućnost registracije vozila na rate.
-															</p>
-														</li>
-													</LinkContainer>
-													<LinkContainer to="/">
-														<li className="li-dorpdown col-img-automobil img-abs-dropdown">
-															<img
-																src={Automobili}
-																className="img-automobil img-dropdown"
-																height="141"
-																alt="Automobili"
-															/>
-														</li>
-													</LinkContainer>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/osiguranje-od-autoodgovornosti">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">Autoodgovornost</h3>
+																<p className="p-dropdown">
+																	Osiguranje od auto-odgovornosti je zakonski obavezno
+																	osiguranje koje se zaključuje prilikom registracije
+																	motornih vozila.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/kasko-osiguranje">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">Kasko osiguranje</h3>
+																<p className="p-dropdown">
+																	Kasko osiguranje pokriva štetu i kad je za njen
+																	nastanak odgovoran vozač koji je upravljao vozilom.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/registracija-na-rate">
+															<li className="li-dorpdown padd-abs-bottom">
+																<h3 className="sub-title-dropdown">
+																	Registracija na rate
+																</h3>
+																<p className="p-dropdown">
+																	Osiguranje Aura u saradnji MKD Auris i Auto Centar
+																	Alfom nudi mogućnost registracije vozila na rate.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/">
+															<li className="li-dorpdown col-img-automobil img-abs-dropdown">
+																<img
+																	src={Automobili}
+																	className="img-automobil img-dropdown"
+																	height="141"
+																	alt="Automobili"
+																/>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
 												</ul>
 											</Col>
 
@@ -109,30 +123,34 @@ export default class Navigation extends Component {
 											>
 												<h2 className="col-dropdown-title">Imovina</h2>
 												<ul className="list-unstyled">
-													<LinkContainer to="/osiguranje-kuce-ili-stana">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">
-																Osiguranje kuće ili stana
-															</h3>
-															<p className="p-dropdown">
-																Štiteći ono što posjedujemo, štitimo sebe, poštujući
-																svoju prošlost i osiguravajući svoju budućnost.
-															</p>
-														</li>
-													</LinkContainer>
-													<LinkContainer to="/osiguranje-preduzetnika">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">
-																Osiguranje preduzetnika
-															</h3>
-															<p className="p-dropdown">
-																Upoznati sa potrebom razvoja malih i srednjih preduzeća,
-																Osiguranje Aura je razvilo proizvod za mala i srednja
-																preduzeće.
-															</p>
-														</li>
-													</LinkContainer>
-													{/* to do izbrisati kasnije tacke  */}
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/osiguranje-kuce-ili-stana">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">
+																	Osiguranje kuće ili stana
+																</h3>
+																<p className="p-dropdown">
+																	Štiteći ono što posjedujemo, štitimo sebe, poštujući
+																	svoju prošlost i osiguravajući svoju budućnost.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/osiguranje-preduzetnika">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">
+																	Osiguranje preduzetnika
+																</h3>
+																<p className="p-dropdown">
+																	Upoznati sa potrebom razvoja malih i srednjih
+																	preduzeća, Osiguranje Aura je razvilo proizvod za
+																	mala i srednja preduzeće.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+
 													<LinkContainer to="/">
 														<li className="li-dorpdown padd-abs-bottom">
 															<h3 className="sub-title-dropdown">
@@ -143,6 +161,7 @@ export default class Navigation extends Component {
 															</p>
 														</li>
 													</LinkContainer>
+
 													<LinkContainer to="/">
 														<li className="li-dorpdown img-abs-dropdown">
 															<img
@@ -166,29 +185,33 @@ export default class Navigation extends Component {
 											>
 												<h2 className="col-dropdown-title">Putovanja</h2>
 												<ul className="list-unstyled">
-													<LinkContainer to="/putno-zdravstveno-osiguranje">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">
-																Putno zdravstveno osig.
-															</h3>
-															<p className="p-dropdown">
-																Čak i pri brižljivo planiranim putovanjima ili kratkim
-																izletima u inostranstvo mogu se desiti nepredviđene
-																neprijatnosti, nezgode ili bolest.
-															</p>
-														</li>
-													</LinkContainer>
-													<LinkContainer to="/osiguranje-od-otkaza-putovanja">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">
-																Osig. od otkaza putovanja
-															</h3>
-															<p className="p-dropdown">
-																Lorem ipsum dolor sit amet, consectetur
-															</p>
-														</li>
-													</LinkContainer>
-													{/* to do izbrisati kasnije tacke  */}
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/putno-zdravstveno-osiguranje">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">
+																	Putno zdravstveno osig.
+																</h3>
+																<p className="p-dropdown">
+																	Čak i pri brižljivo planiranim putovanjima ili
+																	kratkim izletima u inostranstvo mogu se desiti
+																	nepredviđene neprijatnosti, nezgode ili bolest.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/osiguranje-od-otkaza-putovanja">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">
+																	Osig. od otkaza putovanja
+																</h3>
+																<p className="p-dropdown">
+																	Lorem ipsum dolor sit amet, consectetur
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+
 													<LinkContainer to="/">
 														<li className="li-dorpdown padd-abs-bottom">
 															<h3 className="sub-title-dropdown">
@@ -199,6 +222,7 @@ export default class Navigation extends Component {
 															</p>
 														</li>
 													</LinkContainer>
+
 													<LinkContainer to="/">
 														<li className="li-dorpdown img-abs-dropdown">
 															<img
@@ -221,32 +245,35 @@ export default class Navigation extends Component {
 											>
 												<h2 className="col-dropdown-title">Ostalo</h2>
 												<ul className="list-unstyled">
-													<LinkContainer to="/osiguranje-robe-u-transportu">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">
-																Osiguranje robe u transportu
-															</h3>
-															<p className="p-dropdown">
-																Osiguranje robe u transportu (CARGO) namijenjeno je
-																osobama koje imaju osigurljiv interes nad robom koja se
-																prevozi, a najčešće su to sami vlasnici.
-															</p>
-														</li>
-													</LinkContainer>
-
-													<LinkContainer to="/osiguranje-od-nezgoda">
-														<li className="li-dorpdown">
-															<h3 className="sub-title-dropdown">
-																Osiguranje od nezgoda
-															</h3>
-															<p className="p-dropdown">
-																Kolektivno osiguranje od posljedica nezgode osoba na
-																poslu i u slobodnom vremenu je namijenjeno osiguranju
-																radnika u preduzećima, članovima udruženja ili
-																društvima.
-															</p>
-														</li>
-													</LinkContainer>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/osiguranje-robe-u-transportu">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">
+																	Osiguranje robe u transportu
+																</h3>
+																<p className="p-dropdown">
+																	Osiguranje robe u transportu (CARGO) namijenjeno je
+																	osobama koje imaju osigurljiv interes nad robom koja
+																	se prevozi, a najčešće su to sami vlasnici.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
+													<Dropdown.Item className="dropdown-item-custom">
+														<LinkContainer to="/osiguranje-od-nezgoda">
+															<li className="li-dorpdown">
+																<h3 className="sub-title-dropdown">
+																	Osiguranje od nezgoda
+																</h3>
+																<p className="p-dropdown">
+																	Kolektivno osiguranje od posljedica nezgode osoba na
+																	poslu i u slobodnom vremenu je namijenjeno
+																	osiguranju radnika u preduzećima, članovima
+																	udruženja ili društvima.
+																</p>
+															</li>
+														</LinkContainer>
+													</Dropdown.Item>
 													{/* to do izbrisati kasnije tacke  */}
 													<li className="li-dorpdown padd-abs-bottom">
 														<h3 className="sub-title-dropdown">
