@@ -6,7 +6,6 @@ import './cssPartneri/media-query-partneri.css';
 
 import imgAurisLogo from './imgPartneri/auris-logo.svg';
 import imgAcAlfaLogo from './imgPartneri/ac alfa logo.svg';
-import imgCofusLogo from './imgPartneri/cofus-logo.png';
 
 export default class Partneri extends Component {
 	render() {

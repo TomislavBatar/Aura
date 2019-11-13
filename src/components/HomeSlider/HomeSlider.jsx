@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 import { Container, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './cssHomeSlider/HomeSlider.css';
 import './cssHomeSlider/media-query-home-slider.css';
@@ -21,7 +22,8 @@ export default class HomeSlider extends Component {
 			fade: true,
 			slidesToScroll: 1,
 			arrows: false,
-			autoplay: false
+			autoplay: false,
+			lazyLoad: 'progressive'
 		};
 		return (
 			<React.Fragment>
@@ -35,16 +37,20 @@ export default class HomeSlider extends Component {
 									OSIGURANJE <br />
 									PREDUZETNIKA
 								</h2>
+
 								<p className="slider-p">
 									Upoznati sa potrebom razvoja malih i srednjih preduzeća, Osiguranje Aura je razvilo
 									proizvod za mala i srednja preduzeće.
 								</p>
-								<Button className="dugme-slajder">
-									Saznaj više
-									<span className="strelica-pozicija">
-										<img alt="saznaj više" src={strelicaDugme} />
-									</span>
-								</Button>
+
+								<Link to="/osiguranje-preduzetnika">
+									<Button className="dugme-slajder">
+										Saznaj više
+										<span className="strelica-pozicija">
+											<img alt="saznaj više" src={strelicaDugme} />
+										</span>
+									</Button>
+								</Link>
 							</div>
 						</Container>
 					</div>
@@ -60,12 +66,14 @@ export default class HomeSlider extends Component {
 									11 godina uspješnog rada sa vama Osiguravajuća kuća Aura se od svog osnivanja 2008.
 									godine relativno brzo našla među najpoželjnijim osiguravajućim društvima u BiH.
 								</p>
-								<Button className="dugme-slajder">
-									Saznaj više
-									<span className="strelica-pozicija">
-										<img alt="saznaj više" src={strelicaDugme} />
-									</span>
-								</Button>
+								<Link to="/o-nama">
+									<Button className="dugme-slajder">
+										Saznaj više
+										<span className="strelica-pozicija">
+											<img alt="saznaj više" src={strelicaDugme} />
+										</span>
+									</Button>
+								</Link>
 							</div>
 						</Container>
 					</div>
@@ -82,12 +90,14 @@ export default class HomeSlider extends Component {
 									Čak i pri brižljivo planiranim putovanjima ili kratkim izletima u inostranstvo mogu
 									se desiti nepredviđene neprijatnosti, nezgode ili bolest.
 								</p>
-								<Button className="dugme-slajder">
-									Saznaj više
-									<span className="strelica-pozicija">
-										<img alt="saznaj više" src={strelicaDugme} />
-									</span>
-								</Button>
+								<Link to="/putno-zdravstveno-osiguranje">
+									<Button className="dugme-slajder">
+										Saznaj više
+										<span className="strelica-pozicija">
+											<img alt="saznaj više" src={strelicaDugme} />
+										</span>
+									</Button>
+								</Link>
 							</div>
 						</Container>
 					</div>

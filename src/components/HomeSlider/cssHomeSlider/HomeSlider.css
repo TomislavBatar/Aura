@@ -111,3 +111,6 @@
 	-webkit-box-shadow: inset 42vw 0 300px -51px #e6ece5e8;
 	box-shadow: inset 42vw 0 300px -51px #e6ece5e8;
 }
+.slick-initialized .slick-slide.slick-active {
+	z-index: 1;
+}

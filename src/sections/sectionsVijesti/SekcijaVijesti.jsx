@@ -5,6 +5,8 @@ import KarticaVijesti from './KarticaVijesti';
 import './cssVijesti/vijesti.css';
 import './cssVijesti/media-vijesti.css';
 
+import dokumentSalter from '../../pages/PregledVijesti/DokumentiVijesti/RADNO-VRIJEME-SALTER-SALA1.jpg';
+
 export default class SekcijaVijesti extends Component {
 	render() {
 		return (
@@ -20,12 +22,12 @@ export default class SekcijaVijesti extends Component {
 						<Col lg={4} md={6}>
 							<KarticaVijesti
 								naslov="Obavještenje o radu šalter sala za registraciju motornih vozila"
-								slika="http://auraosiguranje.com/wp-content/uploads/2016/03/aura-osiguranje-capital-640x520.jpg"
-								tekst="Obavještenje o radu šalter sala za registraciju motornih vozila (PDF) Obavještenje o radu šalter sala za registraciju motornih vozila (PDF)"
+								slika={dokumentSalter}
+								tekst="Obavještenje o radu šalter sala za registraciju motornih vozila (PDF)"
 								link="/pregled-vijesti"
 							/>
 						</Col>
-						<Col lg={4} md={6}>
+						{/* <Col lg={4} md={6}>
 							<KarticaVijesti
 								naslov="Obavještenje o radu šalter sala za registraciju motornih vozila"
 								slika="http://auraosiguranje.com/wp-content/uploads/2016/03/davidvaro-1485510857-parking.jpg"
@@ -38,11 +40,11 @@ export default class SekcijaVijesti extends Component {
 								slika="http://auraosiguranje.com/wp-content/uploads/2016/03/baby-caucasian-child-daughter-53571.jpeg"
 								tekst="Obavještenje o radu šalter sala za registraciju motornih vozila (PDF) Obavještenje o radu šalter sala za registraciju motornih vozila (PDF)"
 							/>
-						</Col>
+						</Col> */}
 					</Row>
 
 					{/* row 2 */}
-					<Row>
+					{/* <Row>
 						<Col lg={4} md={6}>
 							<KarticaVijesti
 								naslov="Obavještenje o radu šalter sala za registraciju motornih vozila"
@@ -64,7 +66,7 @@ export default class SekcijaVijesti extends Component {
 								tekst="Obavještenje o radu šalter sala za registraciju motornih vozila (PDF) Obavještenje o radu šalter sala za registraciju motornih vozila (PDF)"
 							/>
 						</Col>
-					</Row>
+					</Row> */}
 				</Container>
 			</div>
 		);

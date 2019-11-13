@@ -62,6 +62,7 @@ export default class Navigation extends Component {
 												<h2 className="col-dropdown-title">Automobili</h2>
 												<ul className="list-unstyled">
 													{/* TO DO add a page to="?" */}
+
 													<Dropdown.Item className="dropdown-item-custom">
 														<LinkContainer to="/osiguranje-od-autoodgovornosti">
 															<li className="li-dorpdown">
@@ -74,6 +75,7 @@ export default class Navigation extends Component {
 															</li>
 														</LinkContainer>
 													</Dropdown.Item>
+
 													<Dropdown.Item className="dropdown-item-custom">
 														<LinkContainer to="/kasko-osiguranje">
 															<li className="li-dorpdown">
